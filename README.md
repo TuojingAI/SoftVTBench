@@ -13,6 +13,7 @@ Large artifacts are intentionally excluded. Do not commit raw demonstrations, Le
 
 | Stage | Entry point |
 |---|---|
+| Dataset download | `scripts/download_tabero_dataset.py` |
 | Data conversion | `examples/tabero/convert_tabero_vision_data_to_lerobot.py`, `examples/tabero/convert_tabero_tactile_data_to_lerobot.py`, `scripts/prepare_tabero_dataset.sh` |
 | Data alignment check | `examples/tabero/verify_tabero_frame_alignment.py` |
 | Norm stats | `scripts/compute_norm_stats.py`, `scripts/compute_tabero_norm_stats.sh` |
@@ -53,6 +54,18 @@ Edit `configs/training/tabero_env.local` for your local paths, then source it:
 
 ```bash
 source configs/training/tabero_env.local
+```
+
+Download the dataset from ModelScope:
+
+```bash
+scripts/download_tabero_dataset.py --local-dir data_tabero/raw/SoftTacWorld-v0
+```
+
+If the script prints a `Detected RAW_ROOT` different from `data_tabero/raw/SoftTacWorld-v0`, put that path in `configs/training/tabero_env.local`:
+
+```bash
+export RAW_ROOT=/detected/raw/root
 ```
 
 Convert data:
@@ -110,4 +123,3 @@ Keep these out of Git:
 - `wandb/`
 - `evaluation_results/`
 - raw `.hdf5` and `.mp4` files
-

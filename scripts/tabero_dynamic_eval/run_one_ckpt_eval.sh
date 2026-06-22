@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
 set -Eeuo pipefail
 
-TABERO_DIR=${TABERO_DIR:-/vepfs-C区/visuotactile/Tabero}
-OPENPI_DIR=${OPENPI_DIR:-/vepfs-C区/visuotactile/openpi}
-CONDA_SH=${CONDA_SH:-/vepfs-C区/visuotactile/miniconda3/etc/profile.d/conda.sh}
-DATA_DIR=${DATA_DIR:-/vepfs-C区/visuotactile/datasets/Isaaclab_Libero}
+: "${TABERO_DIR:?Set TABERO_DIR to the Tabero checkout on the simulator host}"
+: "${OPENPI_DIR:?Set OPENPI_DIR to the OpenPI/Tabero-OpenPI checkout on the simulator host}"
+: "${CONDA_SH:?Set CONDA_SH to conda.sh for the simulator conda installation}"
+: "${DATA_DIR:?Set DATA_DIR to the Isaaclab_Libero dataset root on the simulator host}"
+: "${WARP_EXT:?Set WARP_EXT to the simulator omni.warp.core extension path}"
 
 CONFIG=${CONFIG:?CONFIG is required}
 CKPT=${CKPT:?CKPT is required}
@@ -31,7 +32,7 @@ export XLA_PYTHON_CLIENT_PREALLOCATE=false
 export OPENPI_DATA_HOME=${OPENPI_DIR}/.cache/openpi
 export HDF5_TRAJ_SOURCE_DIR=${DATA_DIR}/assembled_hdf5
 export TABERO_SKIP_ISAAC_CLEANUP_ON_EXIT=1
-export WARP_EXT=/vepfs-C区/visuotactile/miniconda3/envs/tabero/lib/python3.10/site-packages/isaacsim/extscache/omni.warp.core-1.5.0+lx64
+export WARP_EXT
 export TABERO_MAX_CONSECUTIVE_FAILURES=${TABERO_MAX_CONSECUTIVE_FAILURES:-10}
 unset OPENPI_ADD_BYTES_KEY_ALIASES || true
 
@@ -59,12 +60,20 @@ ensure_norm_stats_asset_id() {
   local dst_asset_id=""
 
   case "${CONFIG}" in
-    pi0_lora_vision_tabero|pi05_lora_vision_tabero)
+    pi0_lora_vision_tabero)
       src_asset_id="tabero_vision_pi0_h50"
       dst_asset_id="NathanWu7/tabero_vision"
       ;;
-    pi0_lora_tacall_tabero|pi05_lora_tacall_tabero)
+    pi05_lora_vision_tabero)
+      src_asset_id="tabero_vision_pi05_h50"
+      dst_asset_id="NathanWu7/tabero_vision"
+      ;;
+    pi0_lora_tacall_tabero)
       src_asset_id="tabero_tactile_pi0_h50"
+      dst_asset_id="NathanWu7/tabero"
+      ;;
+    pi05_lora_tacall_tabero)
+      src_asset_id="tabero_tactile_pi05_h50"
       dst_asset_id="NathanWu7/tabero"
       ;;
     *)

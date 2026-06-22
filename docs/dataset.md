@@ -1,6 +1,24 @@
-# Tabero Dataset
+# Tabero / SoftTacWorld-v0 Dataset
 
-The Tabero training pipeline expects raw successful trajectories in a Tabero/Isaaclab-Libero style tree:
+The public dataset is hosted on ModelScope:
+
+```text
+https://www.modelscope.cn/datasets/Arthur12137/SoftTacWorld-v0
+```
+
+Download it with:
+
+```bash
+scripts/download_tabero_dataset.py --local-dir data_tabero/raw/SoftTacWorld-v0
+```
+
+The script uses:
+
+```bash
+modelscope download --dataset Arthur12137/SoftTacWorld-v0 --local_dir data_tabero/raw/SoftTacWorld-v0
+```
+
+The training pipeline expects the downloaded data to expose this Tabero/Isaaclab-Libero style tree:
 
 ```text
 raw_root/
@@ -79,4 +97,3 @@ checked demos: 628
 summary: {'all_equal': 628}
 missing count: 0
 ```
-

@@ -7,6 +7,7 @@ This repo follows the upstream OpenPI Python layout and uses `uv`.
 - Python 3.11
 - CUDA-capable JAX environment for training
 - `uv`
+- `modelscope` for dataset download
 - `ffmpeg` for video frame checks and simulator debug video export
 - A Tabero/Isaac Sim evaluation environment for simulator evaluation
 
@@ -16,6 +17,12 @@ This repo follows the upstream OpenPI Python layout and uses `uv`.
 uv venv --python 3.11
 source .venv/bin/activate
 uv sync
+```
+
+If you are not using `uv`, install the ModelScope downloader manually:
+
+```bash
+pip install modelscope
 ```
 
 For manual Python execution, export:
@@ -48,4 +55,3 @@ export PI05_BASE=/path/to/pi05_base/params
 ```
 
 You can also rely on the default OpenPI `gs://openpi-assets/...` paths when your environment can access them.
-

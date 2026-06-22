@@ -27,6 +27,26 @@ cp configs/training/tabero_env.example configs/training/tabero_env.local
 source configs/training/tabero_env.local
 ```
 
+## Download Data
+
+The public dataset is:
+
+```text
+Arthur12137/SoftTacWorld-v0
+```
+
+Download from ModelScope:
+
+```bash
+scripts/download_tabero_dataset.py --local-dir data_tabero/raw/SoftTacWorld-v0
+```
+
+If the script reports a different detected raw root, update:
+
+```bash
+export RAW_ROOT=/detected/raw/root
+```
+
 ## Convert Data
 
 ```bash
@@ -70,4 +90,3 @@ checkpoints/<config>/<exp>/<step>
 ```
 
 Pass a step directory to the policy server or simulator evaluation.
-

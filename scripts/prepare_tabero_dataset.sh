@@ -4,6 +4,7 @@ set -Eeuo pipefail
 MODE=${1:?Usage: scripts/prepare_tabero_dataset.sh <vision|tactile>}
 REPO_ROOT=${REPO_ROOT:-$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)}
 PYTHON=${PYTHON:-${REPO_ROOT}/.venv/bin/python}
+shopt -s nullglob
 
 : "${RAW_ROOT:?Set RAW_ROOT or source configs/training/tabero_env.local}"
 : "${STAGE_ROOT:?Set STAGE_ROOT or source configs/training/tabero_env.local}"
@@ -13,6 +14,16 @@ PYTHON=${PYTHON:-${REPO_ROOT}/.venv/bin/python}
 mkdir -p "${STAGE_ROOT}/replayed_demos" "${STAGE_ROOT}/video_datasets"
 
 for suite in libero_object libero_spatial; do
+  h5_files=("${RAW_ROOT}/${suite}/replayed_demos/"*.hdf5)
+  task_dirs=("${RAW_ROOT}/${suite}/video_datasets/${suite}"_task*)
+  if [[ "${#h5_files[@]}" -eq 0 ]]; then
+    echo "No HDF5 files found for ${suite}: ${RAW_ROOT}/${suite}/replayed_demos/*.hdf5" >&2
+    exit 1
+  fi
+  if [[ "${#task_dirs[@]}" -eq 0 ]]; then
+    echo "No video task directories found for ${suite}: ${RAW_ROOT}/${suite}/video_datasets/${suite}_task*" >&2
+    exit 1
+  fi
   for h5 in "${RAW_ROOT}/${suite}/replayed_demos/"*.hdf5; do
     ln -sfn "${h5}" "${STAGE_ROOT}/replayed_demos/$(basename "${h5}")"
   done
@@ -48,4 +59,3 @@ case "${MODE}" in
     exit 2
     ;;
 esac
-

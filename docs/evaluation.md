@@ -4,7 +4,7 @@ Training runs in this repository. Simulator evaluation runs in a Tabero/Isaac Si
 
 ```text
 Tabero checkout
-OpenPI checkout
+This repository, or another OpenPI checkout containing the Tabero model/policy code
 Isaac Sim / conda tabero environment
 LIBERO assembled HDF5 data
 ```
@@ -42,6 +42,16 @@ cp configs/evaluation/tabero_simulator_env.example configs/evaluation/tabero_sim
 source configs/evaluation/tabero_simulator_env.local
 ```
 
+The evaluation script intentionally has no internal machine-path defaults. Set at least:
+
+```bash
+export TABERO_DIR=/path/to/Tabero
+export OPENPI_DIR=/path/to/softtacworld-github
+export CONDA_SH=/path/to/miniconda3/etc/profile.d/conda.sh
+export DATA_DIR=/path/to/datasets/Isaaclab_Libero
+export WARP_EXT=/path/to/omni.warp.core-1.5.0+lx64
+```
+
 Then run:
 
 ```bash
@@ -74,4 +84,3 @@ evaluation_results/<variant>/<exp>/<step>/replan_<steps>_n<N>/
   summary.csv
   run.info
 ```
-

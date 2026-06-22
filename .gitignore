@@ -28,6 +28,7 @@ evaluation_results/
 .cache/
 data/
 data_tabero/
+SoftTacWorld-v0/
 datasets/
 *.hdf5
 *.h5
@@ -49,4 +50,3 @@ checkpoints/
 .DS_Store
 .idea/
 .vscode/
-
