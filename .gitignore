@@ -27,6 +27,7 @@ evaluation_results/
 # Data and caches
 .cache/
 data/
+data_softtacworld/
 data_tabero/
 SoftTacWorld-v0/
 datasets/

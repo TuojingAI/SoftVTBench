@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""Download the SoftTacWorld-v0 / Tabero-compatible dataset from ModelScope.
+"""Download the SoftTacWorld-v0 dataset from ModelScope.
 
 The public dataset is hosted at:
 https://www.modelscope.cn/datasets/Arthur12137/SoftTacWorld-v0
 
 This script intentionally keeps the downloaded payload outside Git-tracked paths
-and only validates that the expected Tabero raw-data layout can be found.
+and only validates that the expected raw-data layout can be found.
 """
 
 from __future__ import annotations
@@ -26,7 +26,7 @@ def _run(cmd: list[str]) -> None:
     subprocess.run(cmd, check=True)
 
 
-def _has_tabero_layout(path: Path) -> bool:
+def _has_softtacworld_layout(path: Path) -> bool:
     for suite in EXPECTED_SUITES:
         suite_root = path / suite
         if not (suite_root / "replayed_demos").is_dir():
@@ -40,7 +40,7 @@ def _find_raw_root(local_dir: Path) -> Path | None:
     candidates = [local_dir]
     candidates.extend(path for path in local_dir.rglob("*") if path.is_dir())
     for candidate in candidates:
-        if _has_tabero_layout(candidate):
+        if _has_softtacworld_layout(candidate):
             return candidate
     return None
 
@@ -58,7 +58,7 @@ def _extract_archives(local_dir: Path) -> None:
 
 
 def _print_tree_hint(local_dir: Path) -> None:
-    print(f"\nCould not find the expected Tabero raw-data layout under: {local_dir}", file=sys.stderr)
+    print(f"\nCould not find the expected SoftTacWorld raw-data layout under: {local_dir}", file=sys.stderr)
     print("Expected:", file=sys.stderr)
     print("  <RAW_ROOT>/libero_object/replayed_demos/*.hdf5", file=sys.stderr)
     print("  <RAW_ROOT>/libero_object/video_datasets/...", file=sys.stderr)
@@ -72,7 +72,7 @@ def _print_tree_hint(local_dir: Path) -> None:
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--dataset-id", default=DEFAULT_DATASET_ID)
-    parser.add_argument("--local-dir", default="data_tabero/raw/SoftTacWorld-v0")
+    parser.add_argument("--local-dir", default="data_softtacworld/raw/SoftTacWorld-v0")
     parser.add_argument("--force", action="store_true", help="Remove local-dir before downloading.")
     parser.add_argument("--skip-download", action="store_true", help="Only validate an existing local-dir.")
     parser.add_argument("--no-extract", action="store_true", help="Do not auto-extract zip/tar archives.")

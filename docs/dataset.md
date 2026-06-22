@@ -1,4 +1,4 @@
-# Tabero / SoftTacWorld-v0 Dataset
+# SoftTacWorld Dataset
 
 The public dataset is hosted on ModelScope:
 
@@ -9,16 +9,16 @@ https://www.modelscope.cn/datasets/Arthur12137/SoftTacWorld-v0
 Download it with:
 
 ```bash
-scripts/download_tabero_dataset.py --local-dir data_tabero/raw/SoftTacWorld-v0
+scripts/download_softtacworld_dataset.py --local-dir data_softtacworld/raw/SoftTacWorld-v0
 ```
 
-The script uses:
+The downloader uses:
 
 ```bash
-modelscope download --dataset Arthur12137/SoftTacWorld-v0 --local_dir data_tabero/raw/SoftTacWorld-v0
+modelscope download --dataset Arthur12137/SoftTacWorld-v0 --local_dir data_softtacworld/raw/SoftTacWorld-v0
 ```
 
-The training pipeline expects the downloaded data to expose this Tabero/Isaaclab-Libero style tree:
+The training pipeline expects the downloaded data to expose this Libero-style tree:
 
 ```text
 raw_root/
@@ -66,19 +66,14 @@ actions: [13]
 
 ## Conversion
 
-Set environment variables from `configs/training/tabero_env.example`, then run:
+Set environment variables from `configs/training/softtacworld_env.example`, then run:
 
 ```bash
-scripts/prepare_tabero_dataset.sh vision
-scripts/prepare_tabero_dataset.sh tactile
+scripts/prepare_softtacworld_dataset.sh vision
+scripts/prepare_softtacworld_dataset.sh tactile
 ```
 
-The wrapper calls:
-
-```bash
-examples/tabero/convert_tabero_vision_data_to_lerobot.py
-examples/tabero/convert_tabero_tactile_data_to_lerobot.py
-```
+The wrapper calls the legacy converter entry points under `examples/tabero/`.
 
 ## Frame Alignment Check
 

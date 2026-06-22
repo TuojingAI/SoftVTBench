@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 set -Eeuo pipefail
 
-: "${TABERO_DIR:?Set TABERO_DIR to the Tabero checkout on the simulator host}"
-: "${OPENPI_DIR:?Set OPENPI_DIR to the OpenPI/Tabero-OpenPI checkout on the simulator host}"
+: "${TABERO_DIR:?Set TABERO_DIR to the simulator checkout on the host}"
+: "${OPENPI_DIR:?Set OPENPI_DIR to the OpenPI checkout on the simulator host}"
 : "${CONDA_SH:?Set CONDA_SH to conda.sh for the simulator conda installation}"
 : "${DATA_DIR:?Set DATA_DIR to the Isaaclab_Libero dataset root on the simulator host}"
 : "${WARP_EXT:?Set WARP_EXT to the simulator omni.warp.core extension path}"
@@ -19,7 +19,7 @@ N=${N:-10}
 REPLAN_STEPS=${REPLAN_STEPS:-10}
 TASKS_STR=${TASKS_STR:-"0 1 2 3 4 5 6 7 8 9"}
 SUITES_STR=${SUITES_STR:-"libero_object libero_spatial"}
-RUN_ROOT=${RUN_ROOT:-${TABERO_DIR}/evaluation_results/openpi_dynamic_eval_20260616}
+RUN_ROOT=${RUN_ROOT:-${TABERO_DIR}/evaluation_results/openpi_softtacworld_eval_20260616}
 
 OUT_ROOT=${RUN_ROOT}/${VARIANT}/${EXP}/${STEP}/replan_${REPLAN_STEPS}_n${N}
 LOG_DIR=${OUT_ROOT}/logs

@@ -14,22 +14,22 @@ export XLA_PYTHON_CLIENT_MEM_FRACTION=${XLA_PYTHON_CLIENT_MEM_FRACTION:-0.9}
 export WANDB_MODE=${WANDB_MODE:-online}
 export PYTHONUNBUFFERED=1
 
-export RUN_ID=${RUN_ID:-tabero_object_spatial_success_only_20260614}
+export RUN_ID=${RUN_ID:-softtacworld_object_spatial_success_only_20260614}
 
 # Raw and staged SoftTacWorld data.
 # Download the public dataset first:
 #   scripts/download_softtacworld_dataset.py --local-dir data_softtacworld/raw/SoftTacWorld-v0
 # Then set RAW_ROOT to the "Detected RAW_ROOT" printed by that script.
 export MODELSCOPE_DATASET_ID=${MODELSCOPE_DATASET_ID:-Arthur12137/SoftTacWorld-v0}
-export DATASET_LOCAL_DIR=${DATASET_LOCAL_DIR:-${REPO_ROOT}/data_tabero/raw/SoftTacWorld-v0}
+export DATASET_LOCAL_DIR=${DATASET_LOCAL_DIR:-${REPO_ROOT}/data_softtacworld/raw/SoftTacWorld-v0}
 export RAW_ROOT=${RAW_ROOT:-${DATASET_LOCAL_DIR}}
-export STAGE_ROOT=${STAGE_ROOT:-${REPO_ROOT}/data_tabero/.stage/${RUN_ID}}
-export TASK_SUBSET=${TASK_SUBSET:-${REPO_ROOT}/configs/tasks/tabero_object_spatial_success_only_20260614.json}
+export STAGE_ROOT=${STAGE_ROOT:-${REPO_ROOT}/data_softtacworld/.stage/${RUN_ID}}
+export TASK_SUBSET=${TASK_SUBSET:-${REPO_ROOT}/configs/tasks/softtacworld_object_spatial_success_only_20260614.json}
 
 # LeRobot output dataset IDs and roots.
-export REPO_VISION=${REPO_VISION:-local/tabero_vision_object_spatial_success_only_20260614}
+export REPO_VISION=${REPO_VISION:-local/softtacworld_vision_object_spatial_success_only_20260614}
 export ROOT_VISION=${ROOT_VISION:-${HF_LEROBOT_HOME}/${REPO_VISION}}
-export REPO_TACTILE=${REPO_TACTILE:-local/tabero_tactile_object_spatial_success_only_20260614}
+export REPO_TACTILE=${REPO_TACTILE:-local/softtacworld_tactile_object_spatial_success_only_20260614}
 export ROOT_TACTILE=${ROOT_TACTILE:-${HF_LEROBOT_HOME}/${REPO_TACTILE}}
 
 # Base checkpoints. Use local paths when remote checkpoint download is not available.
@@ -47,4 +47,4 @@ export ASSET_ID_PI05_VISION=${ASSET_ID_PI05_VISION:-tabero_vision_pi05_h50}
 export ASSET_ID_PI0_TACTILE=${ASSET_ID_PI0_TACTILE:-tabero_tactile_pi0_h50}
 export ASSET_ID_PI05_TACTILE=${ASSET_ID_PI05_TACTILE:-tabero_tactile_pi05_h50}
 
-mkdir -p "${REPO_ROOT}/logs/tabero_training_manual"
+mkdir -p "${REPO_ROOT}/logs/softtacworld_training_manual"

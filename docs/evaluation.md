@@ -1,15 +1,15 @@
 # Simulator Evaluation
 
-Training runs in this repository. Simulator evaluation runs in a Tabero/Isaac Sim environment that contains:
+Training runs in this repository. Simulator evaluation runs on a host that contains:
 
 ```text
-Tabero checkout
-This repository, or another OpenPI checkout containing the Tabero model/policy code
-Isaac Sim / conda tabero environment
+OpenPI checkout
+This repository or another checkout containing the policy/model code
+Isaac Sim / conda evaluation environment
 LIBERO assembled HDF5 data
 ```
 
-The original internal reference process is preserved in:
+The original reference process is preserved in:
 
 ```text
 docs/reference/eval_tabero_on_simulator.md
@@ -38,14 +38,14 @@ NUM_SUCCESS_STEPS = 8
 On the simulator host:
 
 ```bash
-cp configs/evaluation/tabero_simulator_env.example configs/evaluation/tabero_simulator_env.local
-source configs/evaluation/tabero_simulator_env.local
+cp configs/evaluation/softtacworld_simulator_env.example configs/evaluation/softtacworld_simulator_env.local
+source configs/evaluation/softtacworld_simulator_env.local
 ```
 
-The evaluation script intentionally has no internal machine-path defaults. Set at least:
+Set at least:
 
 ```bash
-export TABERO_DIR=/path/to/Tabero
+export TABERO_DIR=/path/to/simulator-workspace
 export OPENPI_DIR=/path/to/softtacworld-github
 export CONDA_SH=/path/to/miniconda3/etc/profile.d/conda.sh
 export DATA_DIR=/path/to/datasets/Isaaclab_Libero
@@ -58,7 +58,7 @@ Then run:
 CONFIG=pi0_lora_tacall_tabero \
 CKPT=/path/to/checkpoints/pi0_lora_tacall_tabero/<EXP>/30000 \
 MODE=tactile \
-scripts/evaluate_tabero_simulator.sh
+scripts/evaluate_softtacworld_simulator.sh
 ```
 
 For a vision checkpoint:
@@ -67,7 +67,7 @@ For a vision checkpoint:
 CONFIG=pi0_lora_vision_tabero \
 CKPT=/path/to/checkpoints/pi0_lora_vision_tabero/<EXP>/30000 \
 MODE=vision_abs7d \
-scripts/evaluate_tabero_simulator.sh
+scripts/evaluate_softtacworld_simulator.sh
 ```
 
 By default, the wrapper evaluates `libero_object` and `libero_spatial` tasks `0 1 2 3 4 5 6 7 8 9`.

@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 set -Eeuo pipefail
 
-MODEL=${1:?Usage: scripts/train_tabero_baseline.sh <pi0|pi05> <vision|tactile>}
-MODE=${2:?Usage: scripts/train_tabero_baseline.sh <pi0|pi05> <vision|tactile>}
+MODEL=${1:?Usage: scripts/train_softtacworld_baseline.sh <pi0|pi05> <vision|tactile>}
+MODE=${2:?Usage: scripts/train_softtacworld_baseline.sh <pi0|pi05> <vision|tactile>}
 
 REPO_ROOT=${REPO_ROOT:-$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)}
 PYTHON=${PYTHON:-${REPO_ROOT}/.venv/bin/python}
-RUN_ID=${RUN_ID:-tabero_object_spatial_success_only_20260614}
+RUN_ID=${RUN_ID:-softtacworld_object_spatial_success_only_20260614}
 FS_DDP=${FSDP_DEVICES:-4}
 BATCH_SIZE=${BATCH_SIZE:-256}
 NUM_WORKERS=${NUM_WORKERS:-8}
@@ -58,7 +58,7 @@ case "${MODEL}_${MODE}" in
     ;;
 esac
 
-mkdir -p "${REPO_ROOT}/logs/tabero_training_manual"
+mkdir -p "${REPO_ROOT}/logs/softtacworld_training_manual"
 
 "${PYTHON}" "${REPO_ROOT}/scripts/train.py" "${CONFIG}" \
   --exp-name "${EXP}" \
@@ -74,5 +74,4 @@ mkdir -p "${REPO_ROOT}/logs/tabero_training_manual"
   --save-interval "${SAVE_INTERVAL}" \
   --log-interval "${LOG_INTERVAL}" \
   --overwrite \
-  2>&1 | tee "${REPO_ROOT}/logs/tabero_training_manual/${EXP}.log"
-
+  2>&1 | tee "${REPO_ROOT}/logs/softtacworld_training_manual/${EXP}.log"

@@ -14,4 +14,3 @@ STEP=${STEP:-$(basename "${CKPT}")}
 export CONFIG CKPT VARIANT EXP STEP MODE
 
 bash "${REPO_ROOT}/scripts/tabero_dynamic_eval/run_one_ckpt_eval.sh"
-

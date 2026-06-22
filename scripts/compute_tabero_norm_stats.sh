@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 set -Eeuo pipefail
 
-MODEL=${1:?Usage: scripts/compute_tabero_norm_stats.sh <pi0|pi05> <vision|tactile>}
-MODE=${2:?Usage: scripts/compute_tabero_norm_stats.sh <pi0|pi05> <vision|tactile>}
+MODEL=${1:?Usage: scripts/compute_softtacworld_norm_stats.sh <pi0|pi05> <vision|tactile>}
+MODE=${2:?Usage: scripts/compute_softtacworld_norm_stats.sh <pi0|pi05> <vision|tactile>}
 
 REPO_ROOT=${REPO_ROOT:-$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)}
 PYTHON=${PYTHON:-${REPO_ROOT}/.venv/bin/python}
@@ -49,4 +49,3 @@ esac
   --assets-dir "${ASSETS_DIR}" \
   --asset-id "${ASSET_ID}" \
   --low-dim-only
-

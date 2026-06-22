@@ -1,15 +1,15 @@
 #!/usr/bin/env bash
 set -Eeuo pipefail
 
-MODE=${1:?Usage: scripts/prepare_tabero_dataset.sh <vision|tactile>}
+MODE=${1:?Usage: scripts/prepare_softtacworld_dataset.sh <vision|tactile>}
 REPO_ROOT=${REPO_ROOT:-$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)}
 PYTHON=${PYTHON:-${REPO_ROOT}/.venv/bin/python}
 shopt -s nullglob
 
-: "${RAW_ROOT:?Set RAW_ROOT or source configs/training/tabero_env.local}"
-: "${STAGE_ROOT:?Set STAGE_ROOT or source configs/training/tabero_env.local}"
-: "${TASK_SUBSET:?Set TASK_SUBSET or source configs/training/tabero_env.local}"
-: "${HF_LEROBOT_HOME:?Set HF_LEROBOT_HOME or source configs/training/tabero_env.local}"
+: "${RAW_ROOT:?Set RAW_ROOT or source configs/training/softtacworld_env.local}"
+: "${STAGE_ROOT:?Set STAGE_ROOT or source configs/training/softtacworld_env.local}"
+: "${TASK_SUBSET:?Set TASK_SUBSET or source configs/training/softtacworld_env.local}"
+: "${HF_LEROBOT_HOME:?Set HF_LEROBOT_HOME or source configs/training/softtacworld_env.local}"
 
 mkdir -p "${STAGE_ROOT}/replayed_demos" "${STAGE_ROOT}/video_datasets"
 

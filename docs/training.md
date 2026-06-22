@@ -1,6 +1,8 @@
 # Training
 
-This repo supports four Tabero OpenPI LoRA training configs:
+This repo supports four SoftTacWorld OpenPI LoRA training configs.
+
+The config ids are kept as the historical `tabero_*` names for checkpoint compatibility:
 
 ```text
 pi0_lora_vision_tabero
@@ -23,8 +25,8 @@ save_interval = 1000 by default
 Copy and edit:
 
 ```bash
-cp configs/training/tabero_env.example configs/training/tabero_env.local
-source configs/training/tabero_env.local
+cp configs/training/softtacworld_env.example configs/training/softtacworld_env.local
+source configs/training/softtacworld_env.local
 ```
 
 ## Download Data
@@ -38,29 +40,25 @@ Arthur12137/SoftTacWorld-v0
 Download from ModelScope:
 
 ```bash
-scripts/download_tabero_dataset.py --local-dir data_tabero/raw/SoftTacWorld-v0
+scripts/download_softtacworld_dataset.py --local-dir data_softtacworld/raw/SoftTacWorld-v0
 ```
 
-If the script reports a different detected raw root, update:
-
-```bash
-export RAW_ROOT=/detected/raw/root
-```
+If the script reports a different detected raw root, update `RAW_ROOT` in the environment file.
 
 ## Convert Data
 
 ```bash
-scripts/prepare_tabero_dataset.sh vision
-scripts/prepare_tabero_dataset.sh tactile
+scripts/prepare_softtacworld_dataset.sh vision
+scripts/prepare_softtacworld_dataset.sh tactile
 ```
 
 ## Compute Norm Stats
 
 ```bash
-scripts/compute_tabero_norm_stats.sh pi0 vision
-scripts/compute_tabero_norm_stats.sh pi0 tactile
-scripts/compute_tabero_norm_stats.sh pi05 vision
-scripts/compute_tabero_norm_stats.sh pi05 tactile
+scripts/compute_softtacworld_norm_stats.sh pi0 vision
+scripts/compute_softtacworld_norm_stats.sh pi0 tactile
+scripts/compute_softtacworld_norm_stats.sh pi05 vision
+scripts/compute_softtacworld_norm_stats.sh pi05 tactile
 ```
 
 ## Train
@@ -68,10 +66,10 @@ scripts/compute_tabero_norm_stats.sh pi05 tactile
 Examples:
 
 ```bash
-CUDA_VISIBLE_DEVICES=0,1,2,3 scripts/train_tabero_baseline.sh pi0 vision
-CUDA_VISIBLE_DEVICES=4,5,6,7 scripts/train_tabero_baseline.sh pi0 tactile
-CUDA_VISIBLE_DEVICES=0,1,2,3 scripts/train_tabero_baseline.sh pi05 vision
-CUDA_VISIBLE_DEVICES=4,5,6,7 scripts/train_tabero_baseline.sh pi05 tactile
+CUDA_VISIBLE_DEVICES=0,1,2,3 scripts/train_softtacworld_baseline.sh pi0 vision
+CUDA_VISIBLE_DEVICES=4,5,6,7 scripts/train_softtacworld_baseline.sh pi0 tactile
+CUDA_VISIBLE_DEVICES=0,1,2,3 scripts/train_softtacworld_baseline.sh pi05 vision
+CUDA_VISIBLE_DEVICES=4,5,6,7 scripts/train_softtacworld_baseline.sh pi05 tactile
 ```
 
 The wrapper selects:

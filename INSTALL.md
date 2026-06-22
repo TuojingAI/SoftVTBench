@@ -1,6 +1,6 @@
 # Installation
 
-This repo follows the upstream OpenPI Python layout and uses `uv`.
+This repo follows the upstream OpenPI layout and uses `uv`.
 
 ## Requirements
 
@@ -8,8 +8,8 @@ This repo follows the upstream OpenPI Python layout and uses `uv`.
 - CUDA-capable JAX environment for training
 - `uv`
 - `modelscope` for dataset download
-- `ffmpeg` for video frame checks and simulator debug video export
-- A Tabero/Isaac Sim evaluation environment for simulator evaluation
+- `ffmpeg` for frame checks and simulator debug video export
+- A simulator evaluation host with Isaac Sim and the matching policy client checkout
 
 ## Install
 
@@ -19,7 +19,7 @@ source .venv/bin/activate
 uv sync
 ```
 
-If you are not using `uv`, install the ModelScope downloader manually:
+`modelscope` is included in the project dependencies. If you run the downloader outside the repo environment, install it manually:
 
 ```bash
 pip install modelscope
