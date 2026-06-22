@@ -1,0 +1,46 @@
+# Source this file before running Tabero training scripts.
+#
+# Copy to configs/training/tabero_env.local and edit paths.
+
+export REPO_ROOT=${REPO_ROOT:-$(pwd)}
+export PYTHON=${PYTHON:-${REPO_ROOT}/.venv/bin/python}
+export PYTHONPATH=${REPO_ROOT}/src:${REPO_ROOT}/packages/openpi-client/src:${PYTHONPATH:-}
+
+export HF_LEROBOT_HOME=${HF_LEROBOT_HOME:-${REPO_ROOT}/.cache/lerobot}
+export HF_HOME=${HF_HOME:-${REPO_ROOT}/.cache/huggingface}
+export HF_DATASETS_CACHE=${HF_DATASETS_CACHE:-${HF_HOME}/datasets}
+export OPENPI_DATA_HOME=${OPENPI_DATA_HOME:-${REPO_ROOT}/.cache/openpi}
+export XLA_PYTHON_CLIENT_MEM_FRACTION=${XLA_PYTHON_CLIENT_MEM_FRACTION:-0.9}
+export WANDB_MODE=${WANDB_MODE:-online}
+export PYTHONUNBUFFERED=1
+
+export RUN_ID=${RUN_ID:-tabero_object_spatial_success_only_20260614}
+
+# Raw and staged Tabero data.
+export RAW_ROOT=${RAW_ROOT:-/path/to/tabero/train_ready_success_only_copy_20260614}
+export STAGE_ROOT=${STAGE_ROOT:-${REPO_ROOT}/data_tabero/.stage/${RUN_ID}}
+export TASK_SUBSET=${TASK_SUBSET:-${REPO_ROOT}/configs/tasks/tabero_object_spatial_success_only_20260614.json}
+
+# LeRobot output dataset IDs and roots.
+export REPO_VISION=${REPO_VISION:-local/tabero_vision_object_spatial_success_only_20260614}
+export ROOT_VISION=${ROOT_VISION:-${HF_LEROBOT_HOME}/${REPO_VISION}}
+export REPO_TACTILE=${REPO_TACTILE:-local/tabero_tactile_object_spatial_success_only_20260614}
+export ROOT_TACTILE=${ROOT_TACTILE:-${HF_LEROBOT_HOME}/${REPO_TACTILE}}
+
+# Base checkpoints. Use local paths when remote checkpoint download is not available.
+export PI0_BASE=${PI0_BASE:-gs://openpi-assets/checkpoints/pi0_base/params}
+export PI05_BASE=${PI05_BASE:-gs://openpi-assets/checkpoints/pi05_base/params}
+
+# Asset directories and IDs.
+export ASSET_PI0_VISION=${ASSET_PI0_VISION:-${REPO_ROOT}/assets/${RUN_ID}/pi0_vision}
+export ASSET_PI05_VISION=${ASSET_PI05_VISION:-${REPO_ROOT}/assets/${RUN_ID}/pi05_vision}
+export ASSET_PI0_TACTILE=${ASSET_PI0_TACTILE:-${REPO_ROOT}/assets/${RUN_ID}/pi0_tactile}
+export ASSET_PI05_TACTILE=${ASSET_PI05_TACTILE:-${REPO_ROOT}/assets/${RUN_ID}/pi05_tactile}
+
+export ASSET_ID_PI0_VISION=${ASSET_ID_PI0_VISION:-tabero_vision_pi0_h50}
+export ASSET_ID_PI05_VISION=${ASSET_ID_PI05_VISION:-tabero_vision_pi05_h50}
+export ASSET_ID_PI0_TACTILE=${ASSET_ID_PI0_TACTILE:-tabero_tactile_pi0_h50}
+export ASSET_ID_PI05_TACTILE=${ASSET_ID_PI05_TACTILE:-tabero_tactile_pi05_h50}
+
+mkdir -p "${REPO_ROOT}/logs/tabero_training_manual"
+

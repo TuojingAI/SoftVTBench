@@ -1,0 +1,2675 @@
+{
+  "task_suite_name": "libero_10",
+  "total_tasks": 10,
+  "tasks": [
+    {
+      "task_id": 0,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket",
+      "language_instruction": "put both the alphabet soup and the tomato sauce in the basket",
+      "problem_name": "libero_living_room_tabletop_manipulation",
+      "bddl_file": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./bddl_files/libero_10/LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket.bddl",
+      "obj_of_interest": [
+        "alphabet_soup_1",
+        "tomato_sauce_1"
+      ],
+      "targets": [
+        "basket_1"
+      ],
+      "goals": [
+        {
+          "relationship": "in",
+          "ref_obj": "alphabet_soup_1",
+          "target": "basket_1",
+          "xy_threshold": 0.1,
+          "height_threshold": 0.25,
+          "height_diff": 0.0,
+          "enable_force_threshold": "False"
+        },
+        {
+          "relationship": "in",
+          "ref_obj": "tomato_sauce_1",
+          "target": "basket_1",
+          "xy_threshold": 0.1,
+          "height_threshold": 0.25,
+          "height_diff": 0.0,
+          "enable_force_threshold": "False"
+        }
+      ],
+      "fixtures": {
+        "living_room_table": {
+          "type": "living_room_table",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/scenes/living_room_table/living_room_table.xml",
+          "scale": [
+            1.5,
+            1.5,
+            1.5
+          ],
+          "initial_pose": [
+            0.0,
+            0.21,
+            -0.005
+          ],
+          "initial_quat": [
+            0.707,
+            0.0,
+            0.0,
+            0.707
+          ]
+        }
+      },
+      "objects": {
+        "alphabet_soup_1": {
+          "type": "alphabet_soup",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_hope_objects/alphabet_soup/alphabet_soup.xml",
+          "scale": [
+            0.01,
+            0.01,
+            0.01
+          ],
+          "initial_region": "living_room_table_alphabet_soup_init_region"
+        },
+        "cream_cheese_1": {
+          "type": "cream_cheese",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_hope_objects/cream_cheese/cream_cheese.xml",
+          "scale": [
+            0.008,
+            0.008,
+            0.008
+          ],
+          "initial_region": "living_room_table_cream_cheese_init_region"
+        },
+        "tomato_sauce_1": {
+          "type": "tomato_sauce",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_hope_objects/tomato_sauce/tomato_sauce.xml",
+          "scale": [
+            0.01,
+            0.01,
+            0.01
+          ],
+          "initial_region": "living_room_table_tomato_sauce_init_region"
+        },
+        "ketchup_1": {
+          "type": "ketchup",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_hope_objects/ketchup/ketchup.xml",
+          "scale": [
+            0.01,
+            0.01,
+            0.01
+          ],
+          "initial_region": "living_room_table_ketchup_init_region"
+        },
+        "orange_juice_1": {
+          "type": "orange_juice",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_hope_objects/orange_juice/orange_juice.xml",
+          "scale": [
+            0.0075,
+            0.0075,
+            0.0075
+          ],
+          "initial_region": "living_room_table_orange_juice_init_region"
+        },
+        "milk_1": {
+          "type": "milk",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_hope_objects/milk/milk.xml",
+          "scale": [
+            0.0075,
+            0.0075,
+            0.0075
+          ],
+          "initial_region": "living_room_table_milk_init_region"
+        },
+        "butter_1": {
+          "type": "butter",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_hope_objects/butter/butter.xml",
+          "scale": [
+            0.0075,
+            0.0075,
+            0.0075
+          ],
+          "initial_region": "living_room_table_butter_init_region"
+        },
+        "basket_1": {
+          "type": "basket",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_scanned_objects/basket/basket.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "living_room_table_basket_init_region"
+        }
+      },
+      "regions": {
+        "living_room_table_basket_init_region": {
+          "pose_range": {
+            "x": [
+              -0.014113806616514922,
+              0.014618248445913196
+            ],
+            "y": [
+              0.24665039211511613,
+              0.2745327830314636
+            ],
+            "z": [
+              0.43219196796417236,
+              0.43219196796417236
+            ],
+            "roll": [
+              -2.0954997737021586e-09,
+              -2.0954997737021586e-09
+            ],
+            "pitch": [
+              0.004794127977119089,
+              0.004794127977119089
+            ],
+            "yaw": [
+              1.570796267189566,
+              1.570796267189566
+            ]
+          },
+          "target": "living_room_table"
+        },
+        "living_room_table_milk_init_region": {
+          "pose_range": {
+            "x": [
+              0.02537692457437515,
+              0.07881989516317844
+            ],
+            "y": [
+              -0.1295102808624506,
+              -0.07322443865239621
+            ],
+            "z": [
+              0.5897144079208374,
+              0.5897144079208374
+            ],
+            "roll": [
+              1.5708039561894278,
+              1.5708039561894278
+            ],
+            "pitch": [
+              -5.707144740352277e-05,
+              -5.707144740352277e-05
+            ],
+            "yaw": [
+              1.5707962671902518,
+              1.5707962671902518
+            ]
+          },
+          "target": "living_room_table"
+        },
+        "living_room_table_cream_cheese_init_region": {
+          "pose_range": {
+            "x": [
+              0.07208223313093184,
+              0.20998820722103112
+            ],
+            "y": [
+              -0.22886772185564042,
+              -0.16964272335171698
+            ],
+            "z": [
+              0.44564129680395126,
+              0.4456958472728729
+            ],
+            "roll": [
+              -0.0005216413434920852,
+              2.571427542008564e-07
+            ],
+            "pitch": [
+              -0.00016252258406401765,
+              0.0019270707823397792
+            ],
+            "yaw": [
+              -3.1415926535897927,
+              -3.1062123931041175
+            ]
+          },
+          "target": "living_room_table"
+        },
+        "living_room_table_orange_juice_init_region": {
+          "pose_range": {
+            "x": [
+              -0.027716637682169677,
+              0.029570372011512518
+            ],
+            "y": [
+              -0.2784049198031425,
+              -0.22184255808591843
+            ],
+            "z": [
+              0.5873975366353988,
+              0.5897167921066284
+            ],
+            "roll": [
+              1.570799664655203,
+              1.6579104015402368
+            ],
+            "pitch": [
+              4.6193599717359035e-05,
+              0.03409223028829711
+            ],
+            "yaw": [
+              1.5707962671902447,
+              1.624663199415413
+            ]
+          },
+          "target": "living_room_table"
+        },
+        "living_room_table_tomato_sauce_init_region": {
+          "pose_range": {
+            "x": [
+              -0.12871193327009678,
+              -0.07001888617873192
+            ],
+            "y": [
+              0.024261036962270735,
+              0.0789473694562912
+            ],
+            "z": [
+              0.47,
+              0.47
+            ],
+            "roll": [
+              1.5717873355043563,
+              1.5717873355043563
+            ],
+            "pitch": [
+              -0.0066110614765610975,
+              -0.0066110614765610975
+            ],
+            "yaw": [
+              3.1415685320388516,
+              3.1415685320388516
+            ]
+          },
+          "target": "living_room_table"
+        },
+        "living_room_table_alphabet_soup_init_region": {
+          "pose_range": {
+            "x": [
+              -0.1280925803631544,
+              -0.07129675686359406
+            ],
+            "y": [
+              -0.17916294053196907,
+              -0.1222864381968975
+            ],
+            "z": [
+              0.47516486048698425,
+              0.47516486048698425
+            ],
+            "roll": [
+              1.5717779174175268,
+              1.5717779174175268
+            ],
+            "pitch": [
+              -0.006562945048874003,
+              -0.006562945048874003
+            ],
+            "yaw": [
+              -3.141137000917903,
+              -3.141137000917903
+            ]
+          },
+          "target": "living_room_table"
+        },
+        "living_room_table_butter_init_region": {
+          "pose_range": {
+            "x": [
+              0.02126312106847763,
+              0.07812379695475101
+            ],
+            "y": [
+              0.020731086507439614,
+              0.07870010770857334
+            ],
+            "z": [
+              0.44546985626220703,
+              0.44546985626220703
+            ],
+            "roll": [
+              -5.235382261048471e-08,
+              -5.235382261048471e-08
+            ],
+            "pitch": [
+              9.02517172107764e-09,
+              9.02517172107764e-09
+            ],
+            "yaw": [
+              3.1415926529226255,
+              3.1415926529226255
+            ]
+          },
+          "target": "living_room_table"
+        },
+        "living_room_table_ketchup_init_region": {
+          "pose_range": {
+            "x": [
+              -0.2777188032865524,
+              -0.22200874716043473
+            ],
+            "y": [
+              -0.17900072231888772,
+              -0.12131317630410193
+            ],
+            "z": [
+              0.6312454342842102,
+              0.6312454342842102
+            ],
+            "roll": [
+              1.5706302682560782,
+              1.5706302682560782
+            ],
+            "pitch": [
+              -5.951523784331059e-05,
+              -5.951523784331059e-05
+            ],
+            "yaw": [
+              1.5707962671902518,
+              1.5707962671902518
+            ]
+          },
+          "target": "living_room_table"
+        }
+      },
+      "workspace_name": "living_room_table",
+      "workspace_full_size": [
+        0.7,
+        1.6,
+        0.024
+      ],
+      "workspace_offset": [
+        0,
+        0,
+        0.41
+      ],
+      "robot_base_pos": [
+        -0.51,
+        0.0,
+        0.42
+      ],
+      "robot_base_ori": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tactile_targets": [
+        "alphabet_soup_1",
+        "tomato_sauce_1"
+      ]
+    },
+    {
+      "task_id": 1,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket",
+      "language_instruction": "put both the cream cheese box and the butter in the basket",
+      "problem_name": "libero_living_room_tabletop_manipulation",
+      "bddl_file": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./bddl_files/libero_10/LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket.bddl",
+      "obj_of_interest": [
+        "cream_cheese_1",
+        "butter_1"
+      ],
+      "targets": [
+        "basket_1"
+      ],
+      "goals": [
+        {
+          "relationship": "in",
+          "ref_obj": "cream_cheese_1",
+          "target": "basket_1",
+          "xy_threshold": 0.2,
+          "height_threshold": 0.2,
+          "height_diff": 0.0,
+          "enable_force_threshold": "False"
+        },
+        {
+          "relationship": "in",
+          "ref_obj": "butter_1",
+          "target": "basket_1",
+          "xy_threshold": 0.2,
+          "height_threshold": 0.2,
+          "height_diff": 0.0,
+          "enable_force_threshold": "False"
+        }
+      ],
+      "fixtures": {
+        "living_room_table": {
+          "type": "living_room_table",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/scenes/living_room_table/living_room_table.xml",
+          "scale": [
+            1.5,
+            1.5,
+            1.5
+          ],
+          "initial_pose": [
+            0.0,
+            0.21,
+            -0.005
+          ],
+          "initial_quat": [
+            0.707,
+            0.0,
+            0.0,
+            0.707
+          ]
+        }
+      },
+      "objects": {
+        "alphabet_soup_1": {
+          "type": "alphabet_soup",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_hope_objects/alphabet_soup/alphabet_soup.xml",
+          "scale": [
+            0.01,
+            0.01,
+            0.01
+          ],
+          "initial_region": "living_room_table_alphabet_soup_init_region"
+        },
+        "cream_cheese_1": {
+          "type": "cream_cheese",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_hope_objects/cream_cheese/cream_cheese.xml",
+          "scale": [
+            0.008,
+            0.008,
+            0.008
+          ],
+          "initial_region": "living_room_table_cream_cheese_init_region"
+        },
+        "tomato_sauce_1": {
+          "type": "tomato_sauce",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_hope_objects/tomato_sauce/tomato_sauce.xml",
+          "scale": [
+            0.01,
+            0.01,
+            0.01
+          ],
+          "initial_region": "living_room_table_tomato_sauce_init_region"
+        },
+        "ketchup_1": {
+          "type": "ketchup",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_hope_objects/ketchup/ketchup.xml",
+          "scale": [
+            0.01,
+            0.01,
+            0.01
+          ],
+          "initial_region": "living_room_table_ketchup_init_region"
+        },
+        "orange_juice_1": {
+          "type": "orange_juice",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_hope_objects/orange_juice/orange_juice.xml",
+          "scale": [
+            0.0075,
+            0.0075,
+            0.0075
+          ],
+          "initial_region": "living_room_table_orange_juice_init_region"
+        },
+        "milk_1": {
+          "type": "milk",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_hope_objects/milk/milk.xml",
+          "scale": [
+            0.0075,
+            0.0075,
+            0.0075
+          ],
+          "initial_region": "living_room_table_milk_init_region"
+        },
+        "butter_1": {
+          "type": "butter",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_hope_objects/butter/butter.xml",
+          "scale": [
+            0.0075,
+            0.0075,
+            0.0075
+          ],
+          "initial_region": "living_room_table_butter_init_region"
+        },
+        "basket_1": {
+          "type": "basket",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_scanned_objects/basket/basket.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "living_room_table_basket_init_region"
+        }
+      },
+      "regions": {
+        "living_room_table_basket_init_region": {
+          "pose_range": {
+            "x": [
+              -0.014601069744676353,
+              0.014079958628863094
+            ],
+            "y": [
+              0.24522086530923842,
+              0.27440395653247834
+            ],
+            "z": [
+              0.43219196796417236,
+              0.43219196796417236
+            ],
+            "roll": [
+              -2.0954997737021586e-09,
+              -2.0954997737021586e-09
+            ],
+            "pitch": [
+              0.004794127977119089,
+              0.004794127977119089
+            ],
+            "yaw": [
+              1.570796267189566,
+              1.570796267189566
+            ]
+          },
+          "target": "living_room_table"
+        },
+        "living_room_table_milk_init_region": {
+          "pose_range": {
+            "x": [
+              0.020725456718355417,
+              0.07813389845192432
+            ],
+            "y": [
+              -0.12871333837509155,
+              -0.07020996056497096
+            ],
+            "z": [
+              0.5897144079208374,
+              0.5897144079208374
+            ],
+            "roll": [
+              1.5708039561894278,
+              1.5708039561894278
+            ],
+            "pitch": [
+              -5.707144740352277e-05,
+              -5.707144740352277e-05
+            ],
+            "yaw": [
+              1.5707962671902518,
+              1.5707962671902518
+            ]
+          },
+          "target": "living_room_table"
+        },
+        "living_room_table_cream_cheese_init_region": {
+          "pose_range": {
+            "x": [
+              0.07202623821794986,
+              0.15156232446432105
+            ],
+            "y": [
+              -0.2281737831234932,
+              -0.17074195966124533
+            ],
+            "z": [
+              0.44566648244857787,
+              0.4456958472728729
+            ],
+            "roll": [
+              -1.1001376903241322e-05,
+              -2.3128508885861265e-08
+            ],
+            "pitch": [
+              6.839827371152296e-09,
+              0.0016786344704069478
+            ],
+            "yaw": [
+              -3.141592653589793,
+              3.1399508603354693
+            ]
+          },
+          "target": "living_room_table"
+        },
+        "living_room_table_orange_juice_init_region": {
+          "pose_range": {
+            "x": [
+              -0.026635480485856535,
+              0.02949678895995021
+            ],
+            "y": [
+              -0.2789573359489441,
+              -0.22061999782919883
+            ],
+            "z": [
+              0.5886709970235825,
+              0.5897167921066284
+            ],
+            "roll": [
+              1.570799664655203,
+              1.5953550656097972
+            ],
+            "pitch": [
+              4.6193599717359035e-05,
+              0.008464328177103297
+            ],
+            "yaw": [
+              1.5707962671902447,
+              1.5872868898414838
+            ]
+          },
+          "target": "living_room_table"
+        },
+        "living_room_table_tomato_sauce_init_region": {
+          "pose_range": {
+            "x": [
+              -0.1284612885117531,
+              -0.07060170859098434
+            ],
+            "y": [
+              0.021490291133522986,
+              0.07863668583333493
+            ],
+            "z": [
+              0.47,
+              0.47
+            ],
+            "roll": [
+              1.5717873355043563,
+              1.5717873355043563
+            ],
+            "pitch": [
+              -0.0066110614765610975,
+              -0.0066110614765610975
+            ],
+            "yaw": [
+              3.1415685320388516,
+              3.1415685320388516
+            ]
+          },
+          "target": "living_room_table"
+        },
+        "living_room_table_alphabet_soup_init_region": {
+          "pose_range": {
+            "x": [
+              -0.12694713227450846,
+              -0.06957061499357223
+            ],
+            "y": [
+              -0.17928629636764526,
+              -0.12141620352864266
+            ],
+            "z": [
+              0.47516486048698425,
+              0.47516486048698425
+            ],
+            "roll": [
+              1.5717779174175268,
+              1.5717779174175268
+            ],
+            "pitch": [
+              -0.006562945048874003,
+              -0.006562945048874003
+            ],
+            "yaw": [
+              -3.141137000917903,
+              -3.141137000917903
+            ]
+          },
+          "target": "living_room_table"
+        },
+        "living_room_table_butter_init_region": {
+          "pose_range": {
+            "x": [
+              0.020380231048911807,
+              0.0775587473064661
+            ],
+            "y": [
+              0.021645966339856385,
+              0.07779390178620815
+            ],
+            "z": [
+              0.44546985626220703,
+              0.44546985626220703
+            ],
+            "roll": [
+              -5.235382261048471e-08,
+              -5.235382261048471e-08
+            ],
+            "pitch": [
+              9.02517172107764e-09,
+              9.02517172107764e-09
+            ],
+            "yaw": [
+              3.1415926529226255,
+              3.1415926529226255
+            ]
+          },
+          "target": "living_room_table"
+        },
+        "living_room_table_ketchup_init_region": {
+          "pose_range": {
+            "x": [
+              -0.2786403706669808,
+              -0.22190930530428887
+            ],
+            "y": [
+              -0.17944363430142404,
+              -0.1215306530892849
+            ],
+            "z": [
+              0.6312454342842102,
+              0.6312454342842102
+            ],
+            "roll": [
+              1.5706302682560782,
+              1.5706302682560782
+            ],
+            "pitch": [
+              -5.951523784331059e-05,
+              -5.951523784331059e-05
+            ],
+            "yaw": [
+              1.5707962671902518,
+              1.5707962671902518
+            ]
+          },
+          "target": "living_room_table"
+        }
+      },
+      "workspace_name": "living_room_table",
+      "workspace_full_size": [
+        0.7,
+        1.6,
+        0.024
+      ],
+      "workspace_offset": [
+        0,
+        0,
+        0.41
+      ],
+      "robot_base_pos": [
+        -0.51,
+        0.0,
+        0.42
+      ],
+      "robot_base_ori": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tactile_targets": [
+        "cream_cheese_1",
+        "butter_1"
+      ]
+    },
+    {
+      "task_id": 2,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it",
+      "language_instruction": "turn on the stove and put the moka pot on it",
+      "problem_name": "libero_kitchen_tabletop_manipulation",
+      "bddl_file": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./bddl_files/libero_10/KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it.bddl",
+      "obj_of_interest": [
+        "moka_pot_1"
+      ],
+      "targets": [
+        "flat_stove_1"
+      ],
+      "goals": [
+        {
+          "operation": "turnon",
+          "target": "flat_stove_1"
+        },
+        {
+          "relationship": "on",
+          "ref_obj": "moka_pot_1",
+          "target": "flat_stove_1",
+          "xy_threshold": 0.2,
+          "height_threshold": 0.1,
+          "height_diff": 0.0,
+          "enable_force_threshold": "False"
+        }
+      ],
+      "fixtures": {
+        "kitchen_table": {
+          "type": "kitchen_table",
+          "scale": [
+            0.02,
+            0.02,
+            0.02
+          ],
+          "initial_pose": [
+            0.0,
+            0.0,
+            0.845
+          ]
+        }
+      },
+      "objects": {
+        "chefmate_8_frypan_1": {
+          "type": "chefmate_8_frypan",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_scanned_objects/chefmate_8_frypan/chefmate_8_frypan.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "kitchen_table_frypan_init_region"
+        },
+        "moka_pot_1": {
+          "type": "moka_pot",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/turbosquid_objects/moka_pot/moka_pot.xml",
+          "scale": [
+            0.025,
+            0.025,
+            0.025
+          ],
+          "initial_region": "kitchen_table_moka_pot_init_region"
+        },
+        "flat_stove_1": {
+          "type": "flat_stove",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/articulated_objects/flat_stove.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "kitchen_table_flat_stove_init_region",
+          "default_turnon_ranges": [
+            0.5,
+            2.1
+          ],
+          "default_turnoff_ranges": [
+            -0.005,
+            0.0
+          ],
+          "default_open_ranges": [],
+          "default_close_ranges": []
+        }
+      },
+      "regions": {
+        "kitchen_table_flat_stove_init_region": {
+          "pose_range": {
+            "x": [
+              -0.19572674214839936,
+              -0.18572674214839935
+            ],
+            "y": [
+              0.19266883552074432,
+              0.20266883552074433
+            ],
+            "z": [
+              0.9049999713897705,
+              0.9049999713897705
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              0.0,
+              0.0
+            ],
+            "joint_pos_range": {
+              "0": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "target": "kitchen_table"
+        },
+        "kitchen_table_frypan_init_region": {
+          "pose_range": {
+            "x": [
+              -0.07888167381286622,
+              -0.023557306528091432
+            ],
+            "y": [
+              -0.2797312781214714,
+              -0.22091454938054084
+            ],
+            "z": [
+              0.8989956974983215,
+              0.8989956974983215
+            ],
+            "roll": [
+              9.145515060815512e-07,
+              9.145515060815512e-07
+            ],
+            "pitch": [
+              0.00017283266147050114,
+              0.00017283266147050114
+            ],
+            "yaw": [
+              1.570796446004186,
+              1.570796446004186
+            ]
+          },
+          "target": "kitchen_table"
+        },
+        "kitchen_table_moka_pot_init_region": {
+          "pose_range": {
+            "x": [
+              0.020797102339565752,
+              0.07844785682857036
+            ],
+            "y": [
+              -0.02891817471012473,
+              0.02725813185796141
+            ],
+            "z": [
+              0.96,
+              0.96
+            ],
+            "roll": [
+              -1.7028511138938995e-05,
+              -1.7028511138938995e-05
+            ],
+            "pitch": [
+              -4.913993052468868e-07,
+              -4.913993052468868e-07
+            ],
+            "yaw": [
+              -3.14159265316958,
+              -3.14159265316958
+            ]
+          },
+          "target": "kitchen_table"
+        }
+      },
+      "workspace_name": "kitchen_table",
+      "workspace_full_size": [
+        1.0,
+        1.2,
+        0.05
+      ],
+      "workspace_offset": [
+        0.0,
+        0,
+        0.9
+      ],
+      "robot_base_pos": [
+        -0.66,
+        0.0,
+        0.912
+      ],
+      "robot_base_ori": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tactile_targets": [
+        "flat_stove_1/flat_stove/knob/knob",
+        "moka_pot_1"
+      ]
+    },
+    {
+      "task_id": 3,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "language_instruction": "put the black bowl in the bottom drawer of the cabinet and close it",
+      "problem_name": "libero_kitchen_tabletop_manipulation",
+      "bddl_file": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./bddl_files/libero_10/KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it.bddl",
+      "obj_of_interest": [
+        "akita_black_bowl_1"
+      ],
+      "targets": [
+        "white_cabinet_1"
+      ],
+      "goals": [
+        {
+          "operation": "close",
+          "target": "white_cabinet_1"
+        },
+        {
+          "relationship": "in",
+          "ref_obj": "akita_black_bowl_1",
+          "target": "white_cabinet_1",
+          "xy_threshold": 0.15,
+          "height_threshold": 0.1,
+          "height_diff": 0.0,
+          "enable_force_threshold": "False"
+        }
+      ],
+      "fixtures": {
+        "kitchen_table": {
+          "type": "kitchen_table",
+          "scale": [
+            0.02,
+            0.02,
+            0.02
+          ],
+          "initial_pose": [
+            0.0,
+            0.0,
+            0.845
+          ]
+        }
+      },
+      "objects": {
+        "akita_black_bowl_1": {
+          "type": "akita_black_bowl",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_scanned_objects/akita_black_bowl/akita_black_bowl.xml",
+          "scale": [
+            0.7,
+            0.7,
+            0.7
+          ],
+          "initial_region": "kitchen_table_akita_black_bowl_init_region"
+        },
+        "wine_bottle_1": {
+          "type": "wine_bottle",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/turbosquid_objects/wine_bottle/wine_bottle.xml",
+          "scale": [
+            0.505,
+            0.505,
+            0.505
+          ],
+          "initial_region": "kitchen_table_wine_bottle_init_region"
+        },
+        "white_cabinet_1": {
+          "type": "white_cabinet",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/articulated_objects/white_cabinet.xml",
+          "scale": [
+            0.05,
+            0.05,
+            0.05
+          ],
+          "initial_region": "kitchen_table_white_cabinet_init_region",
+          "default_open_ranges": [
+            -0.16,
+            -0.14
+          ],
+          "default_close_ranges": [
+            0.0,
+            0.005
+          ]
+        },
+        "wine_rack_1": {
+          "type": "wine_rack",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/turbosquid_objects/wine_rack/wine_rack.xml",
+          "scale": [
+            0.0045,
+            0.0045,
+            0.0045
+          ],
+          "initial_region": "kitchen_table_wine_rack_init_region"
+        }
+      },
+      "regions": {
+        "kitchen_table_white_cabinet_init_region": {
+          "pose_range": {
+            "x": [
+              -0.014595631621778012,
+              -0.004595631621778011
+            ],
+            "y": [
+              0.30165239691734314,
+              0.31165239691734314
+            ],
+            "z": [
+              0.9049999713897705,
+              0.9049999713897705
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              0.0,
+              0.0
+            ],
+            "joint_pos_range": {
+              "0": [
+                0.0,
+                0.0
+              ],
+              "1": [
+                0.0,
+                0.0
+              ],
+              "2": [
+                -0.1523311883211136,
+                -0.1523311883211136
+              ]
+            }
+          },
+          "target": "kitchen_table"
+        },
+        "kitchen_table_wine_rack_init_region": {
+          "pose_range": {
+            "x": [
+              -0.09759975701570511,
+              -0.0875997570157051
+            ],
+            "y": [
+              -0.2954276251792908,
+              -0.28542762517929077
+            ],
+            "z": [
+              0.9200000166893005,
+              0.9200000166893005
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              -3.141592653589793,
+              -3.141592653589793
+            ]
+          },
+          "target": "kitchen_table"
+        },
+        "kitchen_table_akita_black_bowl_init_region": {
+          "pose_range": {
+            "x": [
+              0.0010797811718657613,
+              0.059545613564550876
+            ],
+            "y": [
+              -0.07792087934911252,
+              -0.021280010845512152
+            ],
+            "z": [
+              0.8981584906578064,
+              0.8981584906578064
+            ],
+            "roll": [
+              -1.7190612199957656e-05,
+              -1.7190612199957656e-05
+            ],
+            "pitch": [
+              1.3142958778633584e-05,
+              1.3142958778633584e-05
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "kitchen_table"
+        },
+        "kitchen_table_wine_bottle_init_region": {
+          "pose_range": {
+            "x": [
+              -0.17889367163181305,
+              -0.12248912945389748
+            ],
+            "y": [
+              0.02064394934102893,
+              0.07542496845126151
+            ],
+            "z": [
+              0.8986907005310059,
+              0.8986907005310059
+            ],
+            "roll": [
+              7.540188388244218e-05,
+              7.540188388244218e-05
+            ],
+            "pitch": [
+              1.2408180737555341e-05,
+              1.2408180737555341e-05
+            ],
+            "yaw": [
+              -3.1415926391326936,
+              -3.1415926391326936
+            ]
+          },
+          "target": "kitchen_table"
+        }
+      },
+      "workspace_name": "kitchen_table",
+      "workspace_full_size": [
+        1.0,
+        1.2,
+        0.05
+      ],
+      "workspace_offset": [
+        0.0,
+        0,
+        0.9
+      ],
+      "robot_base_pos": [
+        -0.66,
+        0.0,
+        0.912
+      ],
+      "robot_base_ori": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tactile_targets": [
+        "akita_black_bowl_1"
+      ]
+    },
+    {
+      "task_id": 4,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate",
+      "language_instruction": "put the white mug on the left plate and put the yellow and white mug on the right plate",
+      "problem_name": "libero_living_room_tabletop_manipulation",
+      "bddl_file": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./bddl_files/libero_10/LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate.bddl",
+      "obj_of_interest": [
+        "white_yellow_mug_1",
+        "porcelain_mug_1"
+      ],
+      "targets": [
+        "plate_1",
+        "plate_2"
+      ],
+      "goals": [
+        {
+          "relationship": "on",
+          "ref_obj": "porcelain_mug_1",
+          "target": "plate_1",
+          "xy_threshold": 0.1,
+          "height_threshold": 0.1,
+          "height_diff": 0.0,
+          "enable_force_threshold": "True",
+          "force_threshold": 0.05
+        },
+        {
+          "relationship": "on",
+          "ref_obj": "white_yellow_mug_1",
+          "target": "plate_2",
+          "xy_threshold": 0.1,
+          "height_threshold": 0.1,
+          "height_diff": 0.0,
+          "enable_force_threshold": "True",
+          "force_threshold": 0.05
+        }
+      ],
+      "fixtures": {
+        "living_room_table": {
+          "type": "living_room_table",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/scenes/living_room_table/living_room_table.xml",
+          "scale": [
+            1.5,
+            1.5,
+            1.5
+          ],
+          "initial_pose": [
+            0.0,
+            0.21,
+            -0.005
+          ],
+          "initial_quat": [
+            0.707,
+            0.0,
+            0.0,
+            0.707
+          ]
+        }
+      },
+      "objects": {
+        "porcelain_mug_1": {
+          "type": "porcelain_mug",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/turbosquid_objects/porcelain_mug/porcelain_mug.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "living_room_table_porcelain_mug_init_region"
+        },
+        "red_coffee_mug_1": {
+          "type": "red_coffee_mug",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/turbosquid_objects/red_coffee_mug/red_coffee_mug.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "living_room_table_red_coffee_mug_init_region"
+        },
+        "white_yellow_mug_1": {
+          "type": "white_yellow_mug",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/turbosquid_objects/white_yellow_mug/white_yellow_mug.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "living_room_table_white_yellow_mug_init_region"
+        },
+        "plate_1": {
+          "type": "plate",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_scanned_objects/plate/plate.xml",
+          "scale": [
+            0.5,
+            0.5,
+            0.5
+          ],
+          "initial_region": "living_room_table_plate_left_init_region"
+        },
+        "plate_2": {
+          "type": "plate",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_scanned_objects/plate/plate.xml",
+          "scale": [
+            0.5,
+            0.5,
+            0.5
+          ],
+          "initial_region": "living_room_table_plate_right_init_region"
+        }
+      },
+      "regions": {
+        "living_room_table_plate_left_init_region": {
+          "pose_range": {
+            "x": [
+              -0.028857870269566776,
+              0.028377656880766152
+            ],
+            "y": [
+              -0.3295332527160645,
+              -0.2730376702547073
+            ],
+            "z": [
+              0.43927279114723206,
+              0.43927279114723206
+            ],
+            "roll": [
+              8.014186505533871e-07,
+              8.014186505533871e-07
+            ],
+            "pitch": [
+              -2.664426119736163e-06,
+              -2.664426119736163e-06
+            ],
+            "yaw": [
+              1.5707961479809516,
+              1.5707961479809516
+            ]
+          },
+          "target": "living_room_table"
+        },
+        "living_room_table_plate_right_init_region": {
+          "pose_range": {
+            "x": [
+              -0.029151723347604276,
+              0.029020388331264257
+            ],
+            "y": [
+              0.2717918190360069,
+              0.328086179792881
+            ],
+            "z": [
+              0.43927279114723206,
+              0.43927279114723206
+            ],
+            "roll": [
+              8.014186505533871e-07,
+              8.014186505533871e-07
+            ],
+            "pitch": [
+              -2.664426119736163e-06,
+              -2.664426119736163e-06
+            ],
+            "yaw": [
+              1.5707961479809516,
+              1.5707961479809516
+            ]
+          },
+          "target": "living_room_table"
+        },
+        "living_room_table_porcelain_mug_init_region": {
+          "pose_range": {
+            "x": [
+              -0.12936442740261556,
+              -0.0701519625633955
+            ],
+            "y": [
+              -0.17810018748044967,
+              -0.12050827860832214
+            ],
+            "z": [
+              0.4343699514865875,
+              0.4343699514865875
+            ],
+            "roll": [
+              -4.9455543660315016e-08,
+              -4.9455543660315016e-08
+            ],
+            "pitch": [
+              -2.3827369943774102e-07,
+              -2.3827369943774102e-07
+            ],
+            "yaw": [
+              -1.5707959691670066,
+              -1.5707959691670066
+            ]
+          },
+          "target": "living_room_table"
+        },
+        "living_room_table_white_yellow_mug_init_region": {
+          "pose_range": {
+            "x": [
+              -0.079421591386199,
+              -0.022369801402091983
+            ],
+            "y": [
+              0.07154296152293682,
+              0.12845155648887158
+            ],
+            "z": [
+              0.4368569552898407,
+              0.4368569552898407
+            ],
+            "roll": [
+              1.4732614772583474e-06,
+              1.4732614772583474e-06
+            ],
+            "pitch": [
+              1.3166202279535355e-06,
+              1.3166202279535355e-06
+            ],
+            "yaw": [
+              -1.570796446004186,
+              -1.570796446004186
+            ]
+          },
+          "target": "living_room_table"
+        },
+        "living_room_table_red_coffee_mug_init_region": {
+          "pose_range": {
+            "x": [
+              -0.22952837795019151,
+              -0.1707962340116501
+            ],
+            "y": [
+              -0.027709187641739845,
+              0.028584223017096514
+            ],
+            "z": [
+              0.43859899044036865,
+              0.43859899044036865
+            ],
+            "roll": [
+              1.3236774520919425e-06,
+              1.3236774520919425e-06
+            ],
+            "pitch": [
+              2.400503831267997e-07,
+              2.400503831267997e-07
+            ],
+            "yaw": [
+              -1.5707961479809516,
+              -1.5707961479809516
+            ]
+          },
+          "target": "living_room_table"
+        }
+      },
+      "workspace_name": "living_room_table",
+      "workspace_full_size": [
+        0.7,
+        1.6,
+        0.024
+      ],
+      "workspace_offset": [
+        0,
+        0,
+        0.41
+      ],
+      "robot_base_pos": [
+        -0.51,
+        0.0,
+        0.42
+      ],
+      "robot_base_ori": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tactile_targets": [
+        "white_yellow_mug_1",
+        "porcelain_mug_1"
+      ]
+    },
+    {
+      "task_id": 5,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy",
+      "language_instruction": "pick up the book and place it in the back compartment of the caddy",
+      "problem_name": "libero_study_tabletop_manipulation",
+      "bddl_file": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./bddl_files/libero_10/STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy.bddl",
+      "obj_of_interest": [
+        "black_book_1"
+      ],
+      "targets": [
+        "desk_caddy_1"
+      ],
+      "goals": [
+        {
+          "relationship": "in",
+          "ref_obj": "black_book_1",
+          "target": "desk_caddy_1",
+          "xy_threshold": 0.08,
+          "height_threshold": 0.12,
+          "height_diff": 0.0,
+          "enable_force_threshold": "False"
+        }
+      ],
+      "fixtures": {
+        "study_table": {
+          "type": "study_table",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_pose": [
+            -0.2,
+            0,
+            0.017
+          ]
+        }
+      },
+      "objects": {
+        "black_book_1": {
+          "type": "black_book",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/turbosquid_objects/black_book/black_book.xml",
+          "scale": [
+            0.4,
+            0.4,
+            0.4
+          ],
+          "initial_region": "study_table_black_book_init_region"
+        },
+        "white_yellow_mug_1": {
+          "type": "white_yellow_mug",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/turbosquid_objects/white_yellow_mug/white_yellow_mug.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "study_table_white_yellow_mug_init_region"
+        },
+        "desk_caddy_1": {
+          "type": "desk_caddy",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/turbosquid_objects/desk_caddy/desk_caddy.xml",
+          "scale": [
+            1.5,
+            1.5,
+            1.5
+          ],
+          "initial_region": "study_table_desk_caddy_init_region"
+        }
+      },
+      "regions": {
+        "study_table_desk_caddy_init_region": {
+          "pose_range": {
+            "x": [
+              -0.3957267451286316,
+              -0.3857267451286316
+            ],
+            "y": [
+              -0.14733116805553437,
+              -0.13733116805553436
+            ],
+            "z": [
+              0.8870000243186951,
+              0.8870000243186951
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              -3.141592653589793,
+              -3.141592653589793
+            ]
+          },
+          "target": "study_table"
+        },
+        "study_table_black_book_init_region": {
+          "pose_range": {
+            "x": [
+              -0.2274225251376629,
+              -0.17090203642845153
+            ],
+            "y": [
+              0.12422099635004996,
+              0.1779100152850151
+            ],
+            "z": [
+              0.8829597234725952,
+              0.8829597234725952
+            ],
+            "roll": [
+              -9.842061388098955e-08,
+              -9.842060322284851e-08
+            ],
+            "pitch": [
+              2.0293304814344992e-08,
+              2.029331369612919e-08
+            ],
+            "yaw": [
+              -2.3442051903574015,
+              -1.632570602522623
+            ]
+          },
+          "target": "study_table"
+        },
+        "study_table_white_yellow_mug_init_region": {
+          "pose_range": {
+            "x": [
+              -0.1266284754127264,
+              -0.07149705953896045
+            ],
+            "y": [
+              -0.029272481296211482,
+              0.029471518993377684
+            ],
+            "z": [
+              0.8852269649505615,
+              0.8852269649505615
+            ],
+            "roll": [
+              1.4731061810380197e-06,
+              1.4731061810380197e-06
+            ],
+            "pitch": [
+              1.314282030762115e-06,
+              1.314282030762115e-06
+            ],
+            "yaw": [
+              -1.5707964460041932,
+              -1.5707964460041932
+            ]
+          },
+          "target": "study_table"
+        }
+      },
+      "workspace_name": "study_table",
+      "workspace_full_size": [
+        1.0,
+        1.2,
+        0.05
+      ],
+      "workspace_offset": [
+        -0.2,
+        0,
+        0.867
+      ],
+      "robot_base_pos": [
+        -0.75,
+        0.0,
+        0.912
+      ],
+      "robot_base_ori": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tactile_targets": [
+        "black_book_1"
+      ]
+    },
+    {
+      "task_id": 6,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate",
+      "language_instruction": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+      "problem_name": "libero_living_room_tabletop_manipulation",
+      "bddl_file": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./bddl_files/libero_10/LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate.bddl",
+      "obj_of_interest": [
+        "chocolate_pudding_1",
+        "porcelain_mug_1"
+      ],
+      "targets": [
+        "plate_1"
+      ],
+      "goals": [
+        {
+          "relationship": "on",
+          "ref_obj": "porcelain_mug_1",
+          "target": "plate_1",
+          "xy_threshold": 0.1,
+          "height_threshold": 0.1,
+          "height_diff": 0.0,
+          "enable_force_threshold": "True",
+          "force_threshold": 0.05
+        },
+        {
+          "relationship": "on",
+          "ref_obj": "chocolate_pudding_1",
+          "target": "plate_1",
+          "orientation": "right",
+          "xy_threshold": 0.1,
+          "height_threshold": 0.1,
+          "height_diff": 0.0,
+          "enable_force_threshold": "False"
+        }
+      ],
+      "fixtures": {
+        "living_room_table": {
+          "type": "living_room_table",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/scenes/living_room_table/living_room_table.xml",
+          "scale": [
+            1.5,
+            1.5,
+            1.5
+          ],
+          "initial_pose": [
+            0.0,
+            0.21,
+            -0.005
+          ],
+          "initial_quat": [
+            0.707,
+            0.0,
+            0.0,
+            0.707
+          ]
+        }
+      },
+      "objects": {
+        "porcelain_mug_1": {
+          "type": "porcelain_mug",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/turbosquid_objects/porcelain_mug/porcelain_mug.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "living_room_table_porcelain_mug_init_region"
+        },
+        "red_coffee_mug_1": {
+          "type": "red_coffee_mug",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/turbosquid_objects/red_coffee_mug/red_coffee_mug.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "living_room_table_red_coffee_mug_init_region"
+        },
+        "plate_1": {
+          "type": "plate",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_scanned_objects/plate/plate.xml",
+          "scale": [
+            0.5,
+            0.5,
+            0.5
+          ],
+          "initial_region": "living_room_table_plate_init_region"
+        },
+        "chocolate_pudding_1": {
+          "type": "chocolate_pudding",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_hope_objects/chocolate_pudding/chocolate_pudding.xml",
+          "scale": [
+            0.01,
+            0.01,
+            0.01
+          ],
+          "initial_region": "living_room_table_chocolate_pudding_init_region"
+        }
+      },
+      "regions": {
+        "living_room_table_plate_init_region": {
+          "pose_range": {
+            "x": [
+              0.12250965088605881,
+              0.18076721593737602
+            ],
+            "y": [
+              -0.027949900329113007,
+              0.02807071259245276
+            ],
+            "z": [
+              0.43927219331264494,
+              0.43927282094955444
+            ],
+            "roll": [
+              -2.1287821945215057e-06,
+              3.7737476361598965e-06
+            ],
+            "pitch": [
+              -2.7421625601320443e-06,
+              6.851824641884718e-06
+            ],
+            "yaw": [
+              1.3496754107708906,
+              1.5744311841796899
+            ]
+          },
+          "target": "living_room_table"
+        },
+        "living_room_table_porcelain_mug_init_region": {
+          "pose_range": {
+            "x": [
+              -0.12825519852340223,
+              -0.0725557653605938
+            ],
+            "y": [
+              -0.17963135167956354,
+              -0.12121578171849251
+            ],
+            "z": [
+              0.4343699514865875,
+              0.4343699514865875
+            ],
+            "roll": [
+              -4.9455543660315016e-08,
+              -4.9455543660315016e-08
+            ],
+            "pitch": [
+              -2.3827369943774102e-07,
+              -2.3827369943774102e-07
+            ],
+            "yaw": [
+              -1.5707959691670066,
+              -1.5707959691670066
+            ]
+          },
+          "target": "living_room_table"
+        },
+        "living_room_table_chocolate_pudding_init_region": {
+          "pose_range": {
+            "x": [
+              -0.07952518790960313,
+              -0.021442804764956237
+            ],
+            "y": [
+              0.07050953835248946,
+              0.12854805931448937
+            ],
+            "z": [
+              0.44983983039855957,
+              0.44983983039855957
+            ],
+            "roll": [
+              2.5173447326665155e-08,
+              2.5173447326665155e-08
+            ],
+            "pitch": [
+              7.564914028534986e-09,
+              7.564914028534986e-09
+            ],
+            "yaw": [
+              3.141592643532057,
+              3.141592643532057
+            ]
+          },
+          "target": "living_room_table"
+        },
+        "living_room_table_red_coffee_mug_init_region": {
+          "pose_range": {
+            "x": [
+              -0.2286479252576828,
+              -0.1743128676712513
+            ],
+            "y": [
+              -0.0292423352599144,
+              0.02789519695565104
+            ],
+            "z": [
+              0.43859899044036865,
+              0.43859899044036865
+            ],
+            "roll": [
+              1.3236774520919425e-06,
+              1.3236774520919425e-06
+            ],
+            "pitch": [
+              2.400503831267997e-07,
+              2.400503831267997e-07
+            ],
+            "yaw": [
+              -1.5707961479809516,
+              -1.5707961479809516
+            ]
+          },
+          "target": "living_room_table"
+        }
+      },
+      "workspace_name": "living_room_table",
+      "workspace_full_size": [
+        0.7,
+        1.6,
+        0.024
+      ],
+      "workspace_offset": [
+        0,
+        0,
+        0.41
+      ],
+      "robot_base_pos": [
+        -0.51,
+        0.0,
+        0.42
+      ],
+      "robot_base_ori": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tactile_targets": [
+        "chocolate_pudding_1",
+        "porcelain_mug_1"
+      ]
+    },
+    {
+      "task_id": 7,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket",
+      "language_instruction": "put both the alphabet soup and the cream cheese box in the basket",
+      "problem_name": "libero_living_room_tabletop_manipulation",
+      "bddl_file": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./bddl_files/libero_10/LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket.bddl",
+      "obj_of_interest": [
+        "alphabet_soup_1",
+        "cream_cheese_1"
+      ],
+      "targets": [
+        "basket_1"
+      ],
+      "goals": [
+        {
+          "relationship": "in",
+          "ref_obj": "alphabet_soup_1",
+          "target": "basket_1",
+          "xy_threshold": 0.2,
+          "height_threshold": 0.2,
+          "height_diff": 0.0,
+          "enable_force_threshold": "False"
+        },
+        {
+          "relationship": "in",
+          "ref_obj": "cream_cheese_1",
+          "target": "basket_1",
+          "xy_threshold": 0.2,
+          "height_threshold": 0.2,
+          "height_diff": 0.0,
+          "enable_force_threshold": "False"
+        }
+      ],
+      "fixtures": {
+        "living_room_table": {
+          "type": "living_room_table",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/scenes/living_room_table/living_room_table.xml",
+          "scale": [
+            1.5,
+            1.5,
+            1.5
+          ],
+          "initial_pose": [
+            0.0,
+            0.21,
+            -0.005
+          ],
+          "initial_quat": [
+            0.707,
+            0.0,
+            0.0,
+            0.707
+          ]
+        }
+      },
+      "objects": {
+        "alphabet_soup_1": {
+          "type": "alphabet_soup",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_hope_objects/alphabet_soup/alphabet_soup.xml",
+          "scale": [
+            0.01,
+            0.01,
+            0.01
+          ],
+          "initial_region": "living_room_table_alphabet_soup_init_region"
+        },
+        "cream_cheese_1": {
+          "type": "cream_cheese",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_hope_objects/cream_cheese/cream_cheese.xml",
+          "scale": [
+            0.008,
+            0.008,
+            0.008
+          ],
+          "initial_region": "living_room_table_cream_cheese_init_region"
+        },
+        "tomato_sauce_1": {
+          "type": "tomato_sauce",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_hope_objects/tomato_sauce/tomato_sauce.xml",
+          "scale": [
+            0.01,
+            0.01,
+            0.01
+          ],
+          "initial_region": "living_room_table_tomato_sauce_init_region"
+        },
+        "ketchup_1": {
+          "type": "ketchup",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_hope_objects/ketchup/ketchup.xml",
+          "scale": [
+            0.01,
+            0.01,
+            0.01
+          ],
+          "initial_region": "living_room_table_ketchup_init_region"
+        },
+        "basket_1": {
+          "type": "basket",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_scanned_objects/basket/basket.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "living_room_table_basket_init_region"
+        }
+      },
+      "regions": {
+        "living_room_table_basket_init_region": {
+          "pose_range": {
+            "x": [
+              -0.014184266636148097,
+              0.014560859687626361
+            ],
+            "y": [
+              0.24528674423694607,
+              0.2744247815012932
+            ],
+            "z": [
+              0.43219196796417236,
+              0.43219196796417236
+            ],
+            "roll": [
+              -2.0954997737021586e-09,
+              -2.0954997737021586e-09
+            ],
+            "pitch": [
+              0.004794127977119089,
+              0.004794127977119089
+            ],
+            "yaw": [
+              1.570796267189566,
+              1.570796267189566
+            ]
+          },
+          "target": "living_room_table"
+        },
+        "living_room_table_alphabet_soup_init_region": {
+          "pose_range": {
+            "x": [
+              0.022589312847703696,
+              0.08001972876489163
+            ],
+            "y": [
+              -0.12813429452478886,
+              -0.0717225207388401
+            ],
+            "z": [
+              0.47516486048698425,
+              0.47516572684049607
+            ],
+            "roll": [
+              1.5717779174175268,
+              1.5718280151450728
+            ],
+            "pitch": [
+              -0.006581514104614161,
+              -0.006562945048874003
+            ],
+            "yaw": [
+              -3.141137000917903,
+              -2.7692414526782505
+            ]
+          },
+          "target": "living_room_table"
+        },
+        "living_room_table_cream_cheese_init_region": {
+          "pose_range": {
+            "x": [
+              -0.17798404589295388,
+              -0.1204264396429062
+            ],
+            "y": [
+              0.03086405802518129,
+              0.08704848781228065
+            ],
+            "z": [
+              0.4456958472728729,
+              0.4456958472728729
+            ],
+            "roll": [
+              -2.3128508885861265e-08,
+              -2.3128508885861265e-08
+            ],
+            "pitch": [
+              6.839827371152296e-09,
+              6.839827371152296e-09
+            ],
+            "yaw": [
+              -3.141592653589793,
+              -3.141592653589793
+            ]
+          },
+          "target": "living_room_table"
+        },
+        "living_room_table_tomato_sauce_init_region": {
+          "pose_range": {
+            "x": [
+              0.07241541191935538,
+              0.12930202372372152
+            ],
+            "y": [
+              -0.23543474689126015,
+              -0.17037647366523742
+            ],
+            "z": [
+              0.47,
+              0.47
+            ],
+            "roll": [
+              1.4848254514723447,
+              1.5717873355043563
+            ],
+            "pitch": [
+              -0.03579422293912904,
+              -0.0066110614765610975
+            ],
+            "yaw": [
+              2.7603562616084805,
+              3.1415685320388516
+            ]
+          },
+          "target": "living_room_table"
+        },
+        "living_room_table_ketchup_init_region": {
+          "pose_range": {
+            "x": [
+              -0.22870291322469713,
+              -0.17108920857310295
+            ],
+            "y": [
+              -0.17904987677931786,
+              -0.12068955913186072
+            ],
+            "z": [
+              0.6312454342842102,
+              0.6312454342842102
+            ],
+            "roll": [
+              1.5706302682560782,
+              1.5706302682560782
+            ],
+            "pitch": [
+              -5.951523784331059e-05,
+              -5.951523784331059e-05
+            ],
+            "yaw": [
+              1.5707962671902518,
+              1.5707962671902518
+            ]
+          },
+          "target": "living_room_table"
+        }
+      },
+      "workspace_name": "living_room_table",
+      "workspace_full_size": [
+        0.7,
+        1.6,
+        0.024
+      ],
+      "workspace_offset": [
+        0,
+        0,
+        0.41
+      ],
+      "robot_base_pos": [
+        -0.51,
+        0.0,
+        0.42
+      ],
+      "robot_base_ori": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tactile_targets": [
+        "alphabet_soup_1",
+        "cream_cheese_1"
+      ]
+    },
+    {
+      "task_id": 8,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove",
+      "language_instruction": "put both moka pots on the stove",
+      "problem_name": "libero_kitchen_tabletop_manipulation",
+      "bddl_file": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./bddl_files/libero_10/KITCHEN_SCENE8_put_both_moka_pots_on_the_stove.bddl",
+      "obj_of_interest": [
+        "moka_pot_1",
+        "moka_pot_2"
+      ],
+      "targets": [
+        "flat_stove_1"
+      ],
+      "goals": [
+        {
+          "relationship": "on",
+          "ref_obj": "moka_pot_1",
+          "target": "flat_stove_1",
+          "xy_threshold": 0.2,
+          "height_threshold": 0.15,
+          "height_diff": 0.0,
+          "enable_force_threshold": "True",
+          "force_threshold": 0.05
+        },
+        {
+          "relationship": "on",
+          "ref_obj": "moka_pot_2",
+          "target": "flat_stove_1",
+          "xy_threshold": 0.2,
+          "height_threshold": 0.15,
+          "height_diff": 0.0,
+          "enable_force_threshold": "True",
+          "force_threshold": 0.05
+        },
+        {
+          "operation": "turnon",
+          "target": "flat_stove_1"
+        }
+      ],
+      "fixtures": {
+        "kitchen_table": {
+          "type": "kitchen_table",
+          "scale": [
+            0.02,
+            0.02,
+            0.02
+          ],
+          "initial_pose": [
+            0.0,
+            0.0,
+            0.845
+          ]
+        }
+      },
+      "objects": {
+        "moka_pot_1": {
+          "type": "moka_pot",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/turbosquid_objects/moka_pot/moka_pot.xml",
+          "scale": [
+            0.025,
+            0.025,
+            0.025
+          ],
+          "initial_region": "kitchen_table_moka_pot_right_init_region"
+        },
+        "moka_pot_2": {
+          "type": "moka_pot",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/turbosquid_objects/moka_pot/moka_pot.xml",
+          "scale": [
+            0.025,
+            0.025,
+            0.025
+          ],
+          "initial_region": "kitchen_table_moka_pot_left_init_region"
+        },
+        "flat_stove_1": {
+          "type": "flat_stove",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/articulated_objects/flat_stove.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "kitchen_table_flat_stove_init_region",
+          "default_turnon_ranges": [
+            0.5,
+            2.1
+          ],
+          "default_turnoff_ranges": [
+            -0.005,
+            0.0
+          ],
+          "default_open_ranges": [],
+          "default_close_ranges": []
+        }
+      },
+      "regions": {
+        "kitchen_table_flat_stove_init_region": {
+          "pose_range": {
+            "x": [
+              -0.19916549801826477,
+              -0.18916549801826477
+            ],
+            "y": [
+              -0.20442210614681244,
+              -0.19442210614681243
+            ],
+            "z": [
+              0.9049999713897705,
+              0.9049999713897705
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              0.0,
+              0.0
+            ],
+            "joint_pos_range": {
+              "0": [
+                1.113506555557251,
+                1.113506555557251
+              ]
+            }
+          },
+          "target": "kitchen_table"
+        },
+        "kitchen_table_moka_pot_right_init_region": {
+          "pose_range": {
+            "x": [
+              -0.07883027881383896,
+              -0.023473037872463465
+            ],
+            "y": [
+              0.2205822405219078,
+              0.2782722809910774
+            ],
+            "z": [
+              0.96,
+              0.96
+            ],
+            "roll": [
+              -1.7028511138938995e-05,
+              -1.7028511138938995e-05
+            ],
+            "pitch": [
+              -4.913993052468868e-07,
+              -4.913993052468868e-07
+            ],
+            "yaw": [
+              -3.14159265316958,
+              -3.14159265316958
+            ]
+          },
+          "target": "kitchen_table"
+        },
+        "kitchen_table_moka_pot_left_init_region": {
+          "pose_range": {
+            "x": [
+              0.022165136355906723,
+              0.07956244066357614
+            ],
+            "y": [
+              0.022887254096567628,
+              0.07949107922613621
+            ],
+            "z": [
+              0.96,
+              0.96
+            ],
+            "roll": [
+              -1.7028511138938995e-05,
+              -1.7028511138938995e-05
+            ],
+            "pitch": [
+              -4.913993052468868e-07,
+              -4.913993052468868e-07
+            ],
+            "yaw": [
+              -3.14159265316958,
+              -3.14159265316958
+            ]
+          },
+          "target": "kitchen_table"
+        }
+      },
+      "workspace_name": "kitchen_table",
+      "workspace_full_size": [
+        1.0,
+        1.2,
+        0.05
+      ],
+      "workspace_offset": [
+        0.0,
+        0,
+        0.9
+      ],
+      "robot_base_pos": [
+        -0.66,
+        0.0,
+        0.912
+      ],
+      "robot_base_ori": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tactile_targets": [
+        "moka_pot_1",
+        "moka_pot_2"
+      ]
+    },
+    {
+      "task_id": 9,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it",
+      "language_instruction": "put the yellow and white mug in the microwave and close it",
+      "problem_name": "libero_kitchen_tabletop_manipulation",
+      "bddl_file": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./bddl_files/libero_10/KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it.bddl",
+      "obj_of_interest": [
+        "white_yellow_mug_1"
+      ],
+      "targets": [
+        "microwave_1"
+      ],
+      "goals": [
+        {
+          "relationship": "in",
+          "ref_obj": "white_yellow_mug_1",
+          "target": "microwave_1",
+          "xy_threshold": 0.2,
+          "height_threshold": 0.1,
+          "height_diff": 0.0,
+          "enable_force_threshold": "True",
+          "force_threshold": 0.05
+        },
+        {
+          "operation": "close",
+          "target": "microwave_1"
+        }
+      ],
+      "fixtures": {
+        "kitchen_table": {
+          "type": "kitchen_table",
+          "scale": [
+            0.02,
+            0.02,
+            0.02
+          ],
+          "initial_pose": [
+            0.0,
+            0.0,
+            0.845
+          ]
+        }
+      },
+      "objects": {
+        "porcelain_mug_1": {
+          "type": "porcelain_mug",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/turbosquid_objects/porcelain_mug/porcelain_mug.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "kitchen_table_porcelain_mug_init_region"
+        },
+        "white_yellow_mug_1": {
+          "type": "white_yellow_mug",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/turbosquid_objects/white_yellow_mug/white_yellow_mug.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "kitchen_table_white_yellow_mug_init_region"
+        },
+        "microwave_1": {
+          "type": "microwave",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/articulated_objects/microwave.xml",
+          "scale": [
+            0.5,
+            0.5,
+            0.5
+          ],
+          "initial_region": "kitchen_table_microwave_init_region",
+          "default_open_ranges": [
+            -2.094,
+            -1.3
+          ],
+          "default_close_ranges": [
+            -0.005,
+            0.0
+          ]
+        }
+      },
+      "regions": {
+        "kitchen_table_microwave_init_region": {
+          "pose_range": {
+            "x": [
+              -0.014595631621778012,
+              -0.004595631621778011
+            ],
+            "y": [
+              0.3516524088382721,
+              0.3616524088382721
+            ],
+            "z": [
+              0.9200000166893005,
+              0.9200000166893005
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              0.0,
+              0.0
+            ],
+            "joint_pos_range": {
+              "0": [
+                -1.7895474433898926,
+                -1.7895474433898926
+              ]
+            }
+          },
+          "target": "kitchen_table"
+        },
+        "kitchen_table_white_yellow_mug_init_region": {
+          "pose_range": {
+            "x": [
+              -0.027928752526640892,
+              0.0292893934994936
+            ],
+            "y": [
+              -0.029922661073505878,
+              0.028933159988373515
+            ],
+            "z": [
+              0.8998776078224182,
+              0.8998776078224182
+            ],
+            "roll": [
+              -1.0130661403096042e-06,
+              -1.0130661403096042e-06
+            ],
+            "pitch": [
+              3.92845031558231e-05,
+              3.92845031558231e-05
+            ],
+            "yaw": [
+              -1.5707964460041932,
+              -1.5707964460041932
+            ]
+          },
+          "target": "kitchen_table"
+        },
+        "kitchen_table_porcelain_mug_init_region": {
+          "pose_range": {
+            "x": [
+              -0.12848508588969706,
+              -0.07007756762206555
+            ],
+            "y": [
+              -0.27466543883085254,
+              -0.22052333265542984
+            ],
+            "z": [
+              0.8973797559738159,
+              0.8973797559738159
+            ],
+            "roll": [
+              -6.8702192983494115e-06,
+              -6.8702192983494115e-06
+            ],
+            "pitch": [
+              -3.174031008335021e-05,
+              -3.174031008335021e-05
+            ],
+            "yaw": [
+              -1.5707956115391166,
+              -1.5707956115391166
+            ]
+          },
+          "target": "kitchen_table"
+        }
+      },
+      "workspace_name": "kitchen_table",
+      "workspace_full_size": [
+        1.0,
+        1.2,
+        0.05
+      ],
+      "workspace_offset": [
+        0.0,
+        0,
+        0.9
+      ],
+      "robot_base_pos": [
+        -0.66,
+        0.0,
+        0.912
+      ],
+      "robot_base_ori": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tactile_targets": [
+        "white_yellow_mug_1",
+        "microwave_1/microwave/microwave/microhandle/microhandle"
+      ]
+    }
+  ]
+}

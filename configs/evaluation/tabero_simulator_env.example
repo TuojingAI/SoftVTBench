@@ -1,0 +1,17 @@
+# Source this on a simulator host before running scripts/evaluate_tabero_simulator.sh.
+#
+# Copy to configs/evaluation/tabero_simulator_env.local and edit paths.
+
+export TABERO_DIR=${TABERO_DIR:-/path/to/Tabero}
+export OPENPI_DIR=${OPENPI_DIR:-/path/to/openpi}
+export CONDA_SH=${CONDA_SH:-/path/to/miniconda3/etc/profile.d/conda.sh}
+export DATA_DIR=${DATA_DIR:-/path/to/datasets/Isaaclab_Libero}
+
+export PORT=${PORT:-8194}
+export N=${N:-10}
+export REPLAN_STEPS=${REPLAN_STEPS:-10}
+export TASKS_STR=${TASKS_STR:-"0 1 2 3 4 5 6 7 8 9"}
+export SUITES_STR=${SUITES_STR:-"libero_object libero_spatial"}
+export RUN_ROOT=${RUN_ROOT:-${TABERO_DIR}/evaluation_results/openpi_tabero_eval}
+export TABERO_MAX_CONSECUTIVE_FAILURES=${TABERO_MAX_CONSECUTIVE_FAILURES:-10}
+

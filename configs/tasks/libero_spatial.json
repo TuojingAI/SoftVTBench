@@ -1,0 +1,3816 @@
+{
+  "task_suite_name": "libero_spatial",
+  "total_tasks": 10,
+  "tasks": [
+    {
+      "task_id": 0,
+      "task_name": "pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate",
+      "language_instruction": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "problem_name": "libero_tabletop_manipulation",
+      "bddl_file": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./bddl_files/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate.bddl",
+      "obj_of_interest": [
+        "akita_black_bowl_1"
+      ],
+      "targets": [
+        "plate_1"
+      ],
+      "goals": [
+        {
+          "relationship": "on",
+          "ref_obj": "akita_black_bowl_1",
+          "target": "plate_1",
+          "xy_threshold": 0.1,
+          "height_threshold": 0.1,
+          "height_diff": 0.0,
+          "enable_force_threshold": "True",
+          "force_threshold": 0.05
+        }
+      ],
+      "fixtures": {
+        "main_table": {
+          "type": "table",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/scenes/table.xml",
+          "scale": [
+            0.02,
+            0.02,
+            0.02
+          ],
+          "initial_pose": [
+            0.0,
+            0.0,
+            0.845
+          ]
+        }
+      },
+      "objects": {
+        "akita_black_bowl_1": {
+          "type": "akita_black_bowl",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_scanned_objects/akita_black_bowl/akita_black_bowl.xml",
+          "scale": [
+            0.7,
+            0.7,
+            0.7
+          ],
+          "initial_region": "main_table_between_plate_ramekin_region"
+        },
+        "akita_black_bowl_2": {
+          "type": "akita_black_bowl",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_scanned_objects/akita_black_bowl/akita_black_bowl.xml",
+          "scale": [
+            0.7,
+            0.7,
+            0.7
+          ],
+          "initial_region": "main_table_next_to_ramekin_region"
+        },
+        "cookies_1": {
+          "type": "cookies",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_hope_objects/cookies/cookies.xml",
+          "scale": [
+            0.005,
+            0.005,
+            0.005
+          ],
+          "initial_region": "main_table_box_region"
+        },
+        "glazed_rim_porcelain_ramekin_1": {
+          "type": "glazed_rim_porcelain_ramekin",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_scanned_objects/glazed_rim_porcelain_ramekin/glazed_rim_porcelain_ramekin.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "main_table_ramekin_region"
+        },
+        "plate_1": {
+          "type": "plate",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_scanned_objects/plate/plate.xml",
+          "scale": [
+            0.5,
+            0.5,
+            0.5
+          ],
+          "initial_region": "main_table_plate_region"
+        },
+        "wooden_cabinet_1": {
+          "type": "wooden_cabinet",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/articulated_objects/wooden_cabinet.xml",
+          "scale": [
+            0.05,
+            0.05,
+            0.05
+          ],
+          "initial_region": "main_table_cabinet_region",
+          "default_open_ranges": [
+            -0.16,
+            -0.14
+          ],
+          "default_close_ranges": [
+            0.0,
+            0.005
+          ]
+        },
+        "flat_stove_1": {
+          "type": "flat_stove",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/articulated_objects/flat_stove.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "main_table_stove_region",
+          "default_turnon_ranges": [
+            0.5,
+            2.1
+          ],
+          "default_turnoff_ranges": [
+            -0.005,
+            0.0
+          ],
+          "default_open_ranges": [],
+          "default_close_ranges": []
+        }
+      },
+      "regions": {
+        "main_table_plate_region": {
+          "pose_range": {
+            "x": [
+              0.049270453006029134,
+              0.09961984515190124
+            ],
+            "y": [
+              0.1792649845778942,
+              0.21990673691034318
+            ],
+            "z": [
+              0.9019175356626511,
+              0.9024734598398209
+            ],
+            "roll": [
+              -0.0005327296441328677,
+              0.015892887101333297
+            ],
+            "pitch": [
+              -0.00046909424651309095,
+              0.005834237725102831
+            ],
+            "yaw": [
+              1.420759061953346,
+              2.136843228677474
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_box_region": {
+          "pose_range": {
+            "x": [
+              0.05004639454185963,
+              0.089470359608531
+            ],
+            "y": [
+              0.01052479512989521,
+              0.04878254551440477
+            ],
+            "z": [
+              0.9092097878456116,
+              0.9092097878456116
+            ],
+            "roll": [
+              -3.877335529978154e-06,
+              -3.877335529978154e-06
+            ],
+            "pitch": [
+              -1.9153762877976988e-06,
+              -1.9153762877976988e-06
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_between_plate_ramekin_region": {
+          "pose_range": {
+            "x": [
+              -0.08821699291467668,
+              -0.03345112919807435
+            ],
+            "y": [
+              0.18157417640089987,
+              0.22959509998559952
+            ],
+            "z": [
+              0.8981584906578064,
+              0.9006236034631729
+            ],
+            "roll": [
+              -0.07143759920132364,
+              0.033593188099174665
+            ],
+            "pitch": [
+              -0.013529787742052601,
+              0.046164153933998975
+            ],
+            "yaw": [
+              1.275251252229463,
+              1.9462888460211918
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_ramekin_region": {
+          "pose_range": {
+            "x": [
+              -0.21774975687265397,
+              -0.18060847416520118
+            ],
+            "y": [
+              0.18144776985049246,
+              0.2183392636477947
+            ],
+            "z": [
+              0.8991595506668091,
+              0.8991629856824875
+            ],
+            "roll": [
+              8.881117992132204e-07,
+              1.5088351874581463e-06
+            ],
+            "pitch": [
+              -1.1745748108360488e-05,
+              5.1776132750092074e-06
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5712010823036682
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_next_to_ramekin_region": {
+          "pose_range": {
+            "x": [
+              -0.19918857634067536,
+              -0.16037094995379447
+            ],
+            "y": [
+              0.3033531403541565,
+              0.3395985481142998
+            ],
+            "z": [
+              0.8981584906578064,
+              0.8981584906578064
+            ],
+            "roll": [
+              -1.7190612199957656e-05,
+              -1.7190612199957656e-05
+            ],
+            "pitch": [
+              1.3142958778633584e-05,
+              1.3142958778633584e-05
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_cabinet_region": {
+          "pose_range": {
+            "x": [
+              0.03561058267951012,
+              0.03561058267951012
+            ],
+            "y": [
+              -0.27763450145721436,
+              -0.27763450145721436
+            ],
+            "z": [
+              0.9049999713897705,
+              0.9049999713897705
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              2.701585232640131,
+              2.701585232640131
+            ],
+            "joint_pos_range": {
+              "0": [
+                0.0,
+                0.0
+              ],
+              "1": [
+                0.0,
+                0.0
+              ],
+              "2": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "target": "main_table"
+        },
+        "main_table_stove_region": {
+          "pose_range": {
+            "x": [
+              -0.4171329438686371,
+              -0.4171329438686371
+            ],
+            "y": [
+              -0.13110661506652832,
+              -0.13110661506652832
+            ],
+            "z": [
+              0.9049999713897705,
+              0.9049999713897705
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              0.0,
+              0.0
+            ],
+            "joint_pos_range": {
+              "0": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "target": "main_table"
+        }
+      },
+      "workspace_name": "table",
+      "workspace_full_size": [
+        1.0,
+        1.2,
+        0.05
+      ],
+      "workspace_offset": [
+        0,
+        0,
+        0.9
+      ],
+      "robot_base_pos": [
+        -0.66,
+        0.0,
+        0.912
+      ],
+      "robot_base_ori": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tactile_targets": [
+        "akita_black_bowl_1"
+      ]
+    },
+    {
+      "task_id": 1,
+      "task_name": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate",
+      "language_instruction": "pick up the black bowl next to the ramekin and place it on the plate",
+      "problem_name": "libero_tabletop_manipulation",
+      "bddl_file": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./bddl_files/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate.bddl",
+      "obj_of_interest": [
+        "akita_black_bowl_1"
+      ],
+      "targets": [
+        "plate_1"
+      ],
+      "goals": [
+        {
+          "relationship": "on",
+          "ref_obj": "akita_black_bowl_1",
+          "target": "plate_1",
+          "xy_threshold": 0.1,
+          "height_threshold": 0.1,
+          "height_diff": 0.0,
+          "enable_force_threshold": "True",
+          "force_threshold": 0.05
+        }
+      ],
+      "fixtures": {
+        "main_table": {
+          "type": "table",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/scenes/table.xml",
+          "scale": [
+            0.02,
+            0.02,
+            0.02
+          ],
+          "initial_pose": [
+            0.0,
+            0.0,
+            0.845
+          ]
+        }
+      },
+      "objects": {
+        "akita_black_bowl_1": {
+          "type": "akita_black_bowl",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_scanned_objects/akita_black_bowl/akita_black_bowl.xml",
+          "scale": [
+            0.7,
+            0.7,
+            0.7
+          ],
+          "initial_region": "main_table_next_to_ramekin_region"
+        },
+        "akita_black_bowl_2": {
+          "type": "akita_black_bowl",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_scanned_objects/akita_black_bowl/akita_black_bowl.xml",
+          "scale": [
+            0.7,
+            0.7,
+            0.7
+          ],
+          "initial_region": "main_table_next_to_box_region"
+        },
+        "cookies_1": {
+          "type": "cookies",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_hope_objects/cookies/cookies.xml",
+          "scale": [
+            0.005,
+            0.005,
+            0.005
+          ],
+          "initial_region": "main_table_box_region"
+        },
+        "glazed_rim_porcelain_ramekin_1": {
+          "type": "glazed_rim_porcelain_ramekin",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_scanned_objects/glazed_rim_porcelain_ramekin/glazed_rim_porcelain_ramekin.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "main_table_ramekin_region"
+        },
+        "plate_1": {
+          "type": "plate",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_scanned_objects/plate/plate.xml",
+          "scale": [
+            0.5,
+            0.5,
+            0.5
+          ],
+          "initial_region": "main_table_plate_region"
+        },
+        "wooden_cabinet_1": {
+          "type": "wooden_cabinet",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/articulated_objects/wooden_cabinet.xml",
+          "scale": [
+            0.05,
+            0.05,
+            0.05
+          ],
+          "initial_region": "main_table_cabinet_region",
+          "default_open_ranges": [
+            -0.16,
+            -0.14
+          ],
+          "default_close_ranges": [
+            0.0,
+            0.005
+          ]
+        },
+        "flat_stove_1": {
+          "type": "flat_stove",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/articulated_objects/flat_stove.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "main_table_stove_region",
+          "default_turnon_ranges": [
+            0.5,
+            2.1
+          ],
+          "default_turnoff_ranges": [
+            -0.005,
+            0.0
+          ],
+          "default_open_ranges": [],
+          "default_close_ranges": []
+        }
+      },
+      "regions": {
+        "main_table_plate_region": {
+          "pose_range": {
+            "x": [
+              0.04044845491647721,
+              0.07959955759346486
+            ],
+            "y": [
+              0.18052688881754875,
+              0.21977345272898674
+            ],
+            "z": [
+              0.9023146033287048,
+              0.9023146033287048
+            ],
+            "roll": [
+              1.4012384794703792e-05,
+              1.4012384794703792e-05
+            ],
+            "pitch": [
+              4.268633712323222e-05,
+              4.268633712323222e-05
+            ],
+            "yaw": [
+              1.5707959691670066,
+              1.5707959691670066
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_box_region": {
+          "pose_range": {
+            "x": [
+              0.051308980956673626,
+              0.08938573472201825
+            ],
+            "y": [
+              0.010499437423422932,
+              0.049107340127229684
+            ],
+            "z": [
+              0.9092097878456116,
+              0.9092097878456116
+            ],
+            "roll": [
+              -3.877335529978154e-06,
+              -3.877335529978154e-06
+            ],
+            "pitch": [
+              -1.9153762877976988e-06,
+              -1.9153762877976988e-06
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_next_to_box_region": {
+          "pose_range": {
+            "x": [
+              0.11017770938575268,
+              0.14909852728247644
+            ],
+            "y": [
+              -0.08961745865643025,
+              -0.05143325336277485
+            ],
+            "z": [
+              0.8981584906578064,
+              0.8981584906578064
+            ],
+            "roll": [
+              -1.7190612199957656e-05,
+              -1.7190612199957656e-05
+            ],
+            "pitch": [
+              1.3142958778633584e-05,
+              1.3142958778633584e-05
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_ramekin_region": {
+          "pose_range": {
+            "x": [
+              -0.2193745943903923,
+              -0.18092669755220414
+            ],
+            "y": [
+              0.18170585855841637,
+              0.21943194374442102
+            ],
+            "z": [
+              0.8991595506668091,
+              0.8991595506668091
+            ],
+            "roll": [
+              8.881117992132204e-07,
+              8.881117992132204e-07
+            ],
+            "pitch": [
+              5.1776132750092074e-06,
+              5.1776132750092074e-06
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_next_to_ramekin_region": {
+          "pose_range": {
+            "x": [
+              -0.19902422562241553,
+              -0.16070245295763017
+            ],
+            "y": [
+              0.30100007623434066,
+              0.3386464524269104
+            ],
+            "z": [
+              0.8981584906578064,
+              0.8981584906578064
+            ],
+            "roll": [
+              -1.7190612199957656e-05,
+              -1.7190612199957656e-05
+            ],
+            "pitch": [
+              1.3142958778633584e-05,
+              1.3142958778633584e-05
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_cabinet_region": {
+          "pose_range": {
+            "x": [
+              0.03561058267951012,
+              0.03561058267951012
+            ],
+            "y": [
+              -0.27763450145721436,
+              -0.27763450145721436
+            ],
+            "z": [
+              0.9049999713897705,
+              0.9049999713897705
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              2.701585232640131,
+              2.701585232640131
+            ],
+            "joint_pos_range": {
+              "0": [
+                0.0,
+                0.0
+              ],
+              "1": [
+                0.0,
+                0.0
+              ],
+              "2": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "target": "main_table"
+        },
+        "main_table_stove_region": {
+          "pose_range": {
+            "x": [
+              -0.4171329438686371,
+              -0.4171329438686371
+            ],
+            "y": [
+              -0.13110661506652832,
+              -0.13110661506652832
+            ],
+            "z": [
+              0.9049999713897705,
+              0.9049999713897705
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              0.0,
+              0.0
+            ],
+            "joint_pos_range": {
+              "0": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "target": "main_table"
+        }
+      },
+      "workspace_name": "table",
+      "workspace_full_size": [
+        1.0,
+        1.2,
+        0.05
+      ],
+      "workspace_offset": [
+        0,
+        0,
+        0.9
+      ],
+      "robot_base_pos": [
+        -0.66,
+        0.0,
+        0.912
+      ],
+      "robot_base_ori": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tactile_targets": [
+        "akita_black_bowl_1"
+      ]
+    },
+    {
+      "task_id": 2,
+      "task_name": "pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate",
+      "language_instruction": "pick up the black bowl from table center and place it on the plate",
+      "problem_name": "libero_tabletop_manipulation",
+      "bddl_file": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./bddl_files/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate.bddl",
+      "obj_of_interest": [
+        "akita_black_bowl_1"
+      ],
+      "targets": [
+        "plate_1"
+      ],
+      "goals": [
+        {
+          "relationship": "on",
+          "ref_obj": "akita_black_bowl_1",
+          "target": "plate_1",
+          "xy_threshold": 0.1,
+          "height_threshold": 0.1,
+          "height_diff": 0.0,
+          "enable_force_threshold": "True",
+          "force_threshold": 0.05
+        }
+      ],
+      "fixtures": {
+        "main_table": {
+          "type": "table",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/scenes/table.xml",
+          "scale": [
+            0.02,
+            0.02,
+            0.02
+          ],
+          "initial_pose": [
+            0.0,
+            0.0,
+            0.845
+          ]
+        }
+      },
+      "objects": {
+        "akita_black_bowl_1": {
+          "type": "akita_black_bowl",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_scanned_objects/akita_black_bowl/akita_black_bowl.xml",
+          "scale": [
+            0.7,
+            0.7,
+            0.7
+          ],
+          "initial_region": "main_table_table_center"
+        },
+        "akita_black_bowl_2": {
+          "type": "akita_black_bowl",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_scanned_objects/akita_black_bowl/akita_black_bowl.xml",
+          "scale": [
+            0.7,
+            0.7,
+            0.7
+          ],
+          "initial_region": "main_table_next_to_plate_region"
+        },
+        "cookies_1": {
+          "type": "cookies",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_hope_objects/cookies/cookies.xml",
+          "scale": [
+            0.005,
+            0.005,
+            0.005
+          ],
+          "initial_region": "main_table_box_region"
+        },
+        "glazed_rim_porcelain_ramekin_1": {
+          "type": "glazed_rim_porcelain_ramekin",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_scanned_objects/glazed_rim_porcelain_ramekin/glazed_rim_porcelain_ramekin.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "main_table_ramekin_region"
+        },
+        "plate_1": {
+          "type": "plate",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_scanned_objects/plate/plate.xml",
+          "scale": [
+            0.5,
+            0.5,
+            0.5
+          ],
+          "initial_region": "main_table_plate_region"
+        },
+        "wooden_cabinet_1": {
+          "type": "wooden_cabinet",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/articulated_objects/wooden_cabinet.xml",
+          "scale": [
+            0.05,
+            0.05,
+            0.05
+          ],
+          "initial_region": "main_table_cabinet_region",
+          "default_open_ranges": [
+            -0.16,
+            -0.14
+          ],
+          "default_close_ranges": [
+            0.0,
+            0.005
+          ]
+        },
+        "flat_stove_1": {
+          "type": "flat_stove",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/articulated_objects/flat_stove.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "main_table_stove_region",
+          "default_turnon_ranges": [
+            0.5,
+            2.1
+          ],
+          "default_turnoff_ranges": [
+            -0.005,
+            0.0
+          ],
+          "default_open_ranges": [],
+          "default_close_ranges": []
+        }
+      },
+      "regions": {
+        "main_table_plate_region": {
+          "pose_range": {
+            "x": [
+              0.04036960415542126,
+              0.09069773785769938
+            ],
+            "y": [
+              0.1684071858227253,
+              0.21764688462018966
+            ],
+            "z": [
+              0.9023146033287048,
+              0.9024673825502396
+            ],
+            "roll": [
+              -0.0007539259660740427,
+              0.0013360220215523633
+            ],
+            "pitch": [
+              -0.003063366614881158,
+              0.002351989688646583
+            ],
+            "yaw": [
+              1.5000687751576276,
+              1.6715728245585773
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_next_to_plate_region": {
+          "pose_range": {
+            "x": [
+              -0.01035163739696145,
+              0.02878644650802016
+            ],
+            "y": [
+              0.29329751819372174,
+              0.34149951964616776
+            ],
+            "z": [
+              0.8981584906578064,
+              0.90068523645401
+            ],
+            "roll": [
+              -0.013289231902988696,
+              0.0007033122330706298
+            ],
+            "pitch": [
+              -0.00011311803230684703,
+              0.10096194052561192
+            ],
+            "yaw": [
+              1.3702016551607645,
+              1.8524696412273833
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_box_region": {
+          "pose_range": {
+            "x": [
+              0.05213672235608101,
+              0.08896878995001316
+            ],
+            "y": [
+              0.010455061700195074,
+              0.04945602945983409
+            ],
+            "z": [
+              0.9092097878456116,
+              0.9092097878456116
+            ],
+            "roll": [
+              -3.877335529978154e-06,
+              -3.877335529978154e-06
+            ],
+            "pitch": [
+              -1.9153762877976988e-06,
+              -1.9153762877976988e-06
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_ramekin_region": {
+          "pose_range": {
+            "x": [
+              -0.21797516763210298,
+              -0.18153117552399636
+            ],
+            "y": [
+              0.1803028392791748,
+              0.21835478365421296
+            ],
+            "z": [
+              0.8991595506668091,
+              0.8991595506668091
+            ],
+            "roll": [
+              8.881117992132204e-07,
+              8.881117992132204e-07
+            ],
+            "pitch": [
+              5.1776132750092074e-06,
+              5.1776132750092074e-06
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_table_center": {
+          "pose_range": {
+            "x": [
+              -0.08000029355287552,
+              -0.07000029355287551
+            ],
+            "y": [
+              -0.018193037398159504,
+              0.019497340945526957
+            ],
+            "z": [
+              0.8981584906578064,
+              0.8981584906578064
+            ],
+            "roll": [
+              -1.7190612199957656e-05,
+              -1.7190612199957656e-05
+            ],
+            "pitch": [
+              1.3142958778633584e-05,
+              1.3142958778633584e-05
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_cabinet_region": {
+          "pose_range": {
+            "x": [
+              0.03561058267951012,
+              0.03561058267951012
+            ],
+            "y": [
+              -0.27763450145721436,
+              -0.27763450145721436
+            ],
+            "z": [
+              0.9049999713897705,
+              0.9049999713897705
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              2.701585232640131,
+              2.701585232640131
+            ],
+            "joint_pos_range": {
+              "0": [
+                0.0,
+                0.0
+              ],
+              "1": [
+                0.0,
+                0.0
+              ],
+              "2": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "target": "main_table"
+        },
+        "main_table_stove_region": {
+          "pose_range": {
+            "x": [
+              -0.4171329438686371,
+              -0.4171329438686371
+            ],
+            "y": [
+              -0.13110661506652832,
+              -0.13110661506652832
+            ],
+            "z": [
+              0.9049999713897705,
+              0.9049999713897705
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              0.0,
+              0.0
+            ],
+            "joint_pos_range": {
+              "0": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "target": "main_table"
+        }
+      },
+      "workspace_name": "table",
+      "workspace_full_size": [
+        1.0,
+        1.2,
+        0.05
+      ],
+      "workspace_offset": [
+        0,
+        0,
+        0.9
+      ],
+      "robot_base_pos": [
+        -0.66,
+        0.0,
+        0.912
+      ],
+      "robot_base_ori": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tactile_targets": [
+        "akita_black_bowl_1"
+      ]
+    },
+    {
+      "task_id": 3,
+      "task_name": "pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate",
+      "language_instruction": "pick up the black bowl on the cookie box and place it on the plate",
+      "problem_name": "libero_tabletop_manipulation",
+      "bddl_file": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./bddl_files/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate.bddl",
+      "obj_of_interest": [
+        "akita_black_bowl_1"
+      ],
+      "targets": [
+        "plate_1"
+      ],
+      "goals": [
+        {
+          "relationship": "on",
+          "ref_obj": "akita_black_bowl_1",
+          "target": "plate_1",
+          "xy_threshold": 0.1,
+          "height_threshold": 0.1,
+          "height_diff": 0.0,
+          "enable_force_threshold": "True",
+          "force_threshold": 0.05
+        }
+      ],
+      "fixtures": {
+        "main_table": {
+          "type": "table",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/scenes/table.xml",
+          "scale": [
+            0.02,
+            0.02,
+            0.02
+          ],
+          "initial_pose": [
+            0.0,
+            0.0,
+            0.845
+          ]
+        }
+      },
+      "objects": {
+        "akita_black_bowl_1": {
+          "type": "akita_black_bowl",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_scanned_objects/akita_black_bowl/akita_black_bowl.xml",
+          "scale": [
+            0.7,
+            0.7,
+            0.7
+          ],
+          "initial_region": "main_table_box_region_akita_black_bowl_1"
+        },
+        "akita_black_bowl_2": {
+          "type": "akita_black_bowl",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_scanned_objects/akita_black_bowl/akita_black_bowl.xml",
+          "scale": [
+            0.7,
+            0.7,
+            0.7
+          ],
+          "initial_region": "main_table_cabinet_region_akita_black_bowl_2"
+        },
+        "cookies_1": {
+          "type": "cookies",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_hope_objects/cookies/cookies.xml",
+          "scale": [
+            0.005,
+            0.005,
+            0.005
+          ],
+          "initial_region": "main_table_box_region"
+        },
+        "glazed_rim_porcelain_ramekin_1": {
+          "type": "glazed_rim_porcelain_ramekin",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_scanned_objects/glazed_rim_porcelain_ramekin/glazed_rim_porcelain_ramekin.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "main_table_ramekin_region"
+        },
+        "plate_1": {
+          "type": "plate",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_scanned_objects/plate/plate.xml",
+          "scale": [
+            0.5,
+            0.5,
+            0.5
+          ],
+          "initial_region": "main_table_plate_region"
+        },
+        "wooden_cabinet_1": {
+          "type": "wooden_cabinet",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/articulated_objects/wooden_cabinet.xml",
+          "scale": [
+            0.05,
+            0.05,
+            0.05
+          ],
+          "initial_region": "main_table_cabinet_region",
+          "default_open_ranges": [
+            -0.16,
+            -0.14
+          ],
+          "default_close_ranges": [
+            0.0,
+            0.005
+          ]
+        },
+        "flat_stove_1": {
+          "type": "flat_stove",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/articulated_objects/flat_stove.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "main_table_stove_region",
+          "default_turnon_ranges": [
+            0.5,
+            2.1
+          ],
+          "default_turnoff_ranges": [
+            -0.005,
+            0.0
+          ],
+          "default_open_ranges": [],
+          "default_close_ranges": []
+        }
+      },
+      "regions": {
+        "main_table_plate_region": {
+          "pose_range": {
+            "x": [
+              0.04056475017219782,
+              0.07769470416009426
+            ],
+            "y": [
+              0.18023124754428863,
+              0.2194703258574009
+            ],
+            "z": [
+              0.9023146033287048,
+              0.9023146033287048
+            ],
+            "roll": [
+              1.4012384794703792e-05,
+              1.4012384794703792e-05
+            ],
+            "pitch": [
+              4.268633712323222e-05,
+              4.268633712323222e-05
+            ],
+            "yaw": [
+              1.5707959691670066,
+              1.5707959691670066
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_box_region": {
+          "pose_range": {
+            "x": [
+              0.050657067336142066,
+              0.0896540515124798
+            ],
+            "y": [
+              0.010748149743303657,
+              0.04944994110614061
+            ],
+            "z": [
+              0.9091424942016602,
+              0.9091424942016602
+            ],
+            "roll": [
+              1.939928554683945e-06,
+              1.939928554683945e-06
+            ],
+            "pitch": [
+              5.0583788855806944e-05,
+              5.0583788855806944e-05
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_ramekin_region": {
+          "pose_range": {
+            "x": [
+              -0.21907710075378417,
+              -0.18168235838413238
+            ],
+            "y": [
+              0.1811207965016365,
+              0.218929243683815
+            ],
+            "z": [
+              0.8991595506668091,
+              0.8991595506668091
+            ],
+            "roll": [
+              8.881117992132204e-07,
+              8.881117992132204e-07
+            ],
+            "pitch": [
+              5.1776132750092074e-06,
+              5.1776132750092074e-06
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_cabinet_region": {
+          "pose_range": {
+            "x": [
+              0.036652397364377975,
+              0.036652397364377975
+            ],
+            "y": [
+              -0.26443687081336975,
+              -0.26443687081336975
+            ],
+            "z": [
+              0.9049999713897705,
+              0.9049999713897705
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              2.7160422553614705,
+              2.7160422553614705
+            ],
+            "joint_pos_range": {
+              "0": [
+                0.0,
+                0.0
+              ],
+              "1": [
+                0.0,
+                0.0
+              ],
+              "2": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "target": "main_table"
+        },
+        "main_table_stove_region": {
+          "pose_range": {
+            "x": [
+              -0.4004276394844055,
+              -0.4004276394844055
+            ],
+            "y": [
+              -0.13401682674884796,
+              -0.13401682674884796
+            ],
+            "z": [
+              0.9049999713897705,
+              0.9049999713897705
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              0.0,
+              0.0
+            ],
+            "joint_pos_range": {
+              "0": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "target": "main_table"
+        },
+        "main_table_box_region_akita_black_bowl_1": {
+          "pose_range": {
+            "x": [
+              0.05065650671720505,
+              0.08965349271893502
+            ],
+            "y": [
+              0.010732514699921012,
+              0.049434307962656014
+            ],
+            "z": [
+              0.9169196486473083,
+              0.9169196486473083
+            ],
+            "roll": [
+              1.8498594753779685e-06,
+              1.8498594753779685e-06
+            ],
+            "pitch": [
+              5.1820214162390243e-05,
+              5.1820214162390243e-05
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_cabinet_region_akita_black_bowl_2": {
+          "pose_range": {
+            "x": [
+              -0.018774798940867185,
+              0.0638866539299488
+            ],
+            "y": [
+              -0.3142714774608612,
+              -0.2504219365119934
+            ],
+            "z": [
+              1.1263997554779053,
+              1.1263997554779053
+            ],
+            "roll": [
+              -1.069007637966024e-07,
+              -1.069007637966024e-07
+            ],
+            "pitch": [
+              1.2130770699059212e-07,
+              1.2130770699059212e-07
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        }
+      },
+      "workspace_name": "table",
+      "workspace_full_size": [
+        1.0,
+        1.2,
+        0.05
+      ],
+      "workspace_offset": [
+        0,
+        0,
+        0.9
+      ],
+      "robot_base_pos": [
+        -0.66,
+        0.0,
+        0.912
+      ],
+      "robot_base_ori": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tactile_targets": [
+        "akita_black_bowl_1"
+      ]
+    },
+    {
+      "task_id": 4,
+      "task_name": "pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate",
+      "language_instruction": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate",
+      "problem_name": "libero_tabletop_manipulation",
+      "bddl_file": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./bddl_files/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate.bddl",
+      "obj_of_interest": [
+        "akita_black_bowl_1"
+      ],
+      "targets": [
+        "plate_1"
+      ],
+      "goals": [
+        {
+          "relationship": "on",
+          "ref_obj": "akita_black_bowl_1",
+          "target": "plate_1",
+          "xy_threshold": 0.1,
+          "height_threshold": 0.1,
+          "height_diff": 0.0,
+          "enable_force_threshold": "True",
+          "force_threshold": 0.05
+        }
+      ],
+      "fixtures": {
+        "main_table": {
+          "type": "table",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/scenes/table.xml",
+          "scale": [
+            0.02,
+            0.02,
+            0.02
+          ],
+          "initial_pose": [
+            0.0,
+            0.0,
+            0.845
+          ]
+        }
+      },
+      "objects": {
+        "akita_black_bowl_1": {
+          "type": "akita_black_bowl",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_scanned_objects/akita_black_bowl/akita_black_bowl.xml",
+          "scale": [
+            0.7,
+            0.7,
+            0.7
+          ],
+          "initial_region": "main_table_cabinet_region_akita_black_bowl_1"
+        },
+        "akita_black_bowl_2": {
+          "type": "akita_black_bowl",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_scanned_objects/akita_black_bowl/akita_black_bowl.xml",
+          "scale": [
+            0.7,
+            0.7,
+            0.7
+          ],
+          "initial_region": "main_table_cabinet_region_akita_black_bowl_2"
+        },
+        "cookies_1": {
+          "type": "cookies",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_hope_objects/cookies/cookies.xml",
+          "scale": [
+            0.005,
+            0.005,
+            0.005
+          ],
+          "initial_region": "main_table_box_region"
+        },
+        "glazed_rim_porcelain_ramekin_1": {
+          "type": "glazed_rim_porcelain_ramekin",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_scanned_objects/glazed_rim_porcelain_ramekin/glazed_rim_porcelain_ramekin.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "main_table_ramekin_region"
+        },
+        "plate_1": {
+          "type": "plate",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_scanned_objects/plate/plate.xml",
+          "scale": [
+            0.5,
+            0.5,
+            0.5
+          ],
+          "initial_region": "main_table_plate_region"
+        },
+        "wooden_cabinet_1": {
+          "type": "wooden_cabinet",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/articulated_objects/wooden_cabinet.xml",
+          "scale": [
+            0.05,
+            0.05,
+            0.05
+          ],
+          "initial_region": "main_table_cabinet_region",
+          "default_open_ranges": [
+            -0.16,
+            -0.14
+          ],
+          "default_close_ranges": [
+            0.0,
+            0.005
+          ]
+        },
+        "flat_stove_1": {
+          "type": "flat_stove",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/articulated_objects/flat_stove.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "main_table_stove_region",
+          "default_turnon_ranges": [
+            0.5,
+            2.1
+          ],
+          "default_turnoff_ranges": [
+            -0.005,
+            0.0
+          ],
+          "default_open_ranges": [],
+          "default_close_ranges": []
+        }
+      },
+      "regions": {
+        "main_table_plate_region": {
+          "pose_range": {
+            "x": [
+              0.040838450081646445,
+              0.0798768525570631
+            ],
+            "y": [
+              0.18163705080747605,
+              0.21878381416201592
+            ],
+            "z": [
+              0.9023146033287048,
+              0.9023146033287048
+            ],
+            "roll": [
+              1.4012384794703792e-05,
+              1.4012384794703792e-05
+            ],
+            "pitch": [
+              4.268633712323222e-05,
+              4.268633712323222e-05
+            ],
+            "yaw": [
+              1.5707959691670066,
+              1.5707959691670066
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_box_region": {
+          "pose_range": {
+            "x": [
+              0.050210479609668256,
+              0.08892887547612191
+            ],
+            "y": [
+              0.010858576809987426,
+              0.04932261984795332
+            ],
+            "z": [
+              0.9092097878456116,
+              0.9092097878456116
+            ],
+            "roll": [
+              -3.877335529978154e-06,
+              -3.877335529978154e-06
+            ],
+            "pitch": [
+              -1.9153762877976988e-06,
+              -1.9153762877976988e-06
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_ramekin_region": {
+          "pose_range": {
+            "x": [
+              -0.21909890219569206,
+              -0.1804030866920948
+            ],
+            "y": [
+              0.18184412524104118,
+              0.21851990342140198
+            ],
+            "z": [
+              0.8991595506668091,
+              0.8991595506668091
+            ],
+            "roll": [
+              8.881117992132204e-07,
+              8.881117992132204e-07
+            ],
+            "pitch": [
+              5.1776132750092074e-06,
+              5.1776132750092074e-06
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_cabinet_region": {
+          "pose_range": {
+            "x": [
+              0.03740024194121361,
+              0.03740024194121361
+            ],
+            "y": [
+              -0.2604276239871979,
+              -0.2604276239871979
+            ],
+            "z": [
+              0.9049999713897705,
+              0.9049999713897705
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              2.7115904185095996,
+              2.7115904185095996
+            ],
+            "joint_pos_range": {
+              "0": [
+                -0.1523311883211136,
+                -0.1523311883211136
+              ],
+              "1": [
+                0.0,
+                0.0
+              ],
+              "2": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "target": "main_table"
+        },
+        "main_table_stove_region": {
+          "pose_range": {
+            "x": [
+              -0.4107704162597656,
+              -0.4107704162597656
+            ],
+            "y": [
+              -0.13438941538333893,
+              -0.13438941538333893
+            ],
+            "z": [
+              0.9049999713897705,
+              0.9049999713897705
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              0.0,
+              0.0
+            ],
+            "joint_pos_range": {
+              "0": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "target": "main_table"
+        },
+        "main_table_cabinet_region_akita_black_bowl_1": {
+          "pose_range": {
+            "x": [
+              0.06727661676704882,
+              0.10551456190645694
+            ],
+            "y": [
+              -0.16245440185070037,
+              -0.12198372289538384
+            ],
+            "z": [
+              1.0625583279132842,
+              1.0629101741313933
+            ],
+            "roll": [
+              -7.907375234594838e-06,
+              0.016421937642013162
+            ],
+            "pitch": [
+              -0.001080586181797294,
+              0.006229347235713334
+            ],
+            "yaw": [
+              1.5352447109116962,
+              1.573251279281548
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_cabinet_region_akita_black_bowl_2": {
+          "pose_range": {
+            "x": [
+              -0.021699870359152558,
+              0.0674238146096468
+            ],
+            "y": [
+              -0.31549784302711487,
+              -0.2520745578408241
+            ],
+            "z": [
+              1.1263997554779053,
+              1.1263997554779053
+            ],
+            "roll": [
+              -1.069007637966024e-07,
+              -1.069007637966024e-07
+            ],
+            "pitch": [
+              1.2130770699059212e-07,
+              1.2130770699059212e-07
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        }
+      },
+      "workspace_name": "table",
+      "workspace_full_size": [
+        1.0,
+        1.2,
+        0.05
+      ],
+      "workspace_offset": [
+        0,
+        0,
+        0.9
+      ],
+      "robot_base_pos": [
+        -0.66,
+        0.0,
+        0.912
+      ],
+      "robot_base_ori": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tactile_targets": [
+        "akita_black_bowl_1"
+      ]
+    },
+    {
+      "task_id": 5,
+      "task_name": "pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate",
+      "language_instruction": "pick up the black bowl on the ramekin and place it on the plate",
+      "problem_name": "libero_tabletop_manipulation",
+      "bddl_file": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./bddl_files/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate.bddl",
+      "obj_of_interest": [
+        "akita_black_bowl_1"
+      ],
+      "targets": [
+        "plate_1"
+      ],
+      "goals": [
+        {
+          "relationship": "on",
+          "ref_obj": "akita_black_bowl_1",
+          "target": "plate_1",
+          "xy_threshold": 0.1,
+          "height_threshold": 0.1,
+          "height_diff": 0.0,
+          "enable_force_threshold": "True",
+          "force_threshold": 0.05
+        }
+      ],
+      "fixtures": {
+        "main_table": {
+          "type": "table",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/scenes/table.xml",
+          "scale": [
+            0.02,
+            0.02,
+            0.02
+          ],
+          "initial_pose": [
+            0.0,
+            0.0,
+            0.845
+          ]
+        }
+      },
+      "objects": {
+        "akita_black_bowl_1": {
+          "type": "akita_black_bowl",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_scanned_objects/akita_black_bowl/akita_black_bowl.xml",
+          "scale": [
+            0.7,
+            0.7,
+            0.7
+          ],
+          "initial_region": "main_table_ramekin_region_akita_black_bowl_1"
+        },
+        "akita_black_bowl_2": {
+          "type": "akita_black_bowl",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_scanned_objects/akita_black_bowl/akita_black_bowl.xml",
+          "scale": [
+            0.7,
+            0.7,
+            0.7
+          ],
+          "initial_region": "main_table_box_region_akita_black_bowl_2"
+        },
+        "cookies_1": {
+          "type": "cookies",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_hope_objects/cookies/cookies.xml",
+          "scale": [
+            0.005,
+            0.005,
+            0.005
+          ],
+          "initial_region": "main_table_box_region"
+        },
+        "glazed_rim_porcelain_ramekin_1": {
+          "type": "glazed_rim_porcelain_ramekin",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_scanned_objects/glazed_rim_porcelain_ramekin/glazed_rim_porcelain_ramekin.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "main_table_ramekin_region"
+        },
+        "plate_1": {
+          "type": "plate",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_scanned_objects/plate/plate.xml",
+          "scale": [
+            0.5,
+            0.5,
+            0.5
+          ],
+          "initial_region": "main_table_plate_region"
+        },
+        "wooden_cabinet_1": {
+          "type": "wooden_cabinet",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/articulated_objects/wooden_cabinet.xml",
+          "scale": [
+            0.05,
+            0.05,
+            0.05
+          ],
+          "initial_region": "main_table_cabinet_region",
+          "default_open_ranges": [
+            -0.16,
+            -0.14
+          ],
+          "default_close_ranges": [
+            0.0,
+            0.005
+          ]
+        },
+        "flat_stove_1": {
+          "type": "flat_stove",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/articulated_objects/flat_stove.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "main_table_stove_region",
+          "default_turnon_ranges": [
+            0.5,
+            2.1
+          ],
+          "default_turnoff_ranges": [
+            -0.005,
+            0.0
+          ],
+          "default_open_ranges": [],
+          "default_close_ranges": []
+        }
+      },
+      "regions": {
+        "main_table_plate_region": {
+          "pose_range": {
+            "x": [
+              0.04064769089221955,
+              0.07821497060358525
+            ],
+            "y": [
+              0.18063074454665184,
+              0.2193159355223179
+            ],
+            "z": [
+              0.9023146033287048,
+              0.9023146033287048
+            ],
+            "roll": [
+              1.4012384794703792e-05,
+              1.4012384794703792e-05
+            ],
+            "pitch": [
+              4.268633712323222e-05,
+              4.268633712323222e-05
+            ],
+            "yaw": [
+              1.5707959691670066,
+              1.5707959691670066
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_box_region": {
+          "pose_range": {
+            "x": [
+              0.05212940700352192,
+              0.08948866486549378
+            ],
+            "y": [
+              0.010815577115863562,
+              0.04962058670818805
+            ],
+            "z": [
+              0.9091424942016602,
+              0.9091424942016602
+            ],
+            "roll": [
+              1.939928554683945e-06,
+              1.939928554683945e-06
+            ],
+            "pitch": [
+              5.0583788855806944e-05,
+              5.0583788855806944e-05
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_ramekin_region": {
+          "pose_range": {
+            "x": [
+              -0.21909430995583534,
+              -0.1809336394071579
+            ],
+            "y": [
+              0.1827207039296627,
+              0.2195747497677803
+            ],
+            "z": [
+              0.8991970419883728,
+              0.8991970419883728
+            ],
+            "roll": [
+              0.00042897870765612467,
+              0.00042897870765612467
+            ],
+            "pitch": [
+              0.0007093616308440076,
+              0.0007093616308440076
+            ],
+            "yaw": [
+              1.5702440299821276,
+              1.5702440299821276
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_cabinet_region": {
+          "pose_range": {
+            "x": [
+              0.036652397364377975,
+              0.036652397364377975
+            ],
+            "y": [
+              -0.26443687081336975,
+              -0.26443687081336975
+            ],
+            "z": [
+              0.9049999713897705,
+              0.9049999713897705
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              2.7160422553614705,
+              2.7160422553614705
+            ],
+            "joint_pos_range": {
+              "0": [
+                0.0,
+                0.0
+              ],
+              "1": [
+                0.0,
+                0.0
+              ],
+              "2": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "target": "main_table"
+        },
+        "main_table_stove_region": {
+          "pose_range": {
+            "x": [
+              -0.4004276394844055,
+              -0.4004276394844055
+            ],
+            "y": [
+              -0.13401682674884796,
+              -0.13401682674884796
+            ],
+            "z": [
+              0.9049999713897705,
+              0.9049999713897705
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              0.0,
+              0.0
+            ],
+            "joint_pos_range": {
+              "0": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "target": "main_table"
+        },
+        "main_table_ramekin_region_akita_black_bowl_1": {
+          "pose_range": {
+            "x": [
+              -0.2303572854399681,
+              -0.19219662249088287
+            ],
+            "y": [
+              0.18062608510255812,
+              0.2174801382422447
+            ],
+            "z": [
+              0.96,
+              0.96
+            ],
+            "roll": [
+              0.33533573745795486,
+              0.33533573745795486
+            ],
+            "pitch": [
+              0.24434078793319491,
+              0.24434078793319491
+            ],
+            "yaw": [
+              1.4580333261836973,
+              1.4580333261836973
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_box_region_akita_black_bowl_2": {
+          "pose_range": {
+            "x": [
+              0.052128844484686854,
+              0.0894881022721529
+            ],
+            "y": [
+              0.01079994298517704,
+              0.049604951664805406
+            ],
+            "z": [
+              0.9169196486473083,
+              0.9169196486473083
+            ],
+            "roll": [
+              1.8498594753779685e-06,
+              1.8498594753779685e-06
+            ],
+            "pitch": [
+              5.1820214162390243e-05,
+              5.1820214162390243e-05
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        }
+      },
+      "workspace_name": "table",
+      "workspace_full_size": [
+        1.0,
+        1.2,
+        0.05
+      ],
+      "workspace_offset": [
+        0,
+        0,
+        0.9
+      ],
+      "robot_base_pos": [
+        -0.66,
+        0.0,
+        0.912
+      ],
+      "robot_base_ori": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tactile_targets": [
+        "akita_black_bowl_1"
+      ]
+    },
+    {
+      "task_id": 6,
+      "task_name": "pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate",
+      "language_instruction": "pick up the black bowl next to the cookie box and place it on the plate",
+      "problem_name": "libero_tabletop_manipulation",
+      "bddl_file": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./bddl_files/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate.bddl",
+      "obj_of_interest": [
+        "akita_black_bowl_1"
+      ],
+      "targets": [
+        "plate_1"
+      ],
+      "goals": [
+        {
+          "relationship": "on",
+          "ref_obj": "akita_black_bowl_1",
+          "target": "plate_1",
+          "xy_threshold": 0.1,
+          "height_threshold": 0.1,
+          "height_diff": 0.0,
+          "enable_force_threshold": "True",
+          "force_threshold": 0.05
+        }
+      ],
+      "fixtures": {
+        "main_table": {
+          "type": "table",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/scenes/table.xml",
+          "scale": [
+            0.02,
+            0.02,
+            0.02
+          ],
+          "initial_pose": [
+            0.0,
+            0.0,
+            0.845
+          ]
+        }
+      },
+      "objects": {
+        "akita_black_bowl_1": {
+          "type": "akita_black_bowl",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_scanned_objects/akita_black_bowl/akita_black_bowl.xml",
+          "scale": [
+            0.7,
+            0.7,
+            0.7
+          ],
+          "initial_region": "main_table_next_to_box_region"
+        },
+        "akita_black_bowl_2": {
+          "type": "akita_black_bowl",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_scanned_objects/akita_black_bowl/akita_black_bowl.xml",
+          "scale": [
+            0.7,
+            0.7,
+            0.7
+          ],
+          "initial_region": "main_table_stove_region_akita_black_bowl_2"
+        },
+        "cookies_1": {
+          "type": "cookies",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_hope_objects/cookies/cookies.xml",
+          "scale": [
+            0.005,
+            0.005,
+            0.005
+          ],
+          "initial_region": "main_table_box_region"
+        },
+        "glazed_rim_porcelain_ramekin_1": {
+          "type": "glazed_rim_porcelain_ramekin",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_scanned_objects/glazed_rim_porcelain_ramekin/glazed_rim_porcelain_ramekin.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "main_table_ramekin_region"
+        },
+        "plate_1": {
+          "type": "plate",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_scanned_objects/plate/plate.xml",
+          "scale": [
+            0.5,
+            0.5,
+            0.5
+          ],
+          "initial_region": "main_table_plate_region"
+        },
+        "wooden_cabinet_1": {
+          "type": "wooden_cabinet",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/articulated_objects/wooden_cabinet.xml",
+          "scale": [
+            0.05,
+            0.05,
+            0.05
+          ],
+          "initial_region": "main_table_cabinet_region",
+          "default_open_ranges": [
+            -0.16,
+            -0.14
+          ],
+          "default_close_ranges": [
+            0.0,
+            0.005
+          ]
+        },
+        "flat_stove_1": {
+          "type": "flat_stove",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/articulated_objects/flat_stove.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "main_table_stove_region",
+          "default_turnon_ranges": [
+            0.5,
+            2.1
+          ],
+          "default_turnoff_ranges": [
+            -0.005,
+            0.0
+          ],
+          "default_open_ranges": [],
+          "default_close_ranges": []
+        }
+      },
+      "regions": {
+        "main_table_plate_region": {
+          "pose_range": {
+            "x": [
+              0.04052167095243931,
+              0.07870608605444432
+            ],
+            "y": [
+              0.18212536498904228,
+              0.21906280383467674
+            ],
+            "z": [
+              0.9023146033287048,
+              0.9023146033287048
+            ],
+            "roll": [
+              1.4012384794703792e-05,
+              1.4012384794703792e-05
+            ],
+            "pitch": [
+              4.268633712323222e-05,
+              4.268633712323222e-05
+            ],
+            "yaw": [
+              1.5707959691670066,
+              1.5707959691670066
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_box_region": {
+          "pose_range": {
+            "x": [
+              0.05068832814693451,
+              0.08895506210625172
+            ],
+            "y": [
+              0.010241571785882114,
+              0.048840345591306684
+            ],
+            "z": [
+              0.9092097878456116,
+              0.9092097878456116
+            ],
+            "roll": [
+              -3.877335529978154e-06,
+              -3.877335529978154e-06
+            ],
+            "pitch": [
+              -1.9153762877976988e-06,
+              -1.9153762877976988e-06
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_next_to_box_region": {
+          "pose_range": {
+            "x": [
+              0.11113078832626343,
+              0.14979986041784288
+            ],
+            "y": [
+              -0.08874714955687524,
+              -0.050992999859154224
+            ],
+            "z": [
+              0.8981584906578064,
+              0.8981584906578064
+            ],
+            "roll": [
+              -1.7190612199957656e-05,
+              -1.7190612199957656e-05
+            ],
+            "pitch": [
+              1.3142958778633584e-05,
+              1.3142958778633584e-05
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_ramekin_region": {
+          "pose_range": {
+            "x": [
+              -0.21941203057765962,
+              -0.18252389580011366
+            ],
+            "y": [
+              0.1805448652803898,
+              0.2181872695684433
+            ],
+            "z": [
+              0.8991595506668091,
+              0.8991595506668091
+            ],
+            "roll": [
+              8.881117992132204e-07,
+              8.881117992132204e-07
+            ],
+            "pitch": [
+              5.1776132750092074e-06,
+              5.1776132750092074e-06
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_cabinet_region": {
+          "pose_range": {
+            "x": [
+              0.03957236558198929,
+              0.03957236558198929
+            ],
+            "y": [
+              -0.2640168368816376,
+              -0.2640168368816376
+            ],
+            "z": [
+              0.9049999713897705,
+              0.9049999713897705
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              2.690373355231385,
+              2.690373355231385
+            ],
+            "joint_pos_range": {
+              "0": [
+                0.0,
+                0.0
+              ],
+              "1": [
+                0.0,
+                0.0
+              ],
+              "2": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "target": "main_table"
+        },
+        "main_table_stove_region": {
+          "pose_range": {
+            "x": [
+              -0.4043894112110138,
+              -0.4043894112110138
+            ],
+            "y": [
+              -0.14763450622558594,
+              -0.14763450622558594
+            ],
+            "z": [
+              0.9049999713897705,
+              0.9049999713897705
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              0.0,
+              0.0
+            ],
+            "joint_pos_range": {
+              "0": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "target": "main_table"
+        },
+        "main_table_stove_region_akita_black_bowl_2": {
+          "pose_range": {
+            "x": [
+              -0.2832576531171799,
+              -0.23728871539235116
+            ],
+            "y": [
+              -0.16441861674189567,
+              -0.11622124060988427
+            ],
+            "z": [
+              0.9254584908485413,
+              0.9254584908485413
+            ],
+            "roll": [
+              0.0058783223018608055,
+              0.0058783223018608055
+            ],
+            "pitch": [
+              -0.005633621473910555,
+              -0.005633621473910555
+            ],
+            "yaw": [
+              1.5707804717080078,
+              1.5707804717080078
+            ]
+          },
+          "target": "main_table"
+        }
+      },
+      "workspace_name": "table",
+      "workspace_full_size": [
+        1.0,
+        1.2,
+        0.05
+      ],
+      "workspace_offset": [
+        0,
+        0,
+        0.9
+      ],
+      "robot_base_pos": [
+        -0.66,
+        0.0,
+        0.912
+      ],
+      "robot_base_ori": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tactile_targets": [
+        "akita_black_bowl_1"
+      ]
+    },
+    {
+      "task_id": 7,
+      "task_name": "pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate",
+      "language_instruction": "pick up the black bowl on the stove and place it on the plate",
+      "problem_name": "libero_tabletop_manipulation",
+      "bddl_file": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./bddl_files/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate.bddl",
+      "obj_of_interest": [
+        "akita_black_bowl_1"
+      ],
+      "targets": [
+        "plate_1"
+      ],
+      "goals": [
+        {
+          "relationship": "on",
+          "ref_obj": "akita_black_bowl_1",
+          "target": "plate_1",
+          "xy_threshold": 0.1,
+          "height_threshold": 0.1,
+          "height_diff": 0.0,
+          "enable_force_threshold": "True",
+          "force_threshold": 0.05
+        }
+      ],
+      "fixtures": {
+        "main_table": {
+          "type": "table",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/scenes/table.xml",
+          "scale": [
+            0.02,
+            0.02,
+            0.02
+          ],
+          "initial_pose": [
+            0.0,
+            0.0,
+            0.845
+          ]
+        }
+      },
+      "objects": {
+        "akita_black_bowl_1": {
+          "type": "akita_black_bowl",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_scanned_objects/akita_black_bowl/akita_black_bowl.xml",
+          "scale": [
+            0.7,
+            0.7,
+            0.7
+          ],
+          "initial_region": "main_table_stove_region_akita_black_bowl_1"
+        },
+        "akita_black_bowl_2": {
+          "type": "akita_black_bowl",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_scanned_objects/akita_black_bowl/akita_black_bowl.xml",
+          "scale": [
+            0.7,
+            0.7,
+            0.7
+          ],
+          "initial_region": "main_table_cabinet_region_akita_black_bowl_2"
+        },
+        "cookies_1": {
+          "type": "cookies",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_hope_objects/cookies/cookies.xml",
+          "scale": [
+            0.005,
+            0.005,
+            0.005
+          ],
+          "initial_region": "main_table_box_region"
+        },
+        "glazed_rim_porcelain_ramekin_1": {
+          "type": "glazed_rim_porcelain_ramekin",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_scanned_objects/glazed_rim_porcelain_ramekin/glazed_rim_porcelain_ramekin.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "main_table_ramekin_region"
+        },
+        "plate_1": {
+          "type": "plate",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_scanned_objects/plate/plate.xml",
+          "scale": [
+            0.5,
+            0.5,
+            0.5
+          ],
+          "initial_region": "main_table_plate_region"
+        },
+        "wooden_cabinet_1": {
+          "type": "wooden_cabinet",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/articulated_objects/wooden_cabinet.xml",
+          "scale": [
+            0.05,
+            0.05,
+            0.05
+          ],
+          "initial_region": "main_table_cabinet_region",
+          "default_open_ranges": [
+            -0.16,
+            -0.14
+          ],
+          "default_close_ranges": [
+            0.0,
+            0.005
+          ]
+        },
+        "flat_stove_1": {
+          "type": "flat_stove",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/articulated_objects/flat_stove.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "main_table_stove_region",
+          "default_turnon_ranges": [
+            0.5,
+            2.1
+          ],
+          "default_turnoff_ranges": [
+            -0.005,
+            0.0
+          ],
+          "default_open_ranges": [],
+          "default_close_ranges": []
+        }
+      },
+      "regions": {
+        "main_table_plate_region": {
+          "pose_range": {
+            "x": [
+              0.04009200695902109,
+              0.07932957820594311
+            ],
+            "y": [
+              0.18024751126766203,
+              0.21885006815195085
+            ],
+            "z": [
+              0.9023146033287048,
+              0.9023146033287048
+            ],
+            "roll": [
+              1.4012384794703792e-05,
+              1.4012384794703792e-05
+            ],
+            "pitch": [
+              4.268633712323222e-05,
+              4.268633712323222e-05
+            ],
+            "yaw": [
+              1.5707959691670066,
+              1.5707959691670066
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_box_region": {
+          "pose_range": {
+            "x": [
+              0.05155747875571251,
+              0.08850217498838901
+            ],
+            "y": [
+              0.010854924246668816,
+              0.04881623115390539
+            ],
+            "z": [
+              0.9092097878456116,
+              0.9092097878456116
+            ],
+            "roll": [
+              -3.877335529978154e-06,
+              -3.877335529978154e-06
+            ],
+            "pitch": [
+              -1.9153762877976988e-06,
+              -1.9153762877976988e-06
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_ramekin_region": {
+          "pose_range": {
+            "x": [
+              -0.2196219465136528,
+              -0.1806075818836689
+            ],
+            "y": [
+              0.1818224911391735,
+              0.21873907789587974
+            ],
+            "z": [
+              0.8991595506668091,
+              0.8991595506668091
+            ],
+            "roll": [
+              8.881117992132204e-07,
+              8.881117992132204e-07
+            ],
+            "pitch": [
+              5.1776132750092074e-06,
+              5.1776132750092074e-06
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_cabinet_region": {
+          "pose_range": {
+            "x": [
+              0.036652397364377975,
+              0.036652397364377975
+            ],
+            "y": [
+              -0.26443687081336975,
+              -0.26443687081336975
+            ],
+            "z": [
+              0.9049999713897705,
+              0.9049999713897705
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              2.7160422553614705,
+              2.7160422553614705
+            ],
+            "joint_pos_range": {
+              "0": [
+                0.0,
+                0.0
+              ],
+              "1": [
+                0.0,
+                0.0
+              ],
+              "2": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "target": "main_table"
+        },
+        "main_table_stove_region": {
+          "pose_range": {
+            "x": [
+              -0.4004276394844055,
+              -0.4004276394844055
+            ],
+            "y": [
+              -0.13401682674884796,
+              -0.13401682674884796
+            ],
+            "z": [
+              0.9049999713897705,
+              0.9049999713897705
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              0.0,
+              0.0
+            ],
+            "joint_pos_range": {
+              "0": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "target": "main_table"
+        },
+        "main_table_stove_region_akita_black_bowl_1": {
+          "pose_range": {
+            "x": [
+              -0.28472557187080383,
+              -0.2374350693821907
+            ],
+            "y": [
+              -0.16267213106155395,
+              -0.11693473063409329
+            ],
+            "z": [
+              0.9254584908485413,
+              0.9254584908485413
+            ],
+            "roll": [
+              0.0058783223018608055,
+              0.0058783223018608055
+            ],
+            "pitch": [
+              -0.005633621473910555,
+              -0.005633621473910555
+            ],
+            "yaw": [
+              1.5707804717080078,
+              1.5707804717080078
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_cabinet_region_akita_black_bowl_2": {
+          "pose_range": {
+            "x": [
+              -0.02445921340957284,
+              0.0678763623535633
+            ],
+            "y": [
+              -0.3122292664647102,
+              -0.25094794005155563
+            ],
+            "z": [
+              1.1263997554779053,
+              1.1263997554779053
+            ],
+            "roll": [
+              -1.069007637966024e-07,
+              -1.069007637966024e-07
+            ],
+            "pitch": [
+              1.2130770699059212e-07,
+              1.2130770699059212e-07
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        }
+      },
+      "workspace_name": "table",
+      "workspace_full_size": [
+        1.0,
+        1.2,
+        0.05
+      ],
+      "workspace_offset": [
+        0,
+        0,
+        0.9
+      ],
+      "robot_base_pos": [
+        -0.66,
+        0.0,
+        0.912
+      ],
+      "robot_base_ori": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tactile_targets": [
+        "akita_black_bowl_1"
+      ]
+    },
+    {
+      "task_id": 8,
+      "task_name": "pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate",
+      "language_instruction": "pick up the black bowl next to the plate and place it on the plate",
+      "problem_name": "libero_tabletop_manipulation",
+      "bddl_file": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./bddl_files/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate.bddl",
+      "obj_of_interest": [
+        "akita_black_bowl_1"
+      ],
+      "targets": [
+        "plate_1"
+      ],
+      "goals": [
+        {
+          "relationship": "on",
+          "ref_obj": "akita_black_bowl_1",
+          "target": "plate_1",
+          "xy_threshold": 0.1,
+          "height_threshold": 0.1,
+          "height_diff": 0.0,
+          "enable_force_threshold": "True",
+          "force_threshold": 0.05
+        }
+      ],
+      "fixtures": {
+        "main_table": {
+          "type": "table",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/scenes/table.xml",
+          "scale": [
+            0.02,
+            0.02,
+            0.02
+          ],
+          "initial_pose": [
+            0.0,
+            0.0,
+            0.845
+          ]
+        }
+      },
+      "objects": {
+        "akita_black_bowl_1": {
+          "type": "akita_black_bowl",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_scanned_objects/akita_black_bowl/akita_black_bowl.xml",
+          "scale": [
+            0.7,
+            0.7,
+            0.7
+          ],
+          "initial_region": "main_table_next_to_plate_region"
+        },
+        "akita_black_bowl_2": {
+          "type": "akita_black_bowl",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_scanned_objects/akita_black_bowl/akita_black_bowl.xml",
+          "scale": [
+            0.7,
+            0.7,
+            0.7
+          ],
+          "initial_region": "main_table_next_to_ramekin_region"
+        },
+        "cookies_1": {
+          "type": "cookies",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_hope_objects/cookies/cookies.xml",
+          "scale": [
+            0.005,
+            0.005,
+            0.005
+          ],
+          "initial_region": "main_table_box_region"
+        },
+        "glazed_rim_porcelain_ramekin_1": {
+          "type": "glazed_rim_porcelain_ramekin",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_scanned_objects/glazed_rim_porcelain_ramekin/glazed_rim_porcelain_ramekin.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "main_table_ramekin_region"
+        },
+        "plate_1": {
+          "type": "plate",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_scanned_objects/plate/plate.xml",
+          "scale": [
+            0.5,
+            0.5,
+            0.5
+          ],
+          "initial_region": "main_table_plate_region"
+        },
+        "wooden_cabinet_1": {
+          "type": "wooden_cabinet",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/articulated_objects/wooden_cabinet.xml",
+          "scale": [
+            0.05,
+            0.05,
+            0.05
+          ],
+          "initial_region": "main_table_cabinet_region",
+          "default_open_ranges": [
+            -0.16,
+            -0.14
+          ],
+          "default_close_ranges": [
+            0.0,
+            0.005
+          ]
+        },
+        "flat_stove_1": {
+          "type": "flat_stove",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/articulated_objects/flat_stove.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "main_table_stove_region",
+          "default_turnon_ranges": [
+            0.5,
+            2.1
+          ],
+          "default_turnoff_ranges": [
+            -0.005,
+            0.0
+          ],
+          "default_open_ranges": [],
+          "default_close_ranges": []
+        }
+      },
+      "regions": {
+        "main_table_plate_region": {
+          "pose_range": {
+            "x": [
+              0.04185613203793764,
+              0.09881955198943612
+            ],
+            "y": [
+              0.16944524362683297,
+              0.21918076872825623
+            ],
+            "z": [
+              0.9022675412893295,
+              0.9024574899673462
+            ],
+            "roll": [
+              -0.0003426313857346486,
+              0.0009657963727542906
+            ],
+            "pitch": [
+              -0.005111196462843193,
+              0.0005861594342033705
+            ],
+            "yaw": [
+              1.270248802710535,
+              1.6671461561664218
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_next_to_plate_region": {
+          "pose_range": {
+            "x": [
+              -0.028144768197089436,
+              0.028425368741154672
+            ],
+            "y": [
+              0.2915905499458313,
+              0.3391371327638626
+            ],
+            "z": [
+              0.8981584906578064,
+              0.9005871713161469
+            ],
+            "roll": [
+              -0.010374815505171053,
+              0.0016355630587545633
+            ],
+            "pitch": [
+              -4.7333722240416876e-05,
+              0.10466042426849098
+            ],
+            "yaw": [
+              1.2289657879864029,
+              1.645154699189609
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_box_region": {
+          "pose_range": {
+            "x": [
+              0.05010769490152598,
+              0.08970420062541962
+            ],
+            "y": [
+              0.012044837512075902,
+              0.04958995223045349
+            ],
+            "z": [
+              0.9092097878456116,
+              0.9092097878456116
+            ],
+            "roll": [
+              -3.877335529978154e-06,
+              -3.877335529978154e-06
+            ],
+            "pitch": [
+              -1.9153762877976988e-06,
+              -1.9153762877976988e-06
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_ramekin_region": {
+          "pose_range": {
+            "x": [
+              -0.21967427641153336,
+              -0.18099546164274216
+            ],
+            "y": [
+              0.1828589390218258,
+              0.21817752003669738
+            ],
+            "z": [
+              0.8991595506668091,
+              0.8991595506668091
+            ],
+            "roll": [
+              8.881117992132204e-07,
+              8.881117992132204e-07
+            ],
+            "pitch": [
+              5.1776132750092074e-06,
+              5.1776132750092074e-06
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_next_to_ramekin_region": {
+          "pose_range": {
+            "x": [
+              -0.1993808127939701,
+              -0.16064046636223792
+            ],
+            "y": [
+              0.30236982136964796,
+              0.33928719371557237
+            ],
+            "z": [
+              0.8981584906578064,
+              0.8981584906578064
+            ],
+            "roll": [
+              -1.7190612199957656e-05,
+              -1.7190612199957656e-05
+            ],
+            "pitch": [
+              1.3142958778633584e-05,
+              1.3142958778633584e-05
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_cabinet_region": {
+          "pose_range": {
+            "x": [
+              0.03561058267951012,
+              0.03561058267951012
+            ],
+            "y": [
+              -0.27763450145721436,
+              -0.27763450145721436
+            ],
+            "z": [
+              0.9049999713897705,
+              0.9049999713897705
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              2.701585232640131,
+              2.701585232640131
+            ],
+            "joint_pos_range": {
+              "0": [
+                0.0,
+                0.0
+              ],
+              "1": [
+                0.0,
+                0.0
+              ],
+              "2": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "target": "main_table"
+        },
+        "main_table_stove_region": {
+          "pose_range": {
+            "x": [
+              -0.4171329438686371,
+              -0.4171329438686371
+            ],
+            "y": [
+              -0.13110661506652832,
+              -0.13110661506652832
+            ],
+            "z": [
+              0.9049999713897705,
+              0.9049999713897705
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              0.0,
+              0.0
+            ],
+            "joint_pos_range": {
+              "0": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "target": "main_table"
+        }
+      },
+      "workspace_name": "table",
+      "workspace_full_size": [
+        1.0,
+        1.2,
+        0.05
+      ],
+      "workspace_offset": [
+        0,
+        0,
+        0.9
+      ],
+      "robot_base_pos": [
+        -0.66,
+        0.0,
+        0.912
+      ],
+      "robot_base_ori": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tactile_targets": [
+        "akita_black_bowl_1"
+      ]
+    },
+    {
+      "task_id": 9,
+      "task_name": "pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate",
+      "language_instruction": "pick up the black bowl on the wooden cabinet and place it on the plate",
+      "problem_name": "libero_tabletop_manipulation",
+      "bddl_file": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./bddl_files/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate.bddl",
+      "obj_of_interest": [
+        "akita_black_bowl_1"
+      ],
+      "targets": [
+        "plate_1"
+      ],
+      "goals": [
+        {
+          "relationship": "on",
+          "ref_obj": "akita_black_bowl_1",
+          "target": "plate_1",
+          "xy_threshold": 0.1,
+          "height_threshold": 0.1,
+          "height_diff": 0.0,
+          "enable_force_threshold": "True",
+          "force_threshold": 0.05
+        }
+      ],
+      "fixtures": {
+        "main_table": {
+          "type": "table",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/scenes/table.xml",
+          "scale": [
+            0.02,
+            0.02,
+            0.02
+          ],
+          "initial_pose": [
+            0.0,
+            0.0,
+            0.845
+          ]
+        }
+      },
+      "objects": {
+        "akita_black_bowl_1": {
+          "type": "akita_black_bowl",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_scanned_objects/akita_black_bowl/akita_black_bowl.xml",
+          "scale": [
+            0.7,
+            0.7,
+            0.7
+          ],
+          "initial_region": "main_table_cabinet_region_akita_black_bowl_1"
+        },
+        "akita_black_bowl_2": {
+          "type": "akita_black_bowl",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_scanned_objects/akita_black_bowl/akita_black_bowl.xml",
+          "scale": [
+            0.7,
+            0.7,
+            0.7
+          ],
+          "initial_region": "main_table_stove_region_akita_black_bowl_2"
+        },
+        "cookies_1": {
+          "type": "cookies",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_hope_objects/cookies/cookies.xml",
+          "scale": [
+            0.005,
+            0.005,
+            0.005
+          ],
+          "initial_region": "main_table_box_region"
+        },
+        "glazed_rim_porcelain_ramekin_1": {
+          "type": "glazed_rim_porcelain_ramekin",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_scanned_objects/glazed_rim_porcelain_ramekin/glazed_rim_porcelain_ramekin.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "main_table_ramekin_region"
+        },
+        "plate_1": {
+          "type": "plate",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/stable_scanned_objects/plate/plate.xml",
+          "scale": [
+            0.5,
+            0.5,
+            0.5
+          ],
+          "initial_region": "main_table_plate_region"
+        },
+        "wooden_cabinet_1": {
+          "type": "wooden_cabinet",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/articulated_objects/wooden_cabinet.xml",
+          "scale": [
+            0.05,
+            0.05,
+            0.05
+          ],
+          "initial_region": "main_table_cabinet_region",
+          "default_open_ranges": [
+            -0.16,
+            -0.14
+          ],
+          "default_close_ranges": [
+            0.0,
+            0.005
+          ]
+        },
+        "flat_stove_1": {
+          "type": "flat_stove",
+          "xml_path": "/data/Projects/Robotics/Others/LIBERO/libero/libero/./assets/articulated_objects/flat_stove.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "main_table_stove_region",
+          "default_turnon_ranges": [
+            0.5,
+            2.1
+          ],
+          "default_turnoff_ranges": [
+            -0.005,
+            0.0
+          ],
+          "default_open_ranges": [],
+          "default_close_ranges": []
+        }
+      },
+      "regions": {
+        "main_table_plate_region": {
+          "pose_range": {
+            "x": [
+              0.040761374011635786,
+              0.07977263681590557
+            ],
+            "y": [
+              0.1805147114396095,
+              0.2185830555856228
+            ],
+            "z": [
+              0.9023146033287048,
+              0.9023146033287048
+            ],
+            "roll": [
+              1.4012384794703792e-05,
+              1.4012384794703792e-05
+            ],
+            "pitch": [
+              4.268633712323222e-05,
+              4.268633712323222e-05
+            ],
+            "yaw": [
+              1.5707959691670066,
+              1.5707959691670066
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_box_region": {
+          "pose_range": {
+            "x": [
+              0.05046959109604359,
+              0.08915937140583992
+            ],
+            "y": [
+              0.011385860033333299,
+              0.04890153158456087
+            ],
+            "z": [
+              0.9092097878456116,
+              0.9092097878456116
+            ],
+            "roll": [
+              -3.877335529978154e-06,
+              -3.877335529978154e-06
+            ],
+            "pitch": [
+              -1.9153762877976988e-06,
+              -1.9153762877976988e-06
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_ramekin_region": {
+          "pose_range": {
+            "x": [
+              -0.2180740125477314,
+              -0.18025241404771805
+            ],
+            "y": [
+              0.18091997638344764,
+              0.2174653558433056
+            ],
+            "z": [
+              0.8991595506668091,
+              0.8991595506668091
+            ],
+            "roll": [
+              8.881117992132204e-07,
+              8.881117992132204e-07
+            ],
+            "pitch": [
+              5.1776132750092074e-06,
+              5.1776132750092074e-06
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_cabinet_region": {
+          "pose_range": {
+            "x": [
+              0.036652397364377975,
+              0.036652397364377975
+            ],
+            "y": [
+              -0.26443687081336975,
+              -0.26443687081336975
+            ],
+            "z": [
+              0.9049999713897705,
+              0.9049999713897705
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              2.7160422553614705,
+              2.7160422553614705
+            ],
+            "joint_pos_range": {
+              "0": [
+                0.0,
+                0.0
+              ],
+              "1": [
+                0.0,
+                0.0
+              ],
+              "2": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "target": "main_table"
+        },
+        "main_table_stove_region": {
+          "pose_range": {
+            "x": [
+              -0.4004276394844055,
+              -0.4004276394844055
+            ],
+            "y": [
+              -0.13401682674884796,
+              -0.13401682674884796
+            ],
+            "z": [
+              0.9049999713897705,
+              0.9049999713897705
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              0.0,
+              0.0
+            ],
+            "joint_pos_range": {
+              "0": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "target": "main_table"
+        },
+        "main_table_cabinet_region_akita_black_bowl_1": {
+          "pose_range": {
+            "x": [
+              -0.020990033224225046,
+              0.061126982048153866
+            ],
+            "y": [
+              -0.3134138497710228,
+              -0.25155839562416077
+            ],
+            "z": [
+              1.1263997554779053,
+              1.1263997554779053
+            ],
+            "roll": [
+              -1.069007637966024e-07,
+              -1.069007637966024e-07
+            ],
+            "pitch": [
+              1.2130770699059212e-07,
+              1.2130770699059212e-07
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_stove_region_akita_black_bowl_2": {
+          "pose_range": {
+            "x": [
+              -0.2816862824559212,
+              -0.23603198304772377
+            ],
+            "y": [
+              -0.16628032818436622,
+              -0.1213693767786026
+            ],
+            "z": [
+              0.9254584908485413,
+              0.9254584908485413
+            ],
+            "roll": [
+              0.0058783223018608055,
+              0.0058783223018608055
+            ],
+            "pitch": [
+              -0.005633621473910555,
+              -0.005633621473910555
+            ],
+            "yaw": [
+              1.5707804717080078,
+              1.5707804717080078
+            ]
+          },
+          "target": "main_table"
+        }
+      },
+      "workspace_name": "table",
+      "workspace_full_size": [
+        1.0,
+        1.2,
+        0.05
+      ],
+      "workspace_offset": [
+        0,
+        0,
+        0.9
+      ],
+      "robot_base_pos": [
+        -0.66,
+        0.0,
+        0.912
+      ],
+      "robot_base_ori": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tactile_targets": [
+        "akita_black_bowl_1"
+      ]
+    }
+  ]
+}

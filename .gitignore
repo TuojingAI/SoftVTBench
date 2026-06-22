@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+
+# Local configuration
+.env
+*.local
+
+# Runtime outputs
+logs/
+log/
+runs/
+outputs/
+wandb/
+evaluation_results/
+*.log
+*.pid
+*.csv
+
+# Data and caches
+.cache/
+data/
+data_tabero/
+datasets/
+*.hdf5
+*.h5
+*.mp4
+*.avi
+*.mov
+*.parquet
+
+# Checkpoints and model weights
+assets/
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+*.msgpack
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
+
