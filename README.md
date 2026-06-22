@@ -1,4 +1,4 @@
-# Tabero OpenPI Training and Evaluation
+# SoftTacWorld
 
 This repository is a clean, Tabero-focused staging repo extracted from an internal OpenPI fork. It keeps the code needed to:
 
