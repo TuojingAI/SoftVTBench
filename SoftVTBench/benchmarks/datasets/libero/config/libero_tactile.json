@@ -1,0 +1,1521 @@
+{
+  "task_suite_name": "libero_tactile",
+  "total_tasks": 7,
+  "tasks": [
+    {
+      "task_id": 1,
+      "task_name": "open_the_top_drawer_of_the_cabinet",
+      "language_instruction": "open the top drawer of the cabinet",
+      "problem_name": "libero_tabletop_manipulation",
+      "bddl_file": "",
+      "obj_of_interest": [],
+      "targets": [],
+      "goals": [
+        {
+          "operation": "open",
+          "target": "wooden_cabinet_1",
+          "layer": "top"
+        }
+      ],
+      "fixtures": {
+        "main_table": {
+          "type": "table",
+          "xml_path": "assets/scenes/table.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_pose": [
+            0,
+            0,
+            0.9
+          ]
+        }
+      },
+      "objects": {
+        "akita_black_bowl_1": {
+          "type": "akita_black_bowl",
+          "xml_path": "assets/stable_scanned_objects/akita_black_bowl/akita_black_bowl.xml",
+          "scale": [
+            0.7,
+            0.7,
+            0.7
+          ],
+          "initial_region": "main_table_akita_black_bowl_region"
+        },
+        "cream_cheese_1": {
+          "type": "cream_cheese",
+          "xml_path": "assets/stable_hope_objects/cream_cheese/cream_cheese.xml",
+          "scale": [
+            0.008,
+            0.008,
+            0.008
+          ],
+          "initial_region": "main_table_cream_cheese_region"
+        },
+        "wine_bottle_1": {
+          "type": "wine_bottle",
+          "xml_path": "assets/turbosquid_objects/wine_bottle/wine_bottle.xml",
+          "scale": [
+            0.505,
+            0.505,
+            0.505
+          ],
+          "initial_region": "main_table_wine_bottle_region"
+        },
+        "plate_1": {
+          "type": "plate",
+          "xml_path": "assets/stable_scanned_objects/plate/plate.xml",
+          "scale": [
+            0.5,
+            0.5,
+            0.5
+          ],
+          "initial_region": "main_table_plate_region"
+        },
+        "wooden_cabinet_1": {
+          "type": "wooden_cabinet",
+          "xml_path": "assets/articulated_objects/wooden_cabinet.xml",
+          "scale": [
+            0.05,
+            0.05,
+            0.05
+          ],
+          "initial_region": "main_table_cabinet_region",
+          "default_open_ranges": [
+            -0.16,
+            -0.14
+          ],
+          "default_close_ranges": [
+            0.0,
+            0.005
+          ]
+        },
+        "flat_stove_1": {
+          "type": "flat_stove",
+          "xml_path": "assets/articulated_objects/flat_stove.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "main_table_stove_region",
+          "default_turnon_ranges": [
+            0.5,
+            2.1
+          ],
+          "default_turnoff_ranges": [
+            -0.005,
+            0.0
+          ],
+          "default_open_ranges": [],
+          "default_close_ranges": []
+        },
+        "wine_rack_1": {
+          "type": "wine_rack",
+          "xml_path": "assets/turbosquid_objects/wine_rack/wine_rack.xml",
+          "scale": [
+            0.0045,
+            0.0045,
+            0.0045
+          ],
+          "initial_region": "main_table_wine_rack_region"
+        }
+      },
+      "regions": {
+        "main_table_plate_region": {
+          "pose_range": {
+            "x": [
+              0.030470285601913925,
+              0.06953156024217606
+            ],
+            "y": [
+              -0.0389100070297718,
+              -0.0003812557784840477
+            ],
+            "z": [
+              0.9023146033287048,
+              0.9023160928487778
+            ],
+            "roll": [
+              -3.1963164826454005e-05,
+              1.4012384794703792e-05
+            ],
+            "pitch": [
+              4.268633712323222e-05,
+              5.800433384406389e-05
+            ],
+            "yaw": [
+              1.5707954523947052,
+              1.5707959691670066
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_akita_black_bowl_region": {
+          "pose_range": {
+            "x": [
+              -0.10956555671989918,
+              -0.07062832497060298
+            ],
+            "y": [
+              -0.019693360943347216,
+              0.019467335464432835
+            ],
+            "z": [
+              0.8981584906578064,
+              0.8981649047136306
+            ],
+            "roll": [
+              -0.00031171284191566784,
+              -1.7190612199957656e-05
+            ],
+            "pitch": [
+              1.1561106257662601e-05,
+              1.3142958778633584e-05
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5708190355698477
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_wine_bottle_region": {
+          "pose_range": {
+            "x": [
+              -0.21817282885313036,
+              -0.18104718670248984
+            ],
+            "y": [
+              -0.06936733320355416,
+              -0.030074378475546833
+            ],
+            "z": [
+              0.8986907005310059,
+              0.8986907005310059
+            ],
+            "roll": [
+              7.540188388244218e-05,
+              7.540188388244218e-05
+            ],
+            "pitch": [
+              1.2408180737555341e-05,
+              1.2408180737555341e-05
+            ],
+            "yaw": [
+              -3.1415926391326936,
+              -3.1415926391326936
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_cream_cheese_region": {
+          "pose_range": {
+            "x": [
+              -0.0742316596210003,
+              -0.025536612309515476
+            ],
+            "y": [
+              0.10560977213084698,
+              0.15426208883523942
+            ],
+            "z": [
+              0.9088808298110962,
+              0.9088808298110962
+            ],
+            "roll": [
+              -4.208448899589712e-06,
+              -4.208448899589712e-06
+            ],
+            "pitch": [
+              1.2526010095825768e-06,
+              1.2526010095825768e-06
+            ],
+            "yaw": [
+              -3.1415926523207895,
+              -3.1415926523207895
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_cabinet_region": {
+          "pose_range": {
+            "x": [
+              0.03457236558198929,
+              0.044572365581989286
+            ],
+            "y": [
+              -0.23901683568954468,
+              -0.22901683568954467
+            ],
+            "z": [
+              0.9049999713897705,
+              0.9049999713897705
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              -3.141592653589793,
+              -3.141592653589793
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_stove_region": {
+          "pose_range": {
+            "x": [
+              -0.4093894112110138,
+              -0.3993894112110138
+            ],
+            "y": [
+              0.19736548781394958,
+              0.2073654878139496
+            ],
+            "z": [
+              0.9049999713897705,
+              0.9049999713897705
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              0.0,
+              0.0
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_wine_rack_region": {
+          "pose_range": {
+            "x": [
+              -0.2721329379081726,
+              -0.2621329379081726
+            ],
+            "y": [
+              -0.2561066198348999,
+              -0.2461066198348999
+            ],
+            "z": [
+              0.9200000166893005,
+              0.9200000166893005
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              -3.141592653589793,
+              -3.141592653589793
+            ]
+          },
+          "target": "main_table"
+        }
+      },
+      "workspace_name": "table",
+      "workspace_full_size": [
+        1.0,
+        1.2,
+        0.05
+      ],
+      "workspace_offset": [
+        0,
+        0,
+        0.9
+      ],
+      "robot_base_pos": [
+        -0.66,
+        0.0,
+        0.912
+      ],
+      "robot_base_ori": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tactile_targets": [
+        "wooden_cabinet_1/wooden_cabinet_base_col/wooden_cabinet_top_handle"
+      ]
+    },
+    {
+      "task_id": 2,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it",
+      "language_instruction": "turn on the stove and put the moka pot on it",
+      "problem_name": "libero_kitchen_tabletop_manipulation",
+      "bddl_file": "bddl_files/libero_10/KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it.bddl",
+      "obj_of_interest": [
+        "moka_pot_1"
+      ],
+      "targets": [
+        "flat_stove_1"
+      ],
+      "goals": [
+        {
+          "operation": "turnon",
+          "target": "flat_stove_1"
+        },
+        {
+          "relationship": "on",
+          "ref_obj": "moka_pot_1",
+          "target": "flat_stove_1",
+          "xy_threshold": 0.2,
+          "height_threshold": 0.1,
+          "height_diff": 0.0,
+          "enable_force_threshold": "False"
+        }
+      ],
+      "fixtures": {
+        "kitchen_table": {
+          "type": "kitchen_table",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_pose": [
+            0.0,
+            0,
+            0.9
+          ]
+        }
+      },
+      "objects": {
+        "chefmate_8_frypan_1": {
+          "type": "chefmate_8_frypan",
+          "xml_path": "assets/stable_scanned_objects/chefmate_8_frypan/chefmate_8_frypan.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "kitchen_table_frypan_init_region"
+        },
+        "moka_pot_1": {
+          "type": "moka_pot",
+          "xml_path": "assets/turbosquid_objects/moka_pot/moka_pot.xml",
+          "scale": [
+            0.025,
+            0.025,
+            0.025
+          ],
+          "initial_region": "kitchen_table_moka_pot_init_region"
+        },
+        "flat_stove_1": {
+          "type": "flat_stove",
+          "xml_path": "assets/articulated_objects/flat_stove.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "kitchen_table_flat_stove_init_region",
+          "default_turnon_ranges": [
+            0.5,
+            2.1
+          ],
+          "default_turnoff_ranges": [
+            -0.005,
+            0.0
+          ],
+          "default_open_ranges": [],
+          "default_close_ranges": []
+        }
+      },
+      "regions": {
+        "kitchen_table_flat_stove_init_region": {
+          "pose_range": {
+            "x": [
+              -0.19572674214839936,
+              -0.18572674214839935
+            ],
+            "y": [
+              0.19266883552074432,
+              0.20266883552074433
+            ],
+            "z": [
+              0.9049999713897705,
+              0.9049999713897705
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              0.0,
+              0.0
+            ]
+          },
+          "target": "kitchen_table"
+        },
+        "kitchen_table_frypan_init_region": {
+          "pose_range": {
+            "x": [
+              -0.07888167381286622,
+              -0.023557306528091432
+            ],
+            "y": [
+              -0.2797312781214714,
+              -0.22091454938054084
+            ],
+            "z": [
+              0.8989956974983215,
+              0.8989956974983215
+            ],
+            "roll": [
+              9.145515060815512e-07,
+              9.145515060815512e-07
+            ],
+            "pitch": [
+              0.00017283266147050114,
+              0.00017283266147050114
+            ],
+            "yaw": [
+              1.570796446004186,
+              1.570796446004186
+            ]
+          },
+          "target": "kitchen_table"
+        },
+        "kitchen_table_moka_pot_init_region": {
+          "pose_range": {
+            "x": [
+              0.020797102339565752,
+              0.07844785682857036
+            ],
+            "y": [
+              -0.02891817471012473,
+              0.02725813185796141
+            ],
+            "z": [
+              0.96,
+              0.96
+            ],
+            "roll": [
+              -1.7028511138938995e-05,
+              -1.7028511138938995e-05
+            ],
+            "pitch": [
+              -4.913993052468868e-07,
+              -4.913993052468868e-07
+            ],
+            "yaw": [
+              -3.14159265316958,
+              -3.14159265316958
+            ]
+          },
+          "target": "kitchen_table"
+        }
+      },
+      "workspace_name": "kitchen_table",
+      "workspace_full_size": [
+        1.0,
+        1.2,
+        0.05
+      ],
+      "workspace_offset": [
+        0.0,
+        0,
+        0.9
+      ],
+      "robot_base_pos": [
+        -0.66,
+        0.0,
+        0.912
+      ],
+      "robot_base_ori": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tactile_targets": [
+        "flat_stove_1/flat_stove/knob/knob",
+        "moka_pot_1"
+      ]
+    },
+    {
+      "task_id": 3,
+      "task_name": "open_the_top_drawer_and_put_the_cream_cheese_inside",
+      "language_instruction": "open the top drawer and put the cream cheese inside",
+      "problem_name": "libero_tabletop_manipulation",
+      "bddl_file": "",
+      "obj_of_interest": [
+        "cream_cheese_1"
+      ],
+      "targets": [
+        "wooden_cabinet_1"
+      ],
+      "goals": [
+        {
+          "relationship": "in",
+          "ref_obj": "cream_cheese_1",
+          "target": "wooden_cabinet_1",
+          "xy_threshold": 0.25,
+          "height_threshold": 0.05,
+          "height_diff": 0.23,
+          "enable_force_threshold": "False",
+          "force_threshold": 0.05
+        },
+        {
+          "operation": "open",
+          "target": "wooden_cabinet_1",
+          "layer": "top"
+        }
+      ],
+      "fixtures": {
+        "main_table": {
+          "type": "table",
+          "xml_path": "assets/scenes/table.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_pose": [
+            0,
+            0,
+            0.9
+          ]
+        }
+      },
+      "objects": {
+        "akita_black_bowl_1": {
+          "type": "akita_black_bowl",
+          "xml_path": "assets/stable_scanned_objects/akita_black_bowl/akita_black_bowl.xml",
+          "scale": [
+            0.7,
+            0.7,
+            0.7
+          ],
+          "initial_region": "main_table_akita_black_bowl_region"
+        },
+        "cream_cheese_1": {
+          "type": "cream_cheese",
+          "xml_path": "assets/stable_hope_objects/cream_cheese/cream_cheese.xml",
+          "scale": [
+            0.008,
+            0.008,
+            0.008
+          ],
+          "initial_region": "main_table_cream_cheese_region"
+        },
+        "wine_bottle_1": {
+          "type": "wine_bottle",
+          "xml_path": "assets/turbosquid_objects/wine_bottle/wine_bottle.xml",
+          "scale": [
+            0.505,
+            0.505,
+            0.505
+          ],
+          "initial_region": "main_table_wine_bottle_region"
+        },
+        "plate_1": {
+          "type": "plate",
+          "xml_path": "assets/stable_scanned_objects/plate/plate.xml",
+          "scale": [
+            0.5,
+            0.5,
+            0.5
+          ],
+          "initial_region": "main_table_plate_region"
+        },
+        "wooden_cabinet_1": {
+          "type": "wooden_cabinet",
+          "xml_path": "assets/articulated_objects/wooden_cabinet.xml",
+          "scale": [
+            0.05,
+            0.05,
+            0.05
+          ],
+          "initial_region": "main_table_cabinet_region",
+          "default_open_ranges": [
+            -0.16,
+            -0.14
+          ],
+          "default_close_ranges": [
+            0.0,
+            0.005
+          ]
+        },
+        "flat_stove_1": {
+          "type": "flat_stove",
+          "xml_path": "assets/articulated_objects/flat_stove.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "main_table_stove_region",
+          "default_turnon_ranges": [
+            0.5,
+            2.1
+          ],
+          "default_turnoff_ranges": [
+            -0.005,
+            0.0
+          ],
+          "default_open_ranges": [],
+          "default_close_ranges": []
+        },
+        "wine_rack_1": {
+          "type": "wine_rack",
+          "xml_path": "assets/turbosquid_objects/wine_rack/wine_rack.xml",
+          "scale": [
+            0.0045,
+            0.0045,
+            0.0045
+          ],
+          "initial_region": "main_table_wine_rack_region"
+        }
+      },
+      "regions": {
+        "main_table_plate_region": {
+          "pose_range": {
+            "x": [
+              0.0,
+              0.08
+            ],
+            "y": [
+              -0.05,
+              -0.05
+            ],
+            "z": [
+              0.9023146033287048,
+              0.9023146033287048
+            ],
+            "roll": [
+              1.4012384794703792e-05,
+              1.4012384794703792e-05
+            ],
+            "pitch": [
+              4.268633712323222e-05,
+              4.268633712323222e-05
+            ],
+            "yaw": [
+              1.5707959691670066,
+              1.5707959691670066
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_akita_black_bowl_region": {
+          "pose_range": {
+            "x": [
+              -0.25,
+              -0.17
+            ],
+            "y": [
+              -0.018858407316729428,
+              0.019387096343562005
+            ],
+            "z": [
+              0.8981584906578064,
+              0.8981584906578064
+            ],
+            "roll": [
+              -1.7190612199957656e-05,
+              -1.7190612199957656e-05
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              -1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_wine_bottle_region": {
+          "pose_range": {
+            "x": [
+              -0.35,
+              -0.28
+            ],
+            "y": [
+              -0.1,
+              0.0
+            ],
+            "z": [
+              0.8986907005310059,
+              0.8986907005310059
+            ],
+            "roll": [
+              7.540188388244218e-05,
+              7.540188388244218e-05
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              -3.1415926391326936,
+              -3.1415926391326936
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_cream_cheese_region": {
+          "pose_range": {
+            "x": [
+              -0.10,
+              0.10
+            ],
+            "y": [
+              0.085,
+              0.2
+            ],
+            "z": [
+              0.9088808298110962,
+              0.9088808298110962
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              -3.1415926523207895,
+              -3.1415926523207895
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_cabinet_region": {
+          "pose_range": {
+            "x": [
+              0.03457236558198929,
+              0.044572365581989286
+            ],
+            "y": [
+              -0.23901683568954468,
+              -0.22901683568954467
+            ],
+            "z": [
+              0.9049999713897705,
+              0.9049999713897705
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              -3.141592653589793,
+              -3.141592653589793
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_stove_region": {
+          "pose_range": {
+            "x": [
+              -0.42,
+              -0.35
+            ],
+            "y": [
+              0.17,
+              0.25
+            ],
+            "z": [
+              0.9049999713897705,
+              0.9049999713897705
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              0.0,
+              0.0
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_wine_rack_region": {
+          "pose_range": {
+            "x": [
+              -0.28,
+              -0.25
+            ],
+            "y": [
+              -0.26,
+              -0.2
+            ],
+            "z": [
+              0.9200000166893005,
+              0.9200000166893005
+            ],
+            "roll": [
+              -0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              -3.141592653589793,
+              -3.141592653589793
+            ]
+          },
+          "target": "main_table"
+        }
+      },
+      "workspace_name": "table",
+      "workspace_full_size": [
+        1.0,
+        1.2,
+        0.05
+      ],
+      "workspace_offset": [
+        0,
+        0,
+        0.9
+      ],
+      "robot_base_pos": [
+        -0.66,
+        0.0,
+        0.912
+      ],
+      "robot_base_ori": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tactile_targets": [
+        "wooden_cabinet_1/wooden_cabinet_base_col/wooden_cabinet_top_handle",
+        "cream_cheese_1"
+      ]
+    },
+    {
+      "task_id": 4,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy",
+      "language_instruction": "pick up the book and place it in the back compartment of the caddy",
+      "problem_name": "libero_study_tabletop_manipulation",
+      "bddl_file": "bddl_files/libero_10/STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy.bddl",
+      "obj_of_interest": [
+        "black_book_1"
+      ],
+      "targets": [
+        "desk_caddy_1"
+      ],
+      "goals": [
+        {
+          "relationship": "in",
+          "ref_obj": "black_book_1",
+          "target": "desk_caddy_1",
+          "xy_threshold": 0.08,
+          "height_threshold": 0.12,
+          "height_diff": 0.0,
+          "enable_force_threshold": "False"
+        }
+      ],
+      "fixtures": {
+        "study_table": {
+          "type": "study_table",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_pose": [
+            -0.2,
+            0,
+            0.867
+          ]
+        }
+      },
+      "objects": {
+        "black_book_1": {
+          "type": "black_book",
+          "xml_path": "assets/turbosquid_objects/black_book/black_book.xml",
+          "scale": [
+            0.4,
+            0.4,
+            0.4
+          ],
+          "initial_region": "study_table_black_book_init_region"
+        },
+        "white_yellow_mug_1": {
+          "type": "white_yellow_mug",
+          "xml_path": "assets/turbosquid_objects/white_yellow_mug/white_yellow_mug.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "study_table_white_yellow_mug_init_region"
+        },
+        "desk_caddy_1": {
+          "type": "desk_caddy",
+          "xml_path": "assets/turbosquid_objects/desk_caddy/desk_caddy.xml",
+          "scale": [
+            1.5,
+            1.5,
+            1.5
+          ],
+          "initial_region": "study_table_desk_caddy_init_region"
+        }
+      },
+      "regions": {
+        "study_table_desk_caddy_init_region": {
+          "pose_range": {
+            "x": [
+              -0.3957267451286316,
+              -0.3857267451286316
+            ],
+            "y": [
+              -0.14733116805553437,
+              -0.13733116805553436
+            ],
+            "z": [
+              0.8870000243186951,
+              0.8870000243186951
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              -3.141592653589793,
+              -3.141592653589793
+            ]
+          },
+          "target": "study_table"
+        },
+        "study_table_black_book_init_region": {
+          "pose_range": {
+            "x": [
+              -0.2274225251376629,
+              -0.17090203642845153
+            ],
+            "y": [
+              0.12422099635004996,
+              0.1779100152850151
+            ],
+            "z": [
+              0.8829597234725952,
+              0.8829597234725952
+            ],
+            "roll": [
+              -9.842061388098955e-08,
+              -9.842060322284851e-08
+            ],
+            "pitch": [
+              2.0293304814344992e-08,
+              2.029331369612919e-08
+            ],
+            "yaw": [
+              -2.3442051903574015,
+              -1.632570602522623
+            ]
+          },
+          "target": "study_table"
+        },
+        "study_table_white_yellow_mug_init_region": {
+          "pose_range": {
+            "x": [
+              -0.1266284754127264,
+              -0.07149705953896045
+            ],
+            "y": [
+              -0.029272481296211482,
+              0.029471518993377684
+            ],
+            "z": [
+              0.8852269649505615,
+              0.8852269649505615
+            ],
+            "roll": [
+              1.4731061810380197e-06,
+              1.4731061810380197e-06
+            ],
+            "pitch": [
+              1.314282030762115e-06,
+              1.314282030762115e-06
+            ],
+            "yaw": [
+              -1.5707964460041932,
+              -1.5707964460041932
+            ]
+          },
+          "target": "study_table"
+        }
+      },
+      "workspace_name": "study_table",
+      "workspace_full_size": [
+        1.0,
+        1.2,
+        0.05
+      ],
+      "workspace_offset": [
+        -0.2,
+        0,
+        0.867
+      ],
+      "robot_base_pos": [
+        -0.75,
+        0.0,
+        0.912
+      ],
+      "robot_base_ori": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tactile_targets": [
+        "black_book_1"
+      ]
+    },
+    {
+      "task_id": 5,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove",
+      "language_instruction": "put both moka pots on the stove",
+      "problem_name": "libero_kitchen_tabletop_manipulation",
+      "bddl_file": "bddl_files/libero_10/KITCHEN_SCENE8_put_both_moka_pots_on_the_stove.bddl",
+      "obj_of_interest": [
+        "moka_pot_1",
+        "moka_pot_2"
+      ],
+      "targets": [
+        "flat_stove_1"
+      ],
+      "goals": [
+        {
+          "relationship": "on",
+          "ref_obj": "moka_pot_1",
+          "target": "flat_stove_1",
+          "xy_threshold": 0.2,
+          "height_threshold": 0.15,
+          "height_diff": 0.0,
+          "enable_force_threshold": "True",
+          "force_threshold": 0.05
+        },
+        {
+          "relationship": "on",
+          "ref_obj": "moka_pot_2",
+          "target": "flat_stove_1",
+          "xy_threshold": 0.2,
+          "height_threshold": 0.15,
+          "height_diff": 0.0,
+          "enable_force_threshold": "True",
+          "force_threshold": 0.05
+        },
+        {
+          "operation": "turnon",
+          "target": "flat_stove_1"
+        }
+      ],
+      "fixtures": {
+        "kitchen_table": {
+          "type": "kitchen_table",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_pose": [
+            0.0,
+            0,
+            0.9
+          ]
+        }
+      },
+      "objects": {
+        "moka_pot_1": {
+          "type": "moka_pot",
+          "xml_path": "assets/turbosquid_objects/moka_pot/moka_pot.xml",
+          "scale": [
+            0.025,
+            0.025,
+            0.025
+          ],
+          "initial_region": "kitchen_table_moka_pot_right_init_region"
+        },
+        "moka_pot_2": {
+          "type": "moka_pot",
+          "xml_path": "assets/turbosquid_objects/moka_pot/moka_pot.xml",
+          "scale": [
+            0.025,
+            0.025,
+            0.025
+          ],
+          "initial_region": "kitchen_table_moka_pot_left_init_region"
+        },
+        "flat_stove_1": {
+          "type": "flat_stove",
+          "xml_path": "assets/articulated_objects/flat_stove.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "kitchen_table_flat_stove_init_region",
+          "default_turnon_ranges": [
+            0.5,
+            2.1
+          ],
+          "default_turnoff_ranges": [
+            -0.005,
+            0.0
+          ],
+          "default_open_ranges": [],
+          "default_close_ranges": []
+        }
+      },
+      "regions": {
+        "kitchen_table_flat_stove_init_region": {
+          "pose_range": {
+            "x": [
+              -0.19916549801826477,
+              -0.18916549801826477
+            ],
+            "y": [
+              -0.20442210614681244,
+              -0.19442210614681243
+            ],
+            "z": [
+              0.9049999713897705,
+              0.9049999713897705
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              0.0,
+              0.0
+            ]
+          },
+          "target": "kitchen_table"
+        },
+        "kitchen_table_moka_pot_right_init_region": {
+          "pose_range": {
+            "x": [
+              -0.07883027881383896,
+              -0.023473037872463465
+            ],
+            "y": [
+              0.2205822405219078,
+              0.2782722809910774
+            ],
+            "z": [
+              0.96,
+              0.96
+            ],
+            "roll": [
+              -1.7028511138938995e-05,
+              -1.7028511138938995e-05
+            ],
+            "pitch": [
+              -4.913993052468868e-07,
+              -4.913993052468868e-07
+            ],
+            "yaw": [
+              -3.14159265316958,
+              -3.14159265316958
+            ]
+          },
+          "target": "kitchen_table"
+        },
+        "kitchen_table_moka_pot_left_init_region": {
+          "pose_range": {
+            "x": [
+              0.022165136355906723,
+              0.07956244066357614
+            ],
+            "y": [
+              0.022887254096567628,
+              0.07949107922613621
+            ],
+            "z": [
+              0.96,
+              0.96
+            ],
+            "roll": [
+              -1.7028511138938995e-05,
+              -1.7028511138938995e-05
+            ],
+            "pitch": [
+              -4.913993052468868e-07,
+              -4.913993052468868e-07
+            ],
+            "yaw": [
+              -3.14159265316958,
+              -3.14159265316958
+            ]
+          },
+          "target": "kitchen_table"
+        }
+      },
+      "workspace_name": "kitchen_table",
+      "workspace_full_size": [
+        1.0,
+        1.2,
+        0.05
+      ],
+      "workspace_offset": [
+        0.0,
+        0,
+        0.9
+      ],
+      "robot_base_pos": [
+        -0.66,
+        0.0,
+        0.912
+      ],
+      "robot_base_ori": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tactile_targets": [
+        "moka_pot_1",
+        "moka_pot_2"
+      ]
+    },
+    {
+      "task_id": 7,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it",
+      "language_instruction": "put the yellow and white mug in the microwave and close it",
+      "problem_name": "libero_kitchen_tabletop_manipulation",
+      "bddl_file": "bddl_files/libero_10/KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it.bddl",
+      "obj_of_interest": [
+        "white_yellow_mug_1"
+      ],
+      "targets": [
+        "microwave_1"
+      ],
+      "goals": [
+        {
+          "relationship": "in",
+          "ref_obj": "white_yellow_mug_1",
+          "target": "microwave_1",
+          "xy_threshold": 0.2,
+          "height_threshold": 0.1,
+          "height_diff": 0.0,
+          "enable_force_threshold": "True",
+          "force_threshold": 0.05
+        },
+        {
+          "operation": "close",
+          "target": "microwave_1"
+        }
+      ],
+      "fixtures": {
+        "kitchen_table": {
+          "type": "kitchen_table",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_pose": [
+            0.0,
+            0,
+            0.9
+          ]
+        }
+      },
+      "objects": {
+        "porcelain_mug_1": {
+          "type": "porcelain_mug",
+          "xml_path": "assets/turbosquid_objects/porcelain_mug/porcelain_mug.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "kitchen_table_porcelain_mug_init_region"
+        },
+        "white_yellow_mug_1": {
+          "type": "white_yellow_mug",
+          "xml_path": "assets/turbosquid_objects/white_yellow_mug/white_yellow_mug.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "kitchen_table_white_yellow_mug_init_region"
+        },
+        "microwave_1": {
+          "type": "microwave",
+          "xml_path": "assets/articulated_objects/microwave.xml",
+          "scale": [
+            0.5,
+            0.5,
+            0.5
+          ],
+          "initial_region": "kitchen_table_microwave_init_region",
+          "default_open_ranges": [
+            -2.094,
+            -1.3
+          ],
+          "default_close_ranges": [
+            -0.005,
+            0.0
+          ]
+        }
+      },
+      "regions": {
+        "kitchen_table_microwave_init_region": {
+          "pose_range": {
+            "x": [
+              -0.014595631621778012,
+              -0.004595631621778011
+            ],
+            "y": [
+              0.3516524088382721,
+              0.3616524088382721
+            ],
+            "z": [
+              0.9200000166893005,
+              0.9200000166893005
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              0.0,
+              0.0
+            ]
+          },
+          "target": "kitchen_table"
+        },
+        "kitchen_table_white_yellow_mug_init_region": {
+          "pose_range": {
+            "x": [
+              -0.027928752526640892,
+              0.0292893934994936
+            ],
+            "y": [
+              -0.029922661073505878,
+              0.028933159988373515
+            ],
+            "z": [
+              0.8998776078224182,
+              0.8998776078224182
+            ],
+            "roll": [
+              -1.0130661403096042e-06,
+              -1.0130661403096042e-06
+            ],
+            "pitch": [
+              3.92845031558231e-05,
+              3.92845031558231e-05
+            ],
+            "yaw": [
+              -1.5707964460041932,
+              -1.5707964460041932
+            ]
+          },
+          "target": "kitchen_table"
+        },
+        "kitchen_table_porcelain_mug_init_region": {
+          "pose_range": {
+            "x": [
+              -0.12848508588969706,
+              -0.07007756762206555
+            ],
+            "y": [
+              -0.27466543883085254,
+              -0.22052333265542984
+            ],
+            "z": [
+              0.8973797559738159,
+              0.8973797559738159
+            ],
+            "roll": [
+              -6.8702192983494115e-06,
+              -6.8702192983494115e-06
+            ],
+            "pitch": [
+              -3.174031008335021e-05,
+              -3.174031008335021e-05
+            ],
+            "yaw": [
+              -1.5707956115391166,
+              -1.5707956115391166
+            ]
+          },
+          "target": "kitchen_table"
+        }
+      },
+      "workspace_name": "kitchen_table",
+      "workspace_full_size": [
+        1.0,
+        1.2,
+        0.05
+      ],
+      "workspace_offset": [
+        0.0,
+        0,
+        0.9
+      ],
+      "robot_base_pos": [
+        -0.66,
+        0.0,
+        0.912
+      ],
+      "robot_base_ori": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tactile_targets": [
+        "white_yellow_mug_1",
+        "microwave_1/microwave/microwave/microhandle/microhandle"
+      ]
+    }
+  ]
+}

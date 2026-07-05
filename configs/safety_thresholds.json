@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "protocol_id": "softvtbench-v1",
+  "metric_id": "fem_rms_rigid_aligned_bbox_pct_v1",
+  "metric": "rigid-aligned D_peak in percent of reference bbox diagonal",
+  "calibration": {
+    "method": "compression_sweep",
+    "definition": "tau_o = kappa * max_stable_d_peak",
+    "kappa": 0.5,
+    "sources": [
+      "configs/compression_calibration.sweep_v1.jsonl"
+    ],
+    "generated_at": "2026-07-19T14:47:17Z"
+  },
+  "thresholds": {
+    "soft_pastry001": {
+      "tau": 0.44692,
+      "d_ref": 0.89384,
+      "kappa": 0.5,
+      "n_stable_trials": 7
+    },
+    "soft_pastry002": {
+      "tau": 1.179545,
+      "d_ref": 2.359091,
+      "kappa": 0.5,
+      "n_stable_trials": 16
+    },
+    "soft_pastry003": {
+      "tau": 0.334214,
+      "d_ref": 0.668428,
+      "kappa": 0.5,
+      "n_stable_trials": 9
+    },
+    "soft_pastry005": {
+      "tau": 0.813198,
+      "d_ref": 1.626396,
+      "kappa": 0.5,
+      "n_stable_trials": 13
+    },
+    "soft_pastry008": {
+      "tau": 0.433487,
+      "d_ref": 0.866974,
+      "kappa": 0.5,
+      "n_stable_trials": 19
+    },
+    "soft_pastry010": {
+      "tau": 0.611579,
+      "d_ref": 1.223157,
+      "kappa": 0.5,
+      "n_stable_trials": 16
+    },
+    "soft_pastry011": {
+      "tau": 0.846965,
+      "d_ref": 1.693929,
+      "kappa": 0.5,
+      "n_stable_trials": 15
+    },
+    "soft_stw_cube_hq": {
+      "tau": 1.787479,
+      "d_ref": 3.574958,
+      "kappa": 0.5,
+      "n_stable_trials": 17
+    },
+    "soft_stw_cylinder_hq": {
+      "tau": 1.348635,
+      "d_ref": 2.69727,
+      "kappa": 0.5,
+      "n_stable_trials": 13
+    },
+    "soft_stw_sphere_hq": {
+      "tau": 0.375804,
+      "d_ref": 0.751607,
+      "kappa": 0.5,
+      "n_stable_trials": 5
+    }
+  }
+}

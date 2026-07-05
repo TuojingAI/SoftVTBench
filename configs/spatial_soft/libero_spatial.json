@@ -1,0 +1,3826 @@
+{
+  "task_suite_name": "libero_spatial",
+  "total_tasks": 10,
+  "tasks": [
+    {
+      "task_id": 0,
+      "task_name": "pick_up_the_soft_pastry_between_the_plate_and_the_ramekin_and_place_it_on_the_plate",
+      "language_instruction": "pick up the soft pastry between the plate and the ramekin and place it on the plate",
+      "problem_name": "libero_tabletop_manipulation",
+      "bddl_file": "bddl_files/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate.bddl",
+      "obj_of_interest": [
+        "soft_pastry005"
+      ],
+      "targets": [
+        "plate_1"
+      ],
+      "goals": [
+        {
+          "relationship": "on",
+          "ref_obj": "soft_pastry005",
+          "target": "plate_1",
+          "xy_threshold": 0.1,
+          "height_threshold": 0.1,
+          "height_diff": 0.0,
+          "enable_force_threshold": "True",
+          "force_threshold": 0.05
+        }
+      ],
+      "fixtures": {
+        "main_table": {
+          "type": "table",
+          "xml_path": "assets/scenes/table.xml",
+          "scale": [
+            0.02,
+            0.02,
+            0.02
+          ],
+          "initial_pose": [
+            0.0,
+            0.0,
+            0.845
+          ]
+        }
+      },
+      "objects": {
+        "akita_black_bowl_1": {
+          "type": "akita_black_bowl",
+          "xml_path": "assets/stable_scanned_objects/akita_black_bowl/akita_black_bowl.xml",
+          "scale": [
+            0.0001,
+            0.0001,
+            0.0001
+          ],
+          "initial_region": "main_table_between_plate_ramekin_region"
+        },
+        "cookies_1": {
+          "type": "cookies",
+          "xml_path": "assets/stable_hope_objects/cookies/cookies.xml",
+          "scale": [
+            0.005,
+            0.005,
+            0.005
+          ],
+          "initial_region": "main_table_box_region"
+        },
+        "glazed_rim_porcelain_ramekin_1": {
+          "type": "glazed_rim_porcelain_ramekin",
+          "xml_path": "assets/stable_scanned_objects/glazed_rim_porcelain_ramekin/glazed_rim_porcelain_ramekin.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "main_table_ramekin_region"
+        },
+        "plate_1": {
+          "type": "plate",
+          "xml_path": "assets/stable_scanned_objects/plate/plate.xml",
+          "scale": [
+            0.5,
+            0.5,
+            0.5
+          ],
+          "initial_region": "main_table_plate_region"
+        },
+        "wooden_cabinet_1": {
+          "type": "wooden_cabinet",
+          "xml_path": "assets/articulated_objects/wooden_cabinet.xml",
+          "scale": [
+            0.05,
+            0.05,
+            0.05
+          ],
+          "initial_region": "main_table_cabinet_region",
+          "default_open_ranges": [
+            -0.16,
+            -0.14
+          ],
+          "default_close_ranges": [
+            0.0,
+            0.005
+          ]
+        },
+        "flat_stove_1": {
+          "type": "flat_stove",
+          "xml_path": "assets/articulated_objects/flat_stove.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "main_table_stove_region",
+          "default_turnon_ranges": [
+            0.5,
+            2.1
+          ],
+          "default_turnoff_ranges": [
+            -0.005,
+            0.0
+          ],
+          "default_open_ranges": [],
+          "default_close_ranges": []
+        },
+        "soft_pastry005_tactile_proxy": {
+          "type": "akita_black_bowl",
+          "xml_path": "assets/stable_scanned_objects/akita_black_bowl/akita_black_bowl.xml",
+          "scale": [
+            0.0001,
+            0.0001,
+            0.0001
+          ],
+          "initial_region": "main_table_between_plate_ramekin_region"
+        }
+      },
+      "regions": {
+        "main_table_plate_region": {
+          "pose_range": {
+            "x": [
+              0.07444514907896518,
+              0.07444514907896518
+            ],
+            "y": [
+              0.1995858607441187,
+              0.1995858607441187
+            ],
+            "z": [
+              0.902195497751236,
+              0.902195497751236
+            ],
+            "roll": [
+              0.007680078728600215,
+              0.007680078728600215
+            ],
+            "pitch": [
+              0.00268257173929487,
+              0.00268257173929487
+            ],
+            "yaw": [
+              1.77880114531541,
+              1.77880114531541
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_box_region": {
+          "pose_range": {
+            "x": [
+              0.06975837707519532,
+              0.06975837707519532
+            ],
+            "y": [
+              0.02965367032214999,
+              0.02965367032214999
+            ],
+            "z": [
+              0.9092097878456116,
+              0.9092097878456116
+            ],
+            "roll": [
+              -3.877335529978154e-06,
+              -3.877335529978154e-06
+            ],
+            "pitch": [
+              -1.9153762877976988e-06,
+              -1.9153762877976988e-06
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_between_plate_ramekin_region": {
+          "pose_range": {
+            "x": [
+              -0.06083406105637551,
+              -0.06083406105637551
+            ],
+            "y": [
+              0.20558463819324968,
+              0.20558463819324968
+            ],
+            "z": [
+              0.8993910470604897,
+              0.8993910470604897
+            ],
+            "roll": [
+              -0.01892220555107449,
+              -0.01892220555107449
+            ],
+            "pitch": [
+              0.016317183095973187,
+              0.016317183095973187
+            ],
+            "yaw": [
+              1.6107700491253274,
+              1.6107700491253274
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_ramekin_region": {
+          "pose_range": {
+            "x": [
+              -0.19917911551892759,
+              -0.19917911551892759
+            ],
+            "y": [
+              0.19989351674914357,
+              0.19989351674914357
+            ],
+            "z": [
+              0.8991612681746484,
+              0.8991612681746484
+            ],
+            "roll": [
+              1.1984734933356833e-06,
+              1.1984734933356833e-06
+            ],
+            "pitch": [
+              -3.28406741667564e-06,
+              -3.28406741667564e-06
+            ],
+            "yaw": [
+              1.5709986747469582,
+              1.5709986747469582
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_next_to_ramekin_region": {
+          "pose_range": {
+            "x": [
+              -0.17977976314723493,
+              -0.17977976314723493
+            ],
+            "y": [
+              0.32147584423422815,
+              0.32147584423422815
+            ],
+            "z": [
+              0.8981584906578064,
+              0.8981584906578064
+            ],
+            "roll": [
+              -1.7190612199957656e-05,
+              -1.7190612199957656e-05
+            ],
+            "pitch": [
+              1.3142958778633584e-05,
+              1.3142958778633584e-05
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_cabinet_region": {
+          "pose_range": {
+            "x": [
+              0.03561058267951012,
+              0.03561058267951012
+            ],
+            "y": [
+              -0.27763450145721436,
+              -0.27763450145721436
+            ],
+            "z": [
+              0.9049999713897705,
+              0.9049999713897705
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              2.701585232640131,
+              2.701585232640131
+            ],
+            "joint_pos_range": {
+              "0": [
+                0.0,
+                0.0
+              ],
+              "1": [
+                0.0,
+                0.0
+              ],
+              "2": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "target": "main_table"
+        },
+        "main_table_stove_region": {
+          "pose_range": {
+            "x": [
+              -0.4171329438686371,
+              -0.4171329438686371
+            ],
+            "y": [
+              -0.13110661506652832,
+              -0.13110661506652832
+            ],
+            "z": [
+              0.9049999713897705,
+              0.9049999713897705
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              0.0,
+              0.0
+            ],
+            "joint_pos_range": {
+              "0": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "target": "main_table"
+        }
+      },
+      "workspace_name": "table",
+      "workspace_full_size": [
+        1.0,
+        1.2,
+        0.05
+      ],
+      "workspace_offset": [
+        0,
+        0,
+        0.9
+      ],
+      "robot_base_pos": [
+        -0.66,
+        0.0,
+        0.912
+      ],
+      "robot_base_ori": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tactile_targets": [
+        "soft_pastry005_tactile_proxy"
+      ],
+      "language": "pick up the soft pastry between the plate and the ramekin and place it on the plate"
+    },
+    {
+      "task_id": 1,
+      "task_name": "pick_up_the_soft_pastry_next_to_the_ramekin_and_place_it_on_the_plate",
+      "language_instruction": "pick up the soft pastry next to the ramekin and place it on the plate",
+      "problem_name": "libero_tabletop_manipulation",
+      "bddl_file": "bddl_files/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate.bddl",
+      "obj_of_interest": [
+        "soft_pastry005"
+      ],
+      "targets": [
+        "plate_1"
+      ],
+      "goals": [
+        {
+          "relationship": "on",
+          "ref_obj": "soft_pastry005",
+          "target": "plate_1",
+          "xy_threshold": 0.1,
+          "height_threshold": 0.1,
+          "height_diff": 0.0,
+          "enable_force_threshold": "True",
+          "force_threshold": 0.05
+        }
+      ],
+      "fixtures": {
+        "main_table": {
+          "type": "table",
+          "xml_path": "assets/scenes/table.xml",
+          "scale": [
+            0.02,
+            0.02,
+            0.02
+          ],
+          "initial_pose": [
+            0.0,
+            0.0,
+            0.845
+          ]
+        }
+      },
+      "objects": {
+        "akita_black_bowl_1": {
+          "type": "akita_black_bowl",
+          "xml_path": "assets/stable_scanned_objects/akita_black_bowl/akita_black_bowl.xml",
+          "scale": [
+            0.0001,
+            0.0001,
+            0.0001
+          ],
+          "initial_region": "main_table_next_to_ramekin_region"
+        },
+        "cookies_1": {
+          "type": "cookies",
+          "xml_path": "assets/stable_hope_objects/cookies/cookies.xml",
+          "scale": [
+            0.005,
+            0.005,
+            0.005
+          ],
+          "initial_region": "main_table_box_region"
+        },
+        "glazed_rim_porcelain_ramekin_1": {
+          "type": "glazed_rim_porcelain_ramekin",
+          "xml_path": "assets/stable_scanned_objects/glazed_rim_porcelain_ramekin/glazed_rim_porcelain_ramekin.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "main_table_ramekin_region"
+        },
+        "plate_1": {
+          "type": "plate",
+          "xml_path": "assets/stable_scanned_objects/plate/plate.xml",
+          "scale": [
+            0.5,
+            0.5,
+            0.5
+          ],
+          "initial_region": "main_table_plate_region"
+        },
+        "wooden_cabinet_1": {
+          "type": "wooden_cabinet",
+          "xml_path": "assets/articulated_objects/wooden_cabinet.xml",
+          "scale": [
+            0.05,
+            0.05,
+            0.05
+          ],
+          "initial_region": "main_table_cabinet_region",
+          "default_open_ranges": [
+            -0.16,
+            -0.14
+          ],
+          "default_close_ranges": [
+            0.0,
+            0.005
+          ]
+        },
+        "flat_stove_1": {
+          "type": "flat_stove",
+          "xml_path": "assets/articulated_objects/flat_stove.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "main_table_stove_region",
+          "default_turnon_ranges": [
+            0.5,
+            2.1
+          ],
+          "default_turnoff_ranges": [
+            -0.005,
+            0.0
+          ],
+          "default_open_ranges": [],
+          "default_close_ranges": []
+        },
+        "soft_pastry005_tactile_proxy": {
+          "type": "akita_black_bowl",
+          "xml_path": "assets/stable_scanned_objects/akita_black_bowl/akita_black_bowl.xml",
+          "scale": [
+            0.0001,
+            0.0001,
+            0.0001
+          ],
+          "initial_region": "main_table_next_to_ramekin_region"
+        }
+      },
+      "regions": {
+        "main_table_plate_region": {
+          "pose_range": {
+            "x": [
+              0.060024006254971035,
+              0.060024006254971035
+            ],
+            "y": [
+              0.20015017077326774,
+              0.20015017077326774
+            ],
+            "z": [
+              0.9023146033287048,
+              0.9023146033287048
+            ],
+            "roll": [
+              1.4012384794703792e-05,
+              1.4012384794703792e-05
+            ],
+            "pitch": [
+              4.268633712323222e-05,
+              4.268633712323222e-05
+            ],
+            "yaw": [
+              1.5707959691670066,
+              1.5707959691670066
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_box_region": {
+          "pose_range": {
+            "x": [
+              0.07034735783934594,
+              0.07034735783934594
+            ],
+            "y": [
+              0.02980338877532631,
+              0.02980338877532631
+            ],
+            "z": [
+              0.9092097878456116,
+              0.9092097878456116
+            ],
+            "roll": [
+              -3.877335529978154e-06,
+              -3.877335529978154e-06
+            ],
+            "pitch": [
+              -1.9153762877976988e-06,
+              -1.9153762877976988e-06
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_next_to_box_region": {
+          "pose_range": {
+            "x": [
+              0.12963811833411457,
+              0.12963811833411457
+            ],
+            "y": [
+              -0.07052535600960255,
+              -0.07052535600960255
+            ],
+            "z": [
+              0.8981584906578064,
+              0.8981584906578064
+            ],
+            "roll": [
+              -1.7190612199957656e-05,
+              -1.7190612199957656e-05
+            ],
+            "pitch": [
+              1.3142958778633584e-05,
+              1.3142958778633584e-05
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_ramekin_region": {
+          "pose_range": {
+            "x": [
+              -0.20015064597129822,
+              -0.20015064597129822
+            ],
+            "y": [
+              0.20056890115141868,
+              0.20056890115141868
+            ],
+            "z": [
+              0.8991595506668091,
+              0.8991595506668091
+            ],
+            "roll": [
+              8.881117992132204e-07,
+              8.881117992132204e-07
+            ],
+            "pitch": [
+              5.1776132750092074e-06,
+              5.1776132750092074e-06
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_next_to_ramekin_region": {
+          "pose_range": {
+            "x": [
+              -0.17986333929002285,
+              -0.17986333929002285
+            ],
+            "y": [
+              0.3198232643306255,
+              0.3198232643306255
+            ],
+            "z": [
+              0.8981584906578064,
+              0.8981584906578064
+            ],
+            "roll": [
+              -1.7190612199957656e-05,
+              -1.7190612199957656e-05
+            ],
+            "pitch": [
+              1.3142958778633584e-05,
+              1.3142958778633584e-05
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_cabinet_region": {
+          "pose_range": {
+            "x": [
+              0.03561058267951012,
+              0.03561058267951012
+            ],
+            "y": [
+              -0.27763450145721436,
+              -0.27763450145721436
+            ],
+            "z": [
+              0.9049999713897705,
+              0.9049999713897705
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              2.701585232640131,
+              2.701585232640131
+            ],
+            "joint_pos_range": {
+              "0": [
+                0.0,
+                0.0
+              ],
+              "1": [
+                0.0,
+                0.0
+              ],
+              "2": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "target": "main_table"
+        },
+        "main_table_stove_region": {
+          "pose_range": {
+            "x": [
+              -0.4171329438686371,
+              -0.4171329438686371
+            ],
+            "y": [
+              -0.13110661506652832,
+              -0.13110661506652832
+            ],
+            "z": [
+              0.9049999713897705,
+              0.9049999713897705
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              0.0,
+              0.0
+            ],
+            "joint_pos_range": {
+              "0": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "target": "main_table"
+        }
+      },
+      "workspace_name": "table",
+      "workspace_full_size": [
+        1.0,
+        1.2,
+        0.05
+      ],
+      "workspace_offset": [
+        0,
+        0,
+        0.9
+      ],
+      "robot_base_pos": [
+        -0.66,
+        0.0,
+        0.912
+      ],
+      "robot_base_ori": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tactile_targets": [
+        "soft_pastry005_tactile_proxy"
+      ],
+      "language": "pick up the soft pastry next to the ramekin and place it on the plate"
+    },
+    {
+      "task_id": 2,
+      "task_name": "pick_up_the_soft_pastry_from_table_center_and_place_it_on_the_plate",
+      "language_instruction": "pick up the soft pastry from table center and place it on the plate",
+      "problem_name": "libero_tabletop_manipulation",
+      "bddl_file": "bddl_files/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate.bddl",
+      "obj_of_interest": [
+        "soft_pastry005"
+      ],
+      "targets": [
+        "plate_1"
+      ],
+      "goals": [
+        {
+          "relationship": "on",
+          "ref_obj": "soft_pastry005",
+          "target": "plate_1",
+          "xy_threshold": 0.1,
+          "height_threshold": 0.1,
+          "height_diff": 0.0,
+          "enable_force_threshold": "True",
+          "force_threshold": 0.05
+        }
+      ],
+      "fixtures": {
+        "main_table": {
+          "type": "table",
+          "xml_path": "assets/scenes/table.xml",
+          "scale": [
+            0.02,
+            0.02,
+            0.02
+          ],
+          "initial_pose": [
+            0.0,
+            0.0,
+            0.845
+          ]
+        }
+      },
+      "objects": {
+        "akita_black_bowl_1": {
+          "type": "akita_black_bowl",
+          "xml_path": "assets/stable_scanned_objects/akita_black_bowl/akita_black_bowl.xml",
+          "scale": [
+            0.0001,
+            0.0001,
+            0.0001
+          ],
+          "initial_region": "main_table_table_center"
+        },
+        "cookies_1": {
+          "type": "cookies",
+          "xml_path": "assets/stable_hope_objects/cookies/cookies.xml",
+          "scale": [
+            0.005,
+            0.005,
+            0.005
+          ],
+          "initial_region": "main_table_box_region"
+        },
+        "glazed_rim_porcelain_ramekin_1": {
+          "type": "glazed_rim_porcelain_ramekin",
+          "xml_path": "assets/stable_scanned_objects/glazed_rim_porcelain_ramekin/glazed_rim_porcelain_ramekin.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "main_table_ramekin_region"
+        },
+        "plate_1": {
+          "type": "plate",
+          "xml_path": "assets/stable_scanned_objects/plate/plate.xml",
+          "scale": [
+            0.5,
+            0.5,
+            0.5
+          ],
+          "initial_region": "main_table_plate_region"
+        },
+        "wooden_cabinet_1": {
+          "type": "wooden_cabinet",
+          "xml_path": "assets/articulated_objects/wooden_cabinet.xml",
+          "scale": [
+            0.05,
+            0.05,
+            0.05
+          ],
+          "initial_region": "main_table_cabinet_region",
+          "default_open_ranges": [
+            -0.16,
+            -0.14
+          ],
+          "default_close_ranges": [
+            0.0,
+            0.005
+          ]
+        },
+        "flat_stove_1": {
+          "type": "flat_stove",
+          "xml_path": "assets/articulated_objects/flat_stove.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "main_table_stove_region",
+          "default_turnon_ranges": [
+            0.5,
+            2.1
+          ],
+          "default_turnoff_ranges": [
+            -0.005,
+            0.0
+          ],
+          "default_open_ranges": [],
+          "default_close_ranges": []
+        },
+        "soft_pastry005_tactile_proxy": {
+          "type": "akita_black_bowl",
+          "xml_path": "assets/stable_scanned_objects/akita_black_bowl/akita_black_bowl.xml",
+          "scale": [
+            0.0001,
+            0.0001,
+            0.0001
+          ],
+          "initial_region": "main_table_table_center"
+        }
+      },
+      "regions": {
+        "main_table_plate_region": {
+          "pose_range": {
+            "x": [
+              0.06553367100656032,
+              0.06553367100656032
+            ],
+            "y": [
+              0.19302703522145748,
+              0.19302703522145748
+            ],
+            "z": [
+              0.9023909929394722,
+              0.9023909929394722
+            ],
+            "roll": [
+              0.0002910480277391603,
+              0.0002910480277391603
+            ],
+            "pitch": [
+              -0.0003556884631172874,
+              -0.0003556884631172874
+            ],
+            "yaw": [
+              1.5858207998581024,
+              1.5858207998581024
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_next_to_plate_region": {
+          "pose_range": {
+            "x": [
+              0.009217404555529355,
+              0.009217404555529355
+            ],
+            "y": [
+              0.31739851891994475,
+              0.31739851891994475
+            ],
+            "z": [
+              0.8994218635559081,
+              0.8994218635559081
+            ],
+            "roll": [
+              -0.006292959834959033,
+              -0.006292959834959033
+            ],
+            "pitch": [
+              0.050424411246652534,
+              0.050424411246652534
+            ],
+            "yaw": [
+              1.611335648194074,
+              1.611335648194074
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_box_region": {
+          "pose_range": {
+            "x": [
+              0.07055275615304708,
+              0.07055275615304708
+            ],
+            "y": [
+              0.029955545580014585,
+              0.029955545580014585
+            ],
+            "z": [
+              0.9092097878456116,
+              0.9092097878456116
+            ],
+            "roll": [
+              -3.877335529978154e-06,
+              -3.877335529978154e-06
+            ],
+            "pitch": [
+              -1.9153762877976988e-06,
+              -1.9153762877976988e-06
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_ramekin_region": {
+          "pose_range": {
+            "x": [
+              -0.19975317157804967,
+              -0.19975317157804967
+            ],
+            "y": [
+              0.19932881146669387,
+              0.19932881146669387
+            ],
+            "z": [
+              0.8991595506668091,
+              0.8991595506668091
+            ],
+            "roll": [
+              8.881117992132204e-07,
+              8.881117992132204e-07
+            ],
+            "pitch": [
+              5.1776132750092074e-06,
+              5.1776132750092074e-06
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_table_center": {
+          "pose_range": {
+            "x": [
+              -0.07500029355287552,
+              -0.07500029355287552
+            ],
+            "y": [
+              0.0006521517736837266,
+              0.0006521517736837266
+            ],
+            "z": [
+              0.8981584906578064,
+              0.8981584906578064
+            ],
+            "roll": [
+              -1.7190612199957656e-05,
+              -1.7190612199957656e-05
+            ],
+            "pitch": [
+              1.3142958778633584e-05,
+              1.3142958778633584e-05
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_cabinet_region": {
+          "pose_range": {
+            "x": [
+              0.03561058267951012,
+              0.03561058267951012
+            ],
+            "y": [
+              -0.27763450145721436,
+              -0.27763450145721436
+            ],
+            "z": [
+              0.9049999713897705,
+              0.9049999713897705
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              2.701585232640131,
+              2.701585232640131
+            ],
+            "joint_pos_range": {
+              "0": [
+                0.0,
+                0.0
+              ],
+              "1": [
+                0.0,
+                0.0
+              ],
+              "2": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "target": "main_table"
+        },
+        "main_table_stove_region": {
+          "pose_range": {
+            "x": [
+              -0.4171329438686371,
+              -0.4171329438686371
+            ],
+            "y": [
+              -0.13110661506652832,
+              -0.13110661506652832
+            ],
+            "z": [
+              0.9049999713897705,
+              0.9049999713897705
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              0.0,
+              0.0
+            ],
+            "joint_pos_range": {
+              "0": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "target": "main_table"
+        }
+      },
+      "workspace_name": "table",
+      "workspace_full_size": [
+        1.0,
+        1.2,
+        0.05
+      ],
+      "workspace_offset": [
+        0,
+        0,
+        0.9
+      ],
+      "robot_base_pos": [
+        -0.66,
+        0.0,
+        0.912
+      ],
+      "robot_base_ori": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tactile_targets": [
+        "soft_pastry005_tactile_proxy"
+      ],
+      "language": "pick up the soft pastry from table center and place it on the plate"
+    },
+    {
+      "task_id": 3,
+      "task_name": "pick_up_the_soft_pastry_on_the_cookie_box_and_place_it_on_the_plate",
+      "language_instruction": "pick up the soft pastry on the cookie box and place it on the plate",
+      "problem_name": "libero_tabletop_manipulation",
+      "bddl_file": "bddl_files/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate.bddl",
+      "obj_of_interest": [
+        "soft_pastry005"
+      ],
+      "targets": [
+        "plate_1"
+      ],
+      "goals": [
+        {
+          "relationship": "on",
+          "ref_obj": "soft_pastry005",
+          "target": "plate_1",
+          "xy_threshold": 0.1,
+          "height_threshold": 0.1,
+          "height_diff": 0.0,
+          "enable_force_threshold": "True",
+          "force_threshold": 0.05
+        }
+      ],
+      "fixtures": {
+        "main_table": {
+          "type": "table",
+          "xml_path": "assets/scenes/table.xml",
+          "scale": [
+            0.02,
+            0.02,
+            0.02
+          ],
+          "initial_pose": [
+            0.0,
+            0.0,
+            0.845
+          ]
+        }
+      },
+      "objects": {
+        "akita_black_bowl_1": {
+          "type": "akita_black_bowl",
+          "xml_path": "assets/stable_scanned_objects/akita_black_bowl/akita_black_bowl.xml",
+          "scale": [
+            0.0001,
+            0.0001,
+            0.0001
+          ],
+          "initial_region": "main_table_box_region_akita_black_bowl_1"
+        },
+        "cookies_1": {
+          "type": "cookies",
+          "xml_path": "assets/stable_hope_objects/cookies/cookies.xml",
+          "scale": [
+            0.005,
+            0.005,
+            0.005
+          ],
+          "initial_region": "main_table_box_region"
+        },
+        "glazed_rim_porcelain_ramekin_1": {
+          "type": "glazed_rim_porcelain_ramekin",
+          "xml_path": "assets/stable_scanned_objects/glazed_rim_porcelain_ramekin/glazed_rim_porcelain_ramekin.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "main_table_ramekin_region"
+        },
+        "plate_1": {
+          "type": "plate",
+          "xml_path": "assets/stable_scanned_objects/plate/plate.xml",
+          "scale": [
+            0.5,
+            0.5,
+            0.5
+          ],
+          "initial_region": "main_table_plate_region"
+        },
+        "wooden_cabinet_1": {
+          "type": "wooden_cabinet",
+          "xml_path": "assets/articulated_objects/wooden_cabinet.xml",
+          "scale": [
+            0.05,
+            0.05,
+            0.05
+          ],
+          "initial_region": "main_table_cabinet_region",
+          "default_open_ranges": [
+            -0.16,
+            -0.14
+          ],
+          "default_close_ranges": [
+            0.0,
+            0.005
+          ]
+        },
+        "flat_stove_1": {
+          "type": "flat_stove",
+          "xml_path": "assets/articulated_objects/flat_stove.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "main_table_stove_region",
+          "default_turnon_ranges": [
+            0.5,
+            2.1
+          ],
+          "default_turnoff_ranges": [
+            -0.005,
+            0.0
+          ],
+          "default_open_ranges": [],
+          "default_close_ranges": []
+        },
+        "soft_pastry005_tactile_proxy": {
+          "type": "akita_black_bowl",
+          "xml_path": "assets/stable_scanned_objects/akita_black_bowl/akita_black_bowl.xml",
+          "scale": [
+            0.0001,
+            0.0001,
+            0.0001
+          ],
+          "initial_region": "main_table_box_region_akita_black_bowl_1"
+        }
+      },
+      "regions": {
+        "main_table_plate_region": {
+          "pose_range": {
+            "x": [
+              0.05912972716614604,
+              0.05912972716614604
+            ],
+            "y": [
+              0.19985078670084477,
+              0.19985078670084477
+            ],
+            "z": [
+              0.9023146033287048,
+              0.9023146033287048
+            ],
+            "roll": [
+              1.4012384794703792e-05,
+              1.4012384794703792e-05
+            ],
+            "pitch": [
+              4.268633712323222e-05,
+              4.268633712323222e-05
+            ],
+            "yaw": [
+              1.5707959691670066,
+              1.5707959691670066
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_box_region": {
+          "pose_range": {
+            "x": [
+              0.07015555942431093,
+              0.07015555942431093
+            ],
+            "y": [
+              0.03009904542472213,
+              0.03009904542472213
+            ],
+            "z": [
+              0.9091424942016602,
+              0.9091424942016602
+            ],
+            "roll": [
+              1.939928554683945e-06,
+              1.939928554683945e-06
+            ],
+            "pitch": [
+              5.0583788855806944e-05,
+              5.0583788855806944e-05
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_ramekin_region": {
+          "pose_range": {
+            "x": [
+              -0.20037972956895828,
+              -0.20037972956895828
+            ],
+            "y": [
+              0.20002502009272577,
+              0.20002502009272577
+            ],
+            "z": [
+              0.8991595506668091,
+              0.8991595506668091
+            ],
+            "roll": [
+              8.881117992132204e-07,
+              8.881117992132204e-07
+            ],
+            "pitch": [
+              5.1776132750092074e-06,
+              5.1776132750092074e-06
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_cabinet_region": {
+          "pose_range": {
+            "x": [
+              0.036652397364377975,
+              0.036652397364377975
+            ],
+            "y": [
+              -0.26443687081336975,
+              -0.26443687081336975
+            ],
+            "z": [
+              0.9049999713897705,
+              0.9049999713897705
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              2.7160422553614705,
+              2.7160422553614705
+            ],
+            "joint_pos_range": {
+              "0": [
+                0.0,
+                0.0
+              ],
+              "1": [
+                0.0,
+                0.0
+              ],
+              "2": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "target": "main_table"
+        },
+        "main_table_stove_region": {
+          "pose_range": {
+            "x": [
+              -0.4004276394844055,
+              -0.4004276394844055
+            ],
+            "y": [
+              -0.13401682674884796,
+              -0.13401682674884796
+            ],
+            "z": [
+              0.9049999713897705,
+              0.9049999713897705
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              0.0,
+              0.0
+            ],
+            "joint_pos_range": {
+              "0": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "target": "main_table"
+        },
+        "main_table_box_region_akita_black_bowl_1": {
+          "pose_range": {
+            "x": [
+              0.07015499971807004,
+              0.07015499971807004
+            ],
+            "y": [
+              0.030083411331288515,
+              0.030083411331288515
+            ],
+            "z": [
+              0.9169196486473083,
+              0.9169196486473083
+            ],
+            "roll": [
+              1.8498594753779685e-06,
+              1.8498594753779685e-06
+            ],
+            "pitch": [
+              5.1820214162390243e-05,
+              5.1820214162390243e-05
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_cabinet_region_akita_black_bowl_2": {
+          "pose_range": {
+            "x": [
+              0.022555927494540808,
+              0.022555927494540808
+            ],
+            "y": [
+              -0.2823467069864273,
+              -0.2823467069864273
+            ],
+            "z": [
+              1.1263997554779053,
+              1.1263997554779053
+            ],
+            "roll": [
+              -1.069007637966024e-07,
+              -1.069007637966024e-07
+            ],
+            "pitch": [
+              1.2130770699059212e-07,
+              1.2130770699059212e-07
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        }
+      },
+      "workspace_name": "table",
+      "workspace_full_size": [
+        1.0,
+        1.2,
+        0.05
+      ],
+      "workspace_offset": [
+        0,
+        0,
+        0.9
+      ],
+      "robot_base_pos": [
+        -0.66,
+        0.0,
+        0.912
+      ],
+      "robot_base_ori": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tactile_targets": [
+        "soft_pastry005_tactile_proxy"
+      ],
+      "language": "pick up the soft pastry on the cookie box and place it on the plate"
+    },
+    {
+      "task_id": 4,
+      "task_name": "pick_up_the_soft_pastry_near_the_wooden_cabinet_and_place_it_on_the_plate",
+      "language_instruction": "pick up the soft pastry near the wooden cabinet and place it on the plate",
+      "problem_name": "libero_tabletop_manipulation",
+      "bddl_file": "bddl_files/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate.bddl",
+      "obj_of_interest": [
+        "soft_pastry005"
+      ],
+      "targets": [
+        "plate_1"
+      ],
+      "goals": [
+        {
+          "relationship": "on",
+          "ref_obj": "soft_pastry005",
+          "target": "plate_1",
+          "xy_threshold": 0.1,
+          "height_threshold": 0.1,
+          "height_diff": 0.0,
+          "enable_force_threshold": "True",
+          "force_threshold": 0.05
+        }
+      ],
+      "fixtures": {
+        "main_table": {
+          "type": "table",
+          "xml_path": "assets/scenes/table.xml",
+          "scale": [
+            0.02,
+            0.02,
+            0.02
+          ],
+          "initial_pose": [
+            0.0,
+            0.0,
+            0.845
+          ]
+        }
+      },
+      "objects": {
+        "akita_black_bowl_1": {
+          "type": "akita_black_bowl",
+          "xml_path": "assets/stable_scanned_objects/akita_black_bowl/akita_black_bowl.xml",
+          "scale": [
+            0.0001,
+            0.0001,
+            0.0001
+          ],
+          "initial_region": "main_table_cabinet_region_akita_black_bowl_1"
+        },
+        "cookies_1": {
+          "type": "cookies",
+          "xml_path": "assets/stable_hope_objects/cookies/cookies.xml",
+          "scale": [
+            0.005,
+            0.005,
+            0.005
+          ],
+          "initial_region": "main_table_box_region"
+        },
+        "glazed_rim_porcelain_ramekin_1": {
+          "type": "glazed_rim_porcelain_ramekin",
+          "xml_path": "assets/stable_scanned_objects/glazed_rim_porcelain_ramekin/glazed_rim_porcelain_ramekin.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "main_table_ramekin_region"
+        },
+        "plate_1": {
+          "type": "plate",
+          "xml_path": "assets/stable_scanned_objects/plate/plate.xml",
+          "scale": [
+            0.5,
+            0.5,
+            0.5
+          ],
+          "initial_region": "main_table_plate_region"
+        },
+        "wooden_cabinet_1": {
+          "type": "wooden_cabinet",
+          "xml_path": "assets/articulated_objects/wooden_cabinet.xml",
+          "scale": [
+            0.05,
+            0.05,
+            0.05
+          ],
+          "initial_region": "main_table_cabinet_region",
+          "default_open_ranges": [
+            -0.16,
+            -0.14
+          ],
+          "default_close_ranges": [
+            0.0,
+            0.005
+          ]
+        },
+        "flat_stove_1": {
+          "type": "flat_stove",
+          "xml_path": "assets/articulated_objects/flat_stove.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "main_table_stove_region",
+          "default_turnon_ranges": [
+            0.5,
+            2.1
+          ],
+          "default_turnoff_ranges": [
+            -0.005,
+            0.0
+          ],
+          "default_open_ranges": [],
+          "default_close_ranges": []
+        },
+        "soft_pastry005_tactile_proxy": {
+          "type": "akita_black_bowl",
+          "xml_path": "assets/stable_scanned_objects/akita_black_bowl/akita_black_bowl.xml",
+          "scale": [
+            0.0001,
+            0.0001,
+            0.0001
+          ],
+          "initial_region": "main_table_cabinet_region_akita_black_bowl_1"
+        }
+      },
+      "regions": {
+        "main_table_plate_region": {
+          "pose_range": {
+            "x": [
+              0.06035765131935478,
+              0.06035765131935478
+            ],
+            "y": [
+              0.200210432484746,
+              0.200210432484746
+            ],
+            "z": [
+              0.9023146033287048,
+              0.9023146033287048
+            ],
+            "roll": [
+              1.4012384794703792e-05,
+              1.4012384794703792e-05
+            ],
+            "pitch": [
+              4.268633712323222e-05,
+              4.268633712323222e-05
+            ],
+            "yaw": [
+              1.5707959691670066,
+              1.5707959691670066
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_box_region": {
+          "pose_range": {
+            "x": [
+              0.06956967754289509,
+              0.06956967754289509
+            ],
+            "y": [
+              0.03009059832897037,
+              0.03009059832897037
+            ],
+            "z": [
+              0.9092097878456116,
+              0.9092097878456116
+            ],
+            "roll": [
+              -3.877335529978154e-06,
+              -3.877335529978154e-06
+            ],
+            "pitch": [
+              -1.9153762877976988e-06,
+              -1.9153762877976988e-06
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_ramekin_region": {
+          "pose_range": {
+            "x": [
+              -0.19975099444389344,
+              -0.19975099444389344
+            ],
+            "y": [
+              0.20018201433122157,
+              0.20018201433122157
+            ],
+            "z": [
+              0.8991595506668091,
+              0.8991595506668091
+            ],
+            "roll": [
+              8.881117992132204e-07,
+              8.881117992132204e-07
+            ],
+            "pitch": [
+              5.1776132750092074e-06,
+              5.1776132750092074e-06
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_cabinet_region": {
+          "pose_range": {
+            "x": [
+              0.03740024194121361,
+              0.03740024194121361
+            ],
+            "y": [
+              -0.2604276239871979,
+              -0.2604276239871979
+            ],
+            "z": [
+              0.9049999713897705,
+              0.9049999713897705
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              2.7115904185095996,
+              2.7115904185095996
+            ],
+            "joint_pos_range": {
+              "0": [
+                -0.1523311883211136,
+                -0.1523311883211136
+              ],
+              "1": [
+                0.0,
+                0.0
+              ],
+              "2": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "target": "main_table"
+        },
+        "main_table_stove_region": {
+          "pose_range": {
+            "x": [
+              -0.4107704162597656,
+              -0.4107704162597656
+            ],
+            "y": [
+              -0.13438941538333893,
+              -0.13438941538333893
+            ],
+            "z": [
+              0.9049999713897705,
+              0.9049999713897705
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              0.0,
+              0.0
+            ],
+            "joint_pos_range": {
+              "0": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "target": "main_table"
+        },
+        "main_table_cabinet_region_akita_black_bowl_1": {
+          "pose_range": {
+            "x": [
+              0.08639558933675288,
+              0.08639558933675288
+            ],
+            "y": [
+              -0.1422190623730421,
+              -0.1422190623730421
+            ],
+            "z": [
+              1.0627342510223388,
+              1.0627342510223388
+            ],
+            "roll": [
+              0.008207015133389284,
+              0.008207015133389284
+            ],
+            "pitch": [
+              0.00257438052695802,
+              0.00257438052695802
+            ],
+            "yaw": [
+              1.5542479950966221,
+              1.5542479950966221
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_cabinet_region_akita_black_bowl_2": {
+          "pose_range": {
+            "x": [
+              0.022861972125247123,
+              0.022861972125247123
+            ],
+            "y": [
+              -0.2837862004339695,
+              -0.2837862004339695
+            ],
+            "z": [
+              1.1263997554779053,
+              1.1263997554779053
+            ],
+            "roll": [
+              -1.069007637966024e-07,
+              -1.069007637966024e-07
+            ],
+            "pitch": [
+              1.2130770699059212e-07,
+              1.2130770699059212e-07
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        }
+      },
+      "workspace_name": "table",
+      "workspace_full_size": [
+        1.0,
+        1.2,
+        0.05
+      ],
+      "workspace_offset": [
+        0,
+        0,
+        0.9
+      ],
+      "robot_base_pos": [
+        -0.66,
+        0.0,
+        0.912
+      ],
+      "robot_base_ori": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tactile_targets": [
+        "soft_pastry005_tactile_proxy"
+      ],
+      "language": "pick up the soft pastry near the wooden cabinet and place it on the plate"
+    },
+    {
+      "task_id": 5,
+      "task_name": "pick_up_the_soft_pastry_on_the_ramekin_and_place_it_on_the_plate",
+      "language_instruction": "pick up the soft pastry on the ramekin and place it on the plate",
+      "problem_name": "libero_tabletop_manipulation",
+      "bddl_file": "bddl_files/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate.bddl",
+      "obj_of_interest": [
+        "soft_pastry005"
+      ],
+      "targets": [
+        "plate_1"
+      ],
+      "goals": [
+        {
+          "relationship": "on",
+          "ref_obj": "soft_pastry005",
+          "target": "plate_1",
+          "xy_threshold": 0.1,
+          "height_threshold": 0.1,
+          "height_diff": 0.0,
+          "enable_force_threshold": "True",
+          "force_threshold": 0.05
+        }
+      ],
+      "fixtures": {
+        "main_table": {
+          "type": "table",
+          "xml_path": "assets/scenes/table.xml",
+          "scale": [
+            0.02,
+            0.02,
+            0.02
+          ],
+          "initial_pose": [
+            0.0,
+            0.0,
+            0.845
+          ]
+        }
+      },
+      "objects": {
+        "akita_black_bowl_1": {
+          "type": "akita_black_bowl",
+          "xml_path": "assets/stable_scanned_objects/akita_black_bowl/akita_black_bowl.xml",
+          "scale": [
+            0.0001,
+            0.0001,
+            0.0001
+          ],
+          "initial_region": "main_table_ramekin_region_akita_black_bowl_1"
+        },
+        "cookies_1": {
+          "type": "cookies",
+          "xml_path": "assets/stable_hope_objects/cookies/cookies.xml",
+          "scale": [
+            0.005,
+            0.005,
+            0.005
+          ],
+          "initial_region": "main_table_box_region"
+        },
+        "glazed_rim_porcelain_ramekin_1": {
+          "type": "glazed_rim_porcelain_ramekin",
+          "xml_path": "assets/stable_scanned_objects/glazed_rim_porcelain_ramekin/glazed_rim_porcelain_ramekin.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "main_table_ramekin_region"
+        },
+        "plate_1": {
+          "type": "plate",
+          "xml_path": "assets/stable_scanned_objects/plate/plate.xml",
+          "scale": [
+            0.5,
+            0.5,
+            0.5
+          ],
+          "initial_region": "main_table_plate_region"
+        },
+        "wooden_cabinet_1": {
+          "type": "wooden_cabinet",
+          "xml_path": "assets/articulated_objects/wooden_cabinet.xml",
+          "scale": [
+            0.05,
+            0.05,
+            0.05
+          ],
+          "initial_region": "main_table_cabinet_region",
+          "default_open_ranges": [
+            -0.16,
+            -0.14
+          ],
+          "default_close_ranges": [
+            0.0,
+            0.005
+          ]
+        },
+        "flat_stove_1": {
+          "type": "flat_stove",
+          "xml_path": "assets/articulated_objects/flat_stove.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "main_table_stove_region",
+          "default_turnon_ranges": [
+            0.5,
+            2.1
+          ],
+          "default_turnoff_ranges": [
+            -0.005,
+            0.0
+          ],
+          "default_open_ranges": [],
+          "default_close_ranges": []
+        },
+        "soft_pastry005_tactile_proxy": {
+          "type": "akita_black_bowl",
+          "xml_path": "assets/stable_scanned_objects/akita_black_bowl/akita_black_bowl.xml",
+          "scale": [
+            0.0001,
+            0.0001,
+            0.0001
+          ],
+          "initial_region": "main_table_ramekin_region_akita_black_bowl_1"
+        }
+      },
+      "regions": {
+        "main_table_plate_region": {
+          "pose_range": {
+            "x": [
+              0.0594313307479024,
+              0.0594313307479024
+            ],
+            "y": [
+              0.19997334003448486,
+              0.19997334003448486
+            ],
+            "z": [
+              0.9023146033287048,
+              0.9023146033287048
+            ],
+            "roll": [
+              1.4012384794703792e-05,
+              1.4012384794703792e-05
+            ],
+            "pitch": [
+              4.268633712323222e-05,
+              4.268633712323222e-05
+            ],
+            "yaw": [
+              1.5707959691670066,
+              1.5707959691670066
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_box_region": {
+          "pose_range": {
+            "x": [
+              0.07080903593450785,
+              0.07080903593450785
+            ],
+            "y": [
+              0.030218081912025806,
+              0.030218081912025806
+            ],
+            "z": [
+              0.9091424942016602,
+              0.9091424942016602
+            ],
+            "roll": [
+              1.939928554683945e-06,
+              1.939928554683945e-06
+            ],
+            "pitch": [
+              5.0583788855806944e-05,
+              5.0583788855806944e-05
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_ramekin_region": {
+          "pose_range": {
+            "x": [
+              -0.20001397468149662,
+              -0.20001397468149662
+            ],
+            "y": [
+              0.2011477268487215,
+              0.2011477268487215
+            ],
+            "z": [
+              0.8991970419883728,
+              0.8991970419883728
+            ],
+            "roll": [
+              0.00042897870765612467,
+              0.00042897870765612467
+            ],
+            "pitch": [
+              0.0007093616308440076,
+              0.0007093616308440076
+            ],
+            "yaw": [
+              1.5702440299821276,
+              1.5702440299821276
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_cabinet_region": {
+          "pose_range": {
+            "x": [
+              0.036652397364377975,
+              0.036652397364377975
+            ],
+            "y": [
+              -0.26443687081336975,
+              -0.26443687081336975
+            ],
+            "z": [
+              0.9049999713897705,
+              0.9049999713897705
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              2.7160422553614705,
+              2.7160422553614705
+            ],
+            "joint_pos_range": {
+              "0": [
+                0.0,
+                0.0
+              ],
+              "1": [
+                0.0,
+                0.0
+              ],
+              "2": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "target": "main_table"
+        },
+        "main_table_stove_region": {
+          "pose_range": {
+            "x": [
+              -0.4004276394844055,
+              -0.4004276394844055
+            ],
+            "y": [
+              -0.13401682674884796,
+              -0.13401682674884796
+            ],
+            "z": [
+              0.9049999713897705,
+              0.9049999713897705
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              0.0,
+              0.0
+            ],
+            "joint_pos_range": {
+              "0": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "target": "main_table"
+        },
+        "main_table_ramekin_region_akita_black_bowl_1": {
+          "pose_range": {
+            "x": [
+              -0.2112769539654255,
+              -0.2112769539654255
+            ],
+            "y": [
+              0.19905311167240142,
+              0.19905311167240142
+            ],
+            "z": [
+              0.96,
+              0.96
+            ],
+            "roll": [
+              0.33533573745795486,
+              0.33533573745795486
+            ],
+            "pitch": [
+              0.24434078793319491,
+              0.24434078793319491
+            ],
+            "yaw": [
+              1.4580333261836973,
+              1.4580333261836973
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_box_region_akita_black_bowl_2": {
+          "pose_range": {
+            "x": [
+              0.07080847337841988,
+              0.07080847337841988
+            ],
+            "y": [
+              0.030202447324991222,
+              0.030202447324991222
+            ],
+            "z": [
+              0.9169196486473083,
+              0.9169196486473083
+            ],
+            "roll": [
+              1.8498594753779685e-06,
+              1.8498594753779685e-06
+            ],
+            "pitch": [
+              5.1820214162390243e-05,
+              5.1820214162390243e-05
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        }
+      },
+      "workspace_name": "table",
+      "workspace_full_size": [
+        1.0,
+        1.2,
+        0.05
+      ],
+      "workspace_offset": [
+        0,
+        0,
+        0.9
+      ],
+      "robot_base_pos": [
+        -0.66,
+        0.0,
+        0.912
+      ],
+      "robot_base_ori": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tactile_targets": [
+        "soft_pastry005_tactile_proxy"
+      ],
+      "language": "pick up the soft pastry on the ramekin and place it on the plate"
+    },
+    {
+      "task_id": 6,
+      "task_name": "pick_up_the_soft_pastry_next_to_the_cookie_box_and_place_it_on_the_plate",
+      "language_instruction": "pick up the soft pastry next to the cookie box and place it on the plate",
+      "problem_name": "libero_tabletop_manipulation",
+      "bddl_file": "bddl_files/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate.bddl",
+      "obj_of_interest": [
+        "soft_pastry005"
+      ],
+      "targets": [
+        "plate_1"
+      ],
+      "goals": [
+        {
+          "relationship": "on",
+          "ref_obj": "soft_pastry005",
+          "target": "plate_1",
+          "xy_threshold": 0.1,
+          "height_threshold": 0.1,
+          "height_diff": 0.0,
+          "enable_force_threshold": "True",
+          "force_threshold": 0.05
+        }
+      ],
+      "fixtures": {
+        "main_table": {
+          "type": "table",
+          "xml_path": "assets/scenes/table.xml",
+          "scale": [
+            0.02,
+            0.02,
+            0.02
+          ],
+          "initial_pose": [
+            0.0,
+            0.0,
+            0.845
+          ]
+        }
+      },
+      "objects": {
+        "akita_black_bowl_1": {
+          "type": "akita_black_bowl",
+          "xml_path": "assets/stable_scanned_objects/akita_black_bowl/akita_black_bowl.xml",
+          "scale": [
+            0.0001,
+            0.0001,
+            0.0001
+          ],
+          "initial_region": "main_table_next_to_box_region"
+        },
+        "cookies_1": {
+          "type": "cookies",
+          "xml_path": "assets/stable_hope_objects/cookies/cookies.xml",
+          "scale": [
+            0.005,
+            0.005,
+            0.005
+          ],
+          "initial_region": "main_table_box_region"
+        },
+        "glazed_rim_porcelain_ramekin_1": {
+          "type": "glazed_rim_porcelain_ramekin",
+          "xml_path": "assets/stable_scanned_objects/glazed_rim_porcelain_ramekin/glazed_rim_porcelain_ramekin.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "main_table_ramekin_region"
+        },
+        "plate_1": {
+          "type": "plate",
+          "xml_path": "assets/stable_scanned_objects/plate/plate.xml",
+          "scale": [
+            0.5,
+            0.5,
+            0.5
+          ],
+          "initial_region": "main_table_plate_region"
+        },
+        "wooden_cabinet_1": {
+          "type": "wooden_cabinet",
+          "xml_path": "assets/articulated_objects/wooden_cabinet.xml",
+          "scale": [
+            0.05,
+            0.05,
+            0.05
+          ],
+          "initial_region": "main_table_cabinet_region",
+          "default_open_ranges": [
+            -0.16,
+            -0.14
+          ],
+          "default_close_ranges": [
+            0.0,
+            0.005
+          ]
+        },
+        "flat_stove_1": {
+          "type": "flat_stove",
+          "xml_path": "assets/articulated_objects/flat_stove.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "main_table_stove_region",
+          "default_turnon_ranges": [
+            0.5,
+            2.1
+          ],
+          "default_turnoff_ranges": [
+            -0.005,
+            0.0
+          ],
+          "default_open_ranges": [],
+          "default_close_ranges": []
+        },
+        "soft_pastry005_tactile_proxy": {
+          "type": "akita_black_bowl",
+          "xml_path": "assets/stable_scanned_objects/akita_black_bowl/akita_black_bowl.xml",
+          "scale": [
+            0.0001,
+            0.0001,
+            0.0001
+          ],
+          "initial_region": "main_table_next_to_box_region"
+        }
+      },
+      "regions": {
+        "main_table_plate_region": {
+          "pose_range": {
+            "x": [
+              0.05961387850344181,
+              0.05961387850344181
+            ],
+            "y": [
+              0.2005940844118595,
+              0.2005940844118595
+            ],
+            "z": [
+              0.9023146033287048,
+              0.9023146033287048
+            ],
+            "roll": [
+              1.4012384794703792e-05,
+              1.4012384794703792e-05
+            ],
+            "pitch": [
+              4.268633712323222e-05,
+              4.268633712323222e-05
+            ],
+            "yaw": [
+              1.5707959691670066,
+              1.5707959691670066
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_box_region": {
+          "pose_range": {
+            "x": [
+              0.06982169512659311,
+              0.06982169512659311
+            ],
+            "y": [
+              0.0295409586885944,
+              0.0295409586885944
+            ],
+            "z": [
+              0.9092097878456116,
+              0.9092097878456116
+            ],
+            "roll": [
+              -3.877335529978154e-06,
+              -3.877335529978154e-06
+            ],
+            "pitch": [
+              -1.9153762877976988e-06,
+              -1.9153762877976988e-06
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_next_to_box_region": {
+          "pose_range": {
+            "x": [
+              0.13046532437205316,
+              0.13046532437205316
+            ],
+            "y": [
+              -0.06987007470801473,
+              -0.06987007470801473
+            ],
+            "z": [
+              0.8981584906578064,
+              0.8981584906578064
+            ],
+            "roll": [
+              -1.7190612199957656e-05,
+              -1.7190612199957656e-05
+            ],
+            "pitch": [
+              1.3142958778633584e-05,
+              1.3142958778633584e-05
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_ramekin_region": {
+          "pose_range": {
+            "x": [
+              -0.20096796318888666,
+              -0.20096796318888666
+            ],
+            "y": [
+              0.19936606742441654,
+              0.19936606742441654
+            ],
+            "z": [
+              0.8991595506668091,
+              0.8991595506668091
+            ],
+            "roll": [
+              8.881117992132204e-07,
+              8.881117992132204e-07
+            ],
+            "pitch": [
+              5.1776132750092074e-06,
+              5.1776132750092074e-06
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_cabinet_region": {
+          "pose_range": {
+            "x": [
+              0.03957236558198929,
+              0.03957236558198929
+            ],
+            "y": [
+              -0.2640168368816376,
+              -0.2640168368816376
+            ],
+            "z": [
+              0.9049999713897705,
+              0.9049999713897705
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              2.690373355231385,
+              2.690373355231385
+            ],
+            "joint_pos_range": {
+              "0": [
+                0.0,
+                0.0
+              ],
+              "1": [
+                0.0,
+                0.0
+              ],
+              "2": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "target": "main_table"
+        },
+        "main_table_stove_region": {
+          "pose_range": {
+            "x": [
+              -0.4043894112110138,
+              -0.4043894112110138
+            ],
+            "y": [
+              -0.14763450622558594,
+              -0.14763450622558594
+            ],
+            "z": [
+              0.9049999713897705,
+              0.9049999713897705
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              0.0,
+              0.0
+            ],
+            "joint_pos_range": {
+              "0": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "target": "main_table"
+        },
+        "main_table_stove_region_akita_black_bowl_2": {
+          "pose_range": {
+            "x": [
+              -0.26027318425476553,
+              -0.26027318425476553
+            ],
+            "y": [
+              -0.14031992867588997,
+              -0.14031992867588997
+            ],
+            "z": [
+              0.9254584908485413,
+              0.9254584908485413
+            ],
+            "roll": [
+              0.0058783223018608055,
+              0.0058783223018608055
+            ],
+            "pitch": [
+              -0.005633621473910555,
+              -0.005633621473910555
+            ],
+            "yaw": [
+              1.5707804717080078,
+              1.5707804717080078
+            ]
+          },
+          "target": "main_table"
+        }
+      },
+      "workspace_name": "table",
+      "workspace_full_size": [
+        1.0,
+        1.2,
+        0.05
+      ],
+      "workspace_offset": [
+        0,
+        0,
+        0.9
+      ],
+      "robot_base_pos": [
+        -0.66,
+        0.0,
+        0.912
+      ],
+      "robot_base_ori": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tactile_targets": [
+        "soft_pastry005_tactile_proxy"
+      ],
+      "language": "pick up the soft pastry next to the cookie box and place it on the plate"
+    },
+    {
+      "task_id": 7,
+      "task_name": "pick_up_the_soft_pastry_on_the_stove_and_place_it_on_the_plate",
+      "language_instruction": "pick up the soft pastry on the stove and place it on the plate",
+      "problem_name": "libero_tabletop_manipulation",
+      "bddl_file": "bddl_files/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate.bddl",
+      "obj_of_interest": [
+        "soft_pastry005"
+      ],
+      "targets": [
+        "plate_1"
+      ],
+      "goals": [
+        {
+          "relationship": "on",
+          "ref_obj": "soft_pastry005",
+          "target": "plate_1",
+          "xy_threshold": 0.1,
+          "height_threshold": 0.1,
+          "height_diff": 0.0,
+          "enable_force_threshold": "True",
+          "force_threshold": 0.05
+        }
+      ],
+      "fixtures": {
+        "main_table": {
+          "type": "table",
+          "xml_path": "assets/scenes/table.xml",
+          "scale": [
+            0.02,
+            0.02,
+            0.02
+          ],
+          "initial_pose": [
+            0.0,
+            0.0,
+            0.845
+          ]
+        }
+      },
+      "objects": {
+        "akita_black_bowl_1": {
+          "type": "akita_black_bowl",
+          "xml_path": "assets/stable_scanned_objects/akita_black_bowl/akita_black_bowl.xml",
+          "scale": [
+            0.0001,
+            0.0001,
+            0.0001
+          ],
+          "initial_region": "main_table_stove_region_akita_black_bowl_1"
+        },
+        "cookies_1": {
+          "type": "cookies",
+          "xml_path": "assets/stable_hope_objects/cookies/cookies.xml",
+          "scale": [
+            0.005,
+            0.005,
+            0.005
+          ],
+          "initial_region": "main_table_box_region"
+        },
+        "glazed_rim_porcelain_ramekin_1": {
+          "type": "glazed_rim_porcelain_ramekin",
+          "xml_path": "assets/stable_scanned_objects/glazed_rim_porcelain_ramekin/glazed_rim_porcelain_ramekin.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "main_table_ramekin_region"
+        },
+        "plate_1": {
+          "type": "plate",
+          "xml_path": "assets/stable_scanned_objects/plate/plate.xml",
+          "scale": [
+            0.5,
+            0.5,
+            0.5
+          ],
+          "initial_region": "main_table_plate_region"
+        },
+        "wooden_cabinet_1": {
+          "type": "wooden_cabinet",
+          "xml_path": "assets/articulated_objects/wooden_cabinet.xml",
+          "scale": [
+            0.05,
+            0.05,
+            0.05
+          ],
+          "initial_region": "main_table_cabinet_region",
+          "default_open_ranges": [
+            -0.16,
+            -0.14
+          ],
+          "default_close_ranges": [
+            0.0,
+            0.005
+          ]
+        },
+        "flat_stove_1": {
+          "type": "flat_stove",
+          "xml_path": "assets/articulated_objects/flat_stove.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "main_table_stove_region",
+          "default_turnon_ranges": [
+            0.5,
+            2.1
+          ],
+          "default_turnoff_ranges": [
+            -0.005,
+            0.0
+          ],
+          "default_open_ranges": [],
+          "default_close_ranges": []
+        },
+        "soft_pastry005_tactile_proxy": {
+          "type": "akita_black_bowl",
+          "xml_path": "assets/stable_scanned_objects/akita_black_bowl/akita_black_bowl.xml",
+          "scale": [
+            0.0001,
+            0.0001,
+            0.0001
+          ],
+          "initial_region": "main_table_stove_region_akita_black_bowl_1"
+        }
+      },
+      "regions": {
+        "main_table_plate_region": {
+          "pose_range": {
+            "x": [
+              0.0597107925824821,
+              0.0597107925824821
+            ],
+            "y": [
+              0.19954878970980644,
+              0.19954878970980644
+            ],
+            "z": [
+              0.9023146033287048,
+              0.9023146033287048
+            ],
+            "roll": [
+              1.4012384794703792e-05,
+              1.4012384794703792e-05
+            ],
+            "pitch": [
+              4.268633712323222e-05,
+              4.268633712323222e-05
+            ],
+            "yaw": [
+              1.5707959691670066,
+              1.5707959691670066
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_box_region": {
+          "pose_range": {
+            "x": [
+              0.07002982687205075,
+              0.07002982687205075
+            ],
+            "y": [
+              0.0298355777002871,
+              0.0298355777002871
+            ],
+            "z": [
+              0.9092097878456116,
+              0.9092097878456116
+            ],
+            "roll": [
+              -3.877335529978154e-06,
+              -3.877335529978154e-06
+            ],
+            "pitch": [
+              -1.9153762877976988e-06,
+              -1.9153762877976988e-06
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_ramekin_region": {
+          "pose_range": {
+            "x": [
+              -0.20011476419866087,
+              -0.20011476419866087
+            ],
+            "y": [
+              0.20028078451752662,
+              0.20028078451752662
+            ],
+            "z": [
+              0.8991595506668091,
+              0.8991595506668091
+            ],
+            "roll": [
+              8.881117992132204e-07,
+              8.881117992132204e-07
+            ],
+            "pitch": [
+              5.1776132750092074e-06,
+              5.1776132750092074e-06
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_cabinet_region": {
+          "pose_range": {
+            "x": [
+              0.036652397364377975,
+              0.036652397364377975
+            ],
+            "y": [
+              -0.26443687081336975,
+              -0.26443687081336975
+            ],
+            "z": [
+              0.9049999713897705,
+              0.9049999713897705
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              2.7160422553614705,
+              2.7160422553614705
+            ],
+            "joint_pos_range": {
+              "0": [
+                0.0,
+                0.0
+              ],
+              "1": [
+                0.0,
+                0.0
+              ],
+              "2": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "target": "main_table"
+        },
+        "main_table_stove_region": {
+          "pose_range": {
+            "x": [
+              -0.4004276394844055,
+              -0.4004276394844055
+            ],
+            "y": [
+              -0.13401682674884796,
+              -0.13401682674884796
+            ],
+            "z": [
+              0.9049999713897705,
+              0.9049999713897705
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              0.0,
+              0.0
+            ],
+            "joint_pos_range": {
+              "0": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "target": "main_table"
+        },
+        "main_table_stove_region_akita_black_bowl_1": {
+          "pose_range": {
+            "x": [
+              -0.2610803206264973,
+              -0.2610803206264973
+            ],
+            "y": [
+              -0.13980343084782362,
+              -0.13980343084782362
+            ],
+            "z": [
+              0.9254584908485413,
+              0.9254584908485413
+            ],
+            "roll": [
+              0.0058783223018608055,
+              0.0058783223018608055
+            ],
+            "pitch": [
+              -0.005633621473910555,
+              -0.005633621473910555
+            ],
+            "yaw": [
+              1.5707804717080078,
+              1.5707804717080078
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_cabinet_region_akita_black_bowl_2": {
+          "pose_range": {
+            "x": [
+              0.02170857447199523,
+              0.02170857447199523
+            ],
+            "y": [
+              -0.28158860325813295,
+              -0.28158860325813295
+            ],
+            "z": [
+              1.1263997554779053,
+              1.1263997554779053
+            ],
+            "roll": [
+              -1.069007637966024e-07,
+              -1.069007637966024e-07
+            ],
+            "pitch": [
+              1.2130770699059212e-07,
+              1.2130770699059212e-07
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        }
+      },
+      "workspace_name": "table",
+      "workspace_full_size": [
+        1.0,
+        1.2,
+        0.05
+      ],
+      "workspace_offset": [
+        0,
+        0,
+        0.9
+      ],
+      "robot_base_pos": [
+        -0.66,
+        0.0,
+        0.912
+      ],
+      "robot_base_ori": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tactile_targets": [
+        "soft_pastry005_tactile_proxy"
+      ],
+      "language": "pick up the soft pastry on the stove and place it on the plate"
+    },
+    {
+      "task_id": 8,
+      "task_name": "pick_up_the_soft_pastry_next_to_the_plate_and_place_it_on_the_plate",
+      "language_instruction": "pick up the soft pastry next to the plate and place it on the plate",
+      "problem_name": "libero_tabletop_manipulation",
+      "bddl_file": "bddl_files/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate.bddl",
+      "obj_of_interest": [
+        "soft_pastry005"
+      ],
+      "targets": [
+        "plate_1"
+      ],
+      "goals": [
+        {
+          "relationship": "on",
+          "ref_obj": "soft_pastry005",
+          "target": "plate_1",
+          "xy_threshold": 0.1,
+          "height_threshold": 0.1,
+          "height_diff": 0.0,
+          "enable_force_threshold": "True",
+          "force_threshold": 0.05
+        }
+      ],
+      "fixtures": {
+        "main_table": {
+          "type": "table",
+          "xml_path": "assets/scenes/table.xml",
+          "scale": [
+            0.02,
+            0.02,
+            0.02
+          ],
+          "initial_pose": [
+            0.0,
+            0.0,
+            0.845
+          ]
+        }
+      },
+      "objects": {
+        "akita_black_bowl_1": {
+          "type": "akita_black_bowl",
+          "xml_path": "assets/stable_scanned_objects/akita_black_bowl/akita_black_bowl.xml",
+          "scale": [
+            0.0001,
+            0.0001,
+            0.0001
+          ],
+          "initial_region": "main_table_next_to_plate_region"
+        },
+        "cookies_1": {
+          "type": "cookies",
+          "xml_path": "assets/stable_hope_objects/cookies/cookies.xml",
+          "scale": [
+            0.005,
+            0.005,
+            0.005
+          ],
+          "initial_region": "main_table_box_region"
+        },
+        "glazed_rim_porcelain_ramekin_1": {
+          "type": "glazed_rim_porcelain_ramekin",
+          "xml_path": "assets/stable_scanned_objects/glazed_rim_porcelain_ramekin/glazed_rim_porcelain_ramekin.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "main_table_ramekin_region"
+        },
+        "plate_1": {
+          "type": "plate",
+          "xml_path": "assets/stable_scanned_objects/plate/plate.xml",
+          "scale": [
+            0.5,
+            0.5,
+            0.5
+          ],
+          "initial_region": "main_table_plate_region"
+        },
+        "wooden_cabinet_1": {
+          "type": "wooden_cabinet",
+          "xml_path": "assets/articulated_objects/wooden_cabinet.xml",
+          "scale": [
+            0.05,
+            0.05,
+            0.05
+          ],
+          "initial_region": "main_table_cabinet_region",
+          "default_open_ranges": [
+            -0.16,
+            -0.14
+          ],
+          "default_close_ranges": [
+            0.0,
+            0.005
+          ]
+        },
+        "flat_stove_1": {
+          "type": "flat_stove",
+          "xml_path": "assets/articulated_objects/flat_stove.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "main_table_stove_region",
+          "default_turnon_ranges": [
+            0.5,
+            2.1
+          ],
+          "default_turnoff_ranges": [
+            -0.005,
+            0.0
+          ],
+          "default_open_ranges": [],
+          "default_close_ranges": []
+        },
+        "soft_pastry005_tactile_proxy": {
+          "type": "akita_black_bowl",
+          "xml_path": "assets/stable_scanned_objects/akita_black_bowl/akita_black_bowl.xml",
+          "scale": [
+            0.0001,
+            0.0001,
+            0.0001
+          ],
+          "initial_region": "main_table_next_to_plate_region"
+        }
+      },
+      "regions": {
+        "main_table_plate_region": {
+          "pose_range": {
+            "x": [
+              0.07033784201368688,
+              0.07033784201368688
+            ],
+            "y": [
+              0.1943130061775446,
+              0.1943130061775446
+            ],
+            "z": [
+              0.9023625156283379,
+              0.9023625156283379
+            ],
+            "roll": [
+              0.00031158249350982103,
+              0.00031158249350982103
+            ],
+            "pitch": [
+              -0.002262518514319911,
+              -0.002262518514319911
+            ],
+            "yaw": [
+              1.4686974794384784,
+              1.4686974794384784
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_next_to_plate_region": {
+          "pose_range": {
+            "x": [
+              0.0001403002720326181,
+              0.0001403002720326181
+            ],
+            "y": [
+              0.31536384135484696,
+              0.31536384135484696
+            ],
+            "z": [
+              0.8993728309869766,
+              0.8993728309869766
+            ],
+            "roll": [
+              -0.004369626223208245,
+              -0.004369626223208245
+            ],
+            "pitch": [
+              0.05230654527312528,
+              0.05230654527312528
+            ],
+            "yaw": [
+              1.437060243588006,
+              1.437060243588006
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_box_region": {
+          "pose_range": {
+            "x": [
+              0.0699059477634728,
+              0.0699059477634728
+            ],
+            "y": [
+              0.030817394871264697,
+              0.030817394871264697
+            ],
+            "z": [
+              0.9092097878456116,
+              0.9092097878456116
+            ],
+            "roll": [
+              -3.877335529978154e-06,
+              -3.877335529978154e-06
+            ],
+            "pitch": [
+              -1.9153762877976988e-06,
+              -1.9153762877976988e-06
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_ramekin_region": {
+          "pose_range": {
+            "x": [
+              -0.20033486902713776,
+              -0.20033486902713776
+            ],
+            "y": [
+              0.20051822952926157,
+              0.20051822952926157
+            ],
+            "z": [
+              0.8991595506668091,
+              0.8991595506668091
+            ],
+            "roll": [
+              8.881117992132204e-07,
+              8.881117992132204e-07
+            ],
+            "pitch": [
+              5.1776132750092074e-06,
+              5.1776132750092074e-06
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_next_to_ramekin_region": {
+          "pose_range": {
+            "x": [
+              -0.180010639578104,
+              -0.180010639578104
+            ],
+            "y": [
+              0.32082850754261016,
+              0.32082850754261016
+            ],
+            "z": [
+              0.8981584906578064,
+              0.8981584906578064
+            ],
+            "roll": [
+              -1.7190612199957656e-05,
+              -1.7190612199957656e-05
+            ],
+            "pitch": [
+              1.3142958778633584e-05,
+              1.3142958778633584e-05
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_cabinet_region": {
+          "pose_range": {
+            "x": [
+              0.03561058267951012,
+              0.03561058267951012
+            ],
+            "y": [
+              -0.27763450145721436,
+              -0.27763450145721436
+            ],
+            "z": [
+              0.9049999713897705,
+              0.9049999713897705
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              2.701585232640131,
+              2.701585232640131
+            ],
+            "joint_pos_range": {
+              "0": [
+                0.0,
+                0.0
+              ],
+              "1": [
+                0.0,
+                0.0
+              ],
+              "2": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "target": "main_table"
+        },
+        "main_table_stove_region": {
+          "pose_range": {
+            "x": [
+              -0.4171329438686371,
+              -0.4171329438686371
+            ],
+            "y": [
+              -0.13110661506652832,
+              -0.13110661506652832
+            ],
+            "z": [
+              0.9049999713897705,
+              0.9049999713897705
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              0.0,
+              0.0
+            ],
+            "joint_pos_range": {
+              "0": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "target": "main_table"
+        }
+      },
+      "workspace_name": "table",
+      "workspace_full_size": [
+        1.0,
+        1.2,
+        0.05
+      ],
+      "workspace_offset": [
+        0,
+        0,
+        0.9
+      ],
+      "robot_base_pos": [
+        -0.66,
+        0.0,
+        0.912
+      ],
+      "robot_base_ori": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tactile_targets": [
+        "soft_pastry005_tactile_proxy"
+      ],
+      "language": "pick up the soft pastry next to the plate and place it on the plate"
+    },
+    {
+      "task_id": 9,
+      "task_name": "pick_up_the_soft_pastry_on_the_wooden_cabinet_and_place_it_on_the_plate",
+      "language_instruction": "pick up the soft pastry on the wooden cabinet and place it on the plate",
+      "problem_name": "libero_tabletop_manipulation",
+      "bddl_file": "bddl_files/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate.bddl",
+      "obj_of_interest": [
+        "soft_pastry005"
+      ],
+      "targets": [
+        "plate_1"
+      ],
+      "goals": [
+        {
+          "relationship": "on",
+          "ref_obj": "soft_pastry005",
+          "target": "plate_1",
+          "xy_threshold": 0.1,
+          "height_threshold": 0.1,
+          "height_diff": 0.0,
+          "enable_force_threshold": "True",
+          "force_threshold": 0.05
+        }
+      ],
+      "fixtures": {
+        "main_table": {
+          "type": "table",
+          "xml_path": "assets/scenes/table.xml",
+          "scale": [
+            0.02,
+            0.02,
+            0.02
+          ],
+          "initial_pose": [
+            0.0,
+            0.0,
+            0.845
+          ]
+        }
+      },
+      "objects": {
+        "akita_black_bowl_1": {
+          "type": "akita_black_bowl",
+          "xml_path": "assets/stable_scanned_objects/akita_black_bowl/akita_black_bowl.xml",
+          "scale": [
+            0.0001,
+            0.0001,
+            0.0001
+          ],
+          "initial_region": "main_table_cabinet_region_akita_black_bowl_1"
+        },
+        "cookies_1": {
+          "type": "cookies",
+          "xml_path": "assets/stable_hope_objects/cookies/cookies.xml",
+          "scale": [
+            0.005,
+            0.005,
+            0.005
+          ],
+          "initial_region": "main_table_box_region"
+        },
+        "glazed_rim_porcelain_ramekin_1": {
+          "type": "glazed_rim_porcelain_ramekin",
+          "xml_path": "assets/stable_scanned_objects/glazed_rim_porcelain_ramekin/glazed_rim_porcelain_ramekin.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "main_table_ramekin_region"
+        },
+        "plate_1": {
+          "type": "plate",
+          "xml_path": "assets/stable_scanned_objects/plate/plate.xml",
+          "scale": [
+            0.5,
+            0.5,
+            0.5
+          ],
+          "initial_region": "main_table_plate_region"
+        },
+        "wooden_cabinet_1": {
+          "type": "wooden_cabinet",
+          "xml_path": "assets/articulated_objects/wooden_cabinet.xml",
+          "scale": [
+            0.05,
+            0.05,
+            0.05
+          ],
+          "initial_region": "main_table_cabinet_region",
+          "default_open_ranges": [
+            -0.16,
+            -0.14
+          ],
+          "default_close_ranges": [
+            0.0,
+            0.005
+          ]
+        },
+        "flat_stove_1": {
+          "type": "flat_stove",
+          "xml_path": "assets/articulated_objects/flat_stove.xml",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "initial_region": "main_table_stove_region",
+          "default_turnon_ranges": [
+            0.5,
+            2.1
+          ],
+          "default_turnoff_ranges": [
+            -0.005,
+            0.0
+          ],
+          "default_open_ranges": [],
+          "default_close_ranges": []
+        },
+        "soft_pastry005_tactile_proxy": {
+          "type": "akita_black_bowl",
+          "xml_path": "assets/stable_scanned_objects/akita_black_bowl/akita_black_bowl.xml",
+          "scale": [
+            0.0001,
+            0.0001,
+            0.0001
+          ],
+          "initial_region": "main_table_cabinet_region_akita_black_bowl_1"
+        }
+      },
+      "regions": {
+        "main_table_plate_region": {
+          "pose_range": {
+            "x": [
+              0.06026700541377068,
+              0.06026700541377068
+            ],
+            "y": [
+              0.19954888351261615,
+              0.19954888351261615
+            ],
+            "z": [
+              0.9023146033287048,
+              0.9023146033287048
+            ],
+            "roll": [
+              1.4012384794703792e-05,
+              1.4012384794703792e-05
+            ],
+            "pitch": [
+              4.268633712323222e-05,
+              4.268633712323222e-05
+            ],
+            "yaw": [
+              1.5707959691670066,
+              1.5707959691670066
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_box_region": {
+          "pose_range": {
+            "x": [
+              0.06981448125094175,
+              0.06981448125094175
+            ],
+            "y": [
+              0.030143695808947085,
+              0.030143695808947085
+            ],
+            "z": [
+              0.9092097878456116,
+              0.9092097878456116
+            ],
+            "roll": [
+              -3.877335529978154e-06,
+              -3.877335529978154e-06
+            ],
+            "pitch": [
+              -1.9153762877976988e-06,
+              -1.9153762877976988e-06
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_ramekin_region": {
+          "pose_range": {
+            "x": [
+              -0.19916321329772474,
+              -0.19916321329772474
+            ],
+            "y": [
+              0.1991926661133766,
+              0.1991926661133766
+            ],
+            "z": [
+              0.8991595506668091,
+              0.8991595506668091
+            ],
+            "roll": [
+              8.881117992132204e-07,
+              8.881117992132204e-07
+            ],
+            "pitch": [
+              5.1776132750092074e-06,
+              5.1776132750092074e-06
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_cabinet_region": {
+          "pose_range": {
+            "x": [
+              0.036652397364377975,
+              0.036652397364377975
+            ],
+            "y": [
+              -0.26443687081336975,
+              -0.26443687081336975
+            ],
+            "z": [
+              0.9049999713897705,
+              0.9049999713897705
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              2.7160422553614705,
+              2.7160422553614705
+            ],
+            "joint_pos_range": {
+              "0": [
+                0.0,
+                0.0
+              ],
+              "1": [
+                0.0,
+                0.0
+              ],
+              "2": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "target": "main_table"
+        },
+        "main_table_stove_region": {
+          "pose_range": {
+            "x": [
+              -0.4004276394844055,
+              -0.4004276394844055
+            ],
+            "y": [
+              -0.13401682674884796,
+              -0.13401682674884796
+            ],
+            "z": [
+              0.9049999713897705,
+              0.9049999713897705
+            ],
+            "roll": [
+              0.0,
+              0.0
+            ],
+            "pitch": [
+              0.0,
+              0.0
+            ],
+            "yaw": [
+              0.0,
+              0.0
+            ],
+            "joint_pos_range": {
+              "0": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "target": "main_table"
+        },
+        "main_table_cabinet_region_akita_black_bowl_1": {
+          "pose_range": {
+            "x": [
+              0.02006847441196441,
+              0.02006847441196441
+            ],
+            "y": [
+              -0.28248612269759177,
+              -0.28248612269759177
+            ],
+            "z": [
+              1.1263997554779053,
+              1.1263997554779053
+            ],
+            "roll": [
+              -1.069007637966024e-07,
+              -1.069007637966024e-07
+            ],
+            "pitch": [
+              1.2130770699059212e-07,
+              1.2130770699059212e-07
+            ],
+            "yaw": [
+              1.5707962671902482,
+              1.5707962671902482
+            ]
+          },
+          "target": "main_table"
+        },
+        "main_table_stove_region_akita_black_bowl_2": {
+          "pose_range": {
+            "x": [
+              -0.2588591327518225,
+              -0.2588591327518225
+            ],
+            "y": [
+              -0.1438248524814844,
+              -0.1438248524814844
+            ],
+            "z": [
+              0.9254584908485413,
+              0.9254584908485413
+            ],
+            "roll": [
+              0.0058783223018608055,
+              0.0058783223018608055
+            ],
+            "pitch": [
+              -0.005633621473910555,
+              -0.005633621473910555
+            ],
+            "yaw": [
+              1.5707804717080078,
+              1.5707804717080078
+            ]
+          },
+          "target": "main_table"
+        }
+      },
+      "workspace_name": "table",
+      "workspace_full_size": [
+        1.0,
+        1.2,
+        0.05
+      ],
+      "workspace_offset": [
+        0,
+        0,
+        0.9
+      ],
+      "robot_base_pos": [
+        -0.66,
+        0.0,
+        0.912
+      ],
+      "robot_base_ori": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tactile_targets": [
+        "soft_pastry005_tactile_proxy"
+      ],
+      "language": "pick up the soft pastry on the wooden cabinet and place it on the plate"
+    }
+  ]
+}

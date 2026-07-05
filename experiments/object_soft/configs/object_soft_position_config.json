@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "_edit_guide": "Units are meters. Usually edit anchors.left_back and anchors.right_middle first. selection=alternate means even demo_id uses the first anchor and odd demo_id uses the second. xy_jitter adds deterministic per-demo noise around the selected anchor. Set positions to any two or more named anchors if you want more target regions.",
+  "anchors": {
+    "left_back": [
+      -0.14,
+      -0.255,
+      0.045
+    ],
+    "right_middle": [
+      0.075,
+      -0.125,
+      0.045
+    ]
+  },
+  "default": {
+    "enabled": true,
+    "selection": "alternate",
+    "anchor_names": [
+      "left_back",
+      "right_middle"
+    ],
+    "xy_jitter": 0.012,
+    "z": null,
+    "clip": {
+      "x_min": -0.22,
+      "x_max": 0.16,
+      "y_min": -0.31,
+      "y_max": -0.045,
+      "z_min": 0.03,
+      "z_max": 0.08
+    }
+  },
+  "distractors": {
+    "enabled": true,
+    "_edit_guide": "Named [x, y] positions for distractors used by libero_object task00/task01/task02. Current task source object and basket_1 are skipped automatically.",
+    "layout": {
+      "salad_dressing_1": [
+        -0.2,
+        -0.14
+      ],
+      "cream_cheese_1": [
+        0.185,
+        -0.225
+      ],
+      "milk_1": [
+        -0.18,
+        0.055
+      ],
+      "tomato_sauce_1": [
+        0.185,
+        -0.02
+      ],
+      "butter_1": [
+        0.155,
+        0.125
+      ],
+      "alphabet_soup_1": [
+        -0.105,
+        0.15
+      ],
+      "orange_juice_1": [
+        0.22,
+        0.07
+      ],
+      "ketchup_1": [
+        -0.23,
+        -0.01
+      ],
+      "bbq_sauce_1": [
+        0.045,
+        -0.255
+      ],
+      "chocolate_pudding_1": [
+        -0.04,
+        0.045
+      ]
+    }
+  },
+  "assets": {
+    "pastry001": {},
+    "pastry002": {},
+    "pastry003": {},
+    "pastry004": {},
+    "pastry005": {},
+    "pastry006": {
+      "xy_jitter": 0.008
+    },
+    "pastry010": {}
+  }
+}

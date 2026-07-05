@@ -1,0 +1,25 @@
+Third-Party Notices
+
+SoftVTBench-authored code is distributed under Apache-2.0. Vendored components
+retain their original licenses and copyright notices.
+
+Tabero: https://github.com/NathanWu7/Tabero
+Vendored commit: 54c66f3c9c4869b30053efc7860df97f0b4758a6
+License: Apache-2.0 (SoftVTBench/LICENCE). Isaac Lab-derived files carrying
+BSD-3-Clause SPDX headers remain BSD-3-Clause.
+
+OpenPI: https://github.com/Physical-Intelligence/openpi
+License: Apache-2.0 (openpi/upstream/LICENSE). Gemma-derived components are
+additionally subject to openpi/upstream/LICENSE_GEMMA.txt.
+
+GPU Taxim code retains the MIT license included in its source directory.
+NVIDIA Isaac Sim is an external runtime and is not relicensed by SoftVTBench.
+
+LIBERO: https://github.com/Lifelong-Robot-Learning/LIBERO
+License: MIT. Original LIBERO assets used through Tabero remain subject to the
+terms and notices published by their upstream projects.
+
+Datasets and runtime assets are not included in this repository. The original
+LIBERO/Tabero assets retain their upstream terms. SoftVTBench-contributed
+deformable assets and data retain the terms published on their external dataset
+cards. Downloading an external bundle does not change its license or provenance.

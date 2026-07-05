@@ -1,0 +1,26 @@
+[package]
+
+# Semantic Versioning is used: https://semver.org/
+version = "0.1.0"
+
+# Description
+category = "isaaclab"
+
+title = "SoftVTBench Isaac Lab Extension"
+author = "SoftVTBench Contributors"
+maintainer = "SoftVTBench Contributors"
+description = "Isaac Lab environments and tactile simulation components for SoftVTBench"
+repository = "https://github.com/TuojingAI/SoftVTBench.git"
+keywords = ["softvtbench", "visuo-tactile", "robotics", "isaaclab"]
+
+[dependencies]
+"isaaclab" = {}
+"isaaclab_assets" = {}
+"isaaclab_rl" = {}
+"isaaclab_tasks" = {}
+
+[[python.module]]
+name = "tac_manip"
+
+[isaaclab_settings]
+# No additional apt or ROS workspace dependencies are declared by the extension.

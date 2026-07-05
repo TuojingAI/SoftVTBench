@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "protocol_id": "softvtbench-v1",
+  "release_scope": {
+    "models": [
+      "pi05"
+    ],
+    "modalities": [
+      "vision",
+      "tactile"
+    ],
+    "suites": [
+      "object-rigid",
+      "spatial-rigid",
+      "object-soft",
+      "spatial-soft"
+    ]
+  },
+  "metrics": {
+    "goal_success": {
+      "description": "The simulator task predicate remains true for the configured terminal success horizon. This is the only public task-completion metric in SoftVTBench v1."
+    },
+    "safe_success": {
+      "applies_to": [
+        "object-soft",
+        "spatial-soft"
+      ],
+      "definition": "goal_success AND d_peak <= tau_o"
+    },
+    "d_peak": {
+      "definition": "max_t(d_t)",
+      "metric_id": "fem_rms_rigid_aligned_bbox_pct_v1",
+      "d_t": "100 * RMS(KabschAlign(x_t, x_0) - x_0) / bbox_diagonal(x_0)",
+      "unit": "percent_of_reference_bbox_diagonal"
+    }
+  },
+  "thresholds": {
+    "path": "configs/safety_thresholds.json",
+    "key": "thresholds.<asset>.tau"
+  },
+  "simulation_physics": "configs/simulation_physics_v1.json"
+}

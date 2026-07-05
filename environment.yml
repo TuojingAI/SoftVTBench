@@ -1,0 +1,9 @@
+name: softvtbench-eval
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - cmake
+  - git-lfs

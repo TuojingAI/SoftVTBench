@@ -1,0 +1,2022 @@
+{
+ "0": {
+  "demo_0": {
+   "pos": "-0.06083406 0.20558464 0.92739105",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.17977976, 0.32147584, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_1": {
+   "pos": "-0.06083406 0.20558464 0.92739105",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.17977976, 0.32147584, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_2": {
+   "pos": "-0.06083406 0.20558464 0.92739105",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.17977976, 0.32147584, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_3": {
+   "pos": "-0.06083406 0.20558464 0.92739105",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.17977976, 0.32147584, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_4": {
+   "pos": "-0.06083406 0.20558464 0.92739105",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.17977976, 0.32147584, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_5": {
+   "pos": "-0.06083406 0.20558464 0.92739105",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.17977976, 0.32147584, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_6": {
+   "pos": "-0.06083406 0.20558464 0.92739105",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.17977976, 0.32147584, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_7": {
+   "pos": "-0.06083406 0.20558464 0.92739105",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.17977976, 0.32147584, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_8": {
+   "pos": "-0.06083406 0.20558464 0.92739105",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.17977976, 0.32147584, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_9": {
+   "pos": "-0.06083406 0.20558464 0.92739105",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.17977976, 0.32147584, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_10": {
+   "pos": "-0.06083406 0.20558464 0.92739105",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.17977976, 0.32147584, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_11": {
+   "pos": "-0.06083406 0.20558464 0.92739105",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.17977976, 0.32147584, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_12": {
+   "pos": "-0.06083406 0.20558464 0.92739105",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.17977976, 0.32147584, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_13": {
+   "pos": "-0.06083406 0.20558464 0.92739105",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.17977976, 0.32147584, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_14": {
+   "pos": "-0.06083406 0.20558464 0.92739105",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.17977976, 0.32147584, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_15": {
+   "pos": "-0.06083406 0.20558464 0.92739105",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.17977976, 0.32147584, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_16": {
+   "pos": "-0.06083406 0.20558464 0.92739105",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.17977976, 0.32147584, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_17": {
+   "pos": "-0.06083406 0.20558464 0.92739105",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.17977976, 0.32147584, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_18": {
+   "pos": "-0.06083406 0.20558464 0.92739105",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.17977976, 0.32147584, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_19": {
+   "pos": "-0.06083406 0.20558464 0.92739105",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.17977976, 0.32147584, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_20": {
+   "pos": "-0.06083406 0.20558464 0.92739105",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.17977976, 0.32147584, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_21": {
+   "pos": "-0.06083406 0.20558464 0.92739105",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.17977976, 0.32147584, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_22": {
+   "pos": "-0.06083406 0.20558464 0.92739105",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.17977976, 0.32147584, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_23": {
+   "pos": "-0.06083406 0.20558464 0.92739105",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.17977976, 0.32147584, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_24": {
+   "pos": "-0.06083406 0.20558464 0.92739105",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.17977976, 0.32147584, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_25": {
+   "pos": "-0.06083406 0.20558464 0.92739105",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.17977976, 0.32147584, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_26": {
+   "pos": "-0.06083406 0.20558464 0.92739105",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.17977976, 0.32147584, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_27": {
+   "pos": "-0.06083406 0.20558464 0.92739105",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.17977976, 0.32147584, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_28": {
+   "pos": "-0.06083406 0.20558464 0.92739105",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.17977976, 0.32147584, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_29": {
+   "pos": "-0.06083406 0.20558464 0.92739105",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.17977976, 0.32147584, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_30": {
+   "pos": "-0.06083406 0.20558464 0.92739105",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.17977976, 0.32147584, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_31": {
+   "pos": "-0.06083406 0.20558464 0.92739105",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.17977976, 0.32147584, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_32": {
+   "pos": "-0.06083406 0.20558464 0.92739105",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.17977976, 0.32147584, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_33": {
+   "pos": "-0.06083406 0.20558464 0.92739105",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.17977976, 0.32147584, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_34": {
+   "pos": "-0.06083406 0.20558464 0.92739105",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.17977976, 0.32147584, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_35": {
+   "pos": "-0.06083406 0.20558464 0.92739105",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.17977976, 0.32147584, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_36": {
+   "pos": "-0.06083406 0.20558464 0.92739105",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.17977976, 0.32147584, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_37": {
+   "pos": "-0.06083406 0.20558464 0.92739105",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.17977976, 0.32147584, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_38": {
+   "pos": "-0.06083406 0.20558464 0.92739105",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.17977976, 0.32147584, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_39": {
+   "pos": "-0.06083406 0.20558464 0.92739105",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.17977976, 0.32147584, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_40": {
+   "pos": "-0.06083406 0.20558464 0.92739105",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.17977976, 0.32147584, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_41": {
+   "pos": "-0.06083406 0.20558464 0.92739105",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.17977976, 0.32147584, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_42": {
+   "pos": "-0.06083406 0.20558464 0.92739105",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.17977976, 0.32147584, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_43": {
+   "pos": "-0.06083406 0.20558464 0.92739105",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.17977976, 0.32147584, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_44": {
+   "pos": "-0.06083406 0.20558464 0.92739105",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.17977976, 0.32147584, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_45": {
+   "pos": "-0.06083406 0.20558464 0.92739105",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.17977976, 0.32147584, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_46": {
+   "pos": "-0.06083406 0.20558464 0.92739105",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.17977976, 0.32147584, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_47": {
+   "pos": "-0.06083406 0.20558464 0.92739105",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.17977976, 0.32147584, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_48": {
+   "pos": "-0.06083406 0.20558464 0.92739105",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.17977976, 0.32147584, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_49": {
+   "pos": "-0.06083406 0.20558464 0.92739105",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.17977976, 0.32147584, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  }
+ },
+ "1": {
+  "demo_0": {
+   "pos": "-0.17567063 0.34446918 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.12963812, -0.07052536, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_1": {
+   "pos": "-0.17567063 0.34446918 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.12963812, -0.07052536, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_2": {
+   "pos": "-0.17567063 0.34446918 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.12963812, -0.07052536, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_3": {
+   "pos": "-0.17567063 0.34446918 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.12963812, -0.07052536, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_4": {
+   "pos": "-0.17567063 0.34446918 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.12963812, -0.07052536, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_5": {
+   "pos": "-0.17567063 0.34446918 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.12963812, -0.07052536, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_6": {
+   "pos": "-0.17567063 0.34446918 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.12963812, -0.07052536, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_7": {
+   "pos": "-0.17567063 0.34446918 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.12963812, -0.07052536, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_8": {
+   "pos": "-0.17567063 0.34446918 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.12963812, -0.07052536, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_9": {
+   "pos": "-0.17567063 0.34446918 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.12963812, -0.07052536, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_10": {
+   "pos": "-0.17567063 0.34446918 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.12963812, -0.07052536, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_11": {
+   "pos": "-0.17567063 0.34446918 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.12963812, -0.07052536, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_12": {
+   "pos": "-0.17567063 0.34446918 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.12963812, -0.07052536, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_13": {
+   "pos": "-0.17567063 0.34446918 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.12963812, -0.07052536, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_14": {
+   "pos": "-0.17567063 0.34446918 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.12963812, -0.07052536, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_15": {
+   "pos": "-0.17567063 0.34446918 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.12963812, -0.07052536, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_16": {
+   "pos": "-0.17567063 0.34446918 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.12963812, -0.07052536, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_17": {
+   "pos": "-0.17567063 0.34446918 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.12963812, -0.07052536, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_18": {
+   "pos": "-0.17567063 0.34446918 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.12963812, -0.07052536, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_19": {
+   "pos": "-0.17567063 0.34446918 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.12963812, -0.07052536, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_20": {
+   "pos": "-0.17567063 0.34446918 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.12963812, -0.07052536, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_21": {
+   "pos": "-0.17567063 0.34446918 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.12963812, -0.07052536, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_22": {
+   "pos": "-0.17567063 0.34446918 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.12963812, -0.07052536, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_23": {
+   "pos": "-0.17567063 0.34446918 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.12963812, -0.07052536, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_24": {
+   "pos": "-0.17567063 0.34446918 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.12963812, -0.07052536, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_25": {
+   "pos": "-0.17567063 0.34446918 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.12963812, -0.07052536, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_26": {
+   "pos": "-0.17567063 0.34446918 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.12963812, -0.07052536, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_27": {
+   "pos": "-0.17567063 0.34446918 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.12963812, -0.07052536, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_28": {
+   "pos": "-0.17567063 0.34446918 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.12963812, -0.07052536, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_29": {
+   "pos": "-0.17567063 0.34446918 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.12963812, -0.07052536, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_30": {
+   "pos": "-0.17567063 0.34446918 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.12963812, -0.07052536, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_31": {
+   "pos": "-0.17567063 0.34446918 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.12963812, -0.07052536, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_32": {
+   "pos": "-0.17567063 0.34446918 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.12963812, -0.07052536, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_33": {
+   "pos": "-0.17567063 0.34446918 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.12963812, -0.07052536, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_34": {
+   "pos": "-0.17567063 0.34446918 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.12963812, -0.07052536, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_35": {
+   "pos": "-0.17567063 0.34446918 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.12963812, -0.07052536, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_36": {
+   "pos": "-0.17567063 0.34446918 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.12963812, -0.07052536, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_37": {
+   "pos": "-0.17567063 0.34446918 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.12963812, -0.07052536, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_38": {
+   "pos": "-0.17567063 0.34446918 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.12963812, -0.07052536, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_39": {
+   "pos": "-0.17567063 0.34446918 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.12963812, -0.07052536, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_40": {
+   "pos": "-0.17567063 0.34446918 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.12963812, -0.07052536, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_41": {
+   "pos": "-0.17567063 0.34446918 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.12963812, -0.07052536, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_42": {
+   "pos": "-0.17567063 0.34446918 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.12963812, -0.07052536, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_43": {
+   "pos": "-0.17567063 0.34446918 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.12963812, -0.07052536, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_44": {
+   "pos": "-0.17567063 0.34446918 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.12963812, -0.07052536, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_45": {
+   "pos": "-0.17567063 0.34446918 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.12963812, -0.07052536, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_46": {
+   "pos": "-0.17567063 0.34446918 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.12963812, -0.07052536, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_47": {
+   "pos": "-0.17567063 0.34446918 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.12963812, -0.07052536, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_48": {
+   "pos": "-0.17567063 0.34446918 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.12963812, -0.07052536, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_49": {
+   "pos": "-0.17567063 0.34446918 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.12963812, -0.07052536, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  }
+ },
+ "2": {
+  "demo_0": {
+   "pos": "-0.07500029 0.00065215 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.0092174, 0.31739852, 0.92742186], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_1": {
+   "pos": "-0.07500029 0.00065215 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.0092174, 0.31739852, 0.92742186], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_2": {
+   "pos": "-0.07500029 0.00065215 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.0092174, 0.31739852, 0.92742186], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_3": {
+   "pos": "-0.07500029 0.00065215 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.0092174, 0.31739852, 0.92742186], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_4": {
+   "pos": "-0.07500029 0.00065215 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.0092174, 0.31739852, 0.92742186], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_5": {
+   "pos": "-0.07500029 0.00065215 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.0092174, 0.31739852, 0.92742186], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_6": {
+   "pos": "-0.07500029 0.00065215 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.0092174, 0.31739852, 0.92742186], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_7": {
+   "pos": "-0.07500029 0.00065215 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.0092174, 0.31739852, 0.92742186], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_8": {
+   "pos": "-0.07500029 0.00065215 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.0092174, 0.31739852, 0.92742186], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_9": {
+   "pos": "-0.07500029 0.00065215 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.0092174, 0.31739852, 0.92742186], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_10": {
+   "pos": "-0.07500029 0.00065215 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.0092174, 0.31739852, 0.92742186], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_11": {
+   "pos": "-0.07500029 0.00065215 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.0092174, 0.31739852, 0.92742186], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_12": {
+   "pos": "-0.07500029 0.00065215 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.0092174, 0.31739852, 0.92742186], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_13": {
+   "pos": "-0.07500029 0.00065215 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.0092174, 0.31739852, 0.92742186], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_14": {
+   "pos": "-0.07500029 0.00065215 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.0092174, 0.31739852, 0.92742186], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_15": {
+   "pos": "-0.07500029 0.00065215 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.0092174, 0.31739852, 0.92742186], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_16": {
+   "pos": "-0.07500029 0.00065215 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.0092174, 0.31739852, 0.92742186], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_17": {
+   "pos": "-0.07500029 0.00065215 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.0092174, 0.31739852, 0.92742186], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_18": {
+   "pos": "-0.07500029 0.00065215 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.0092174, 0.31739852, 0.92742186], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_19": {
+   "pos": "-0.07500029 0.00065215 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.0092174, 0.31739852, 0.92742186], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_20": {
+   "pos": "-0.07500029 0.00065215 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.0092174, 0.31739852, 0.92742186], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_21": {
+   "pos": "-0.07500029 0.00065215 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.0092174, 0.31739852, 0.92742186], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_22": {
+   "pos": "-0.07500029 0.00065215 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.0092174, 0.31739852, 0.92742186], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_23": {
+   "pos": "-0.07500029 0.00065215 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.0092174, 0.31739852, 0.92742186], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_24": {
+   "pos": "-0.07500029 0.00065215 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.0092174, 0.31739852, 0.92742186], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_25": {
+   "pos": "-0.07500029 0.00065215 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.0092174, 0.31739852, 0.92742186], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_26": {
+   "pos": "-0.07500029 0.00065215 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.0092174, 0.31739852, 0.92742186], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_27": {
+   "pos": "-0.07500029 0.00065215 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.0092174, 0.31739852, 0.92742186], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_28": {
+   "pos": "-0.07500029 0.00065215 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.0092174, 0.31739852, 0.92742186], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_29": {
+   "pos": "-0.07500029 0.00065215 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.0092174, 0.31739852, 0.92742186], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_30": {
+   "pos": "-0.07500029 0.00065215 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.0092174, 0.31739852, 0.92742186], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_31": {
+   "pos": "-0.07500029 0.00065215 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.0092174, 0.31739852, 0.92742186], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_32": {
+   "pos": "-0.07500029 0.00065215 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.0092174, 0.31739852, 0.92742186], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_33": {
+   "pos": "-0.07500029 0.00065215 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.0092174, 0.31739852, 0.92742186], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_34": {
+   "pos": "-0.07500029 0.00065215 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.0092174, 0.31739852, 0.92742186], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_35": {
+   "pos": "-0.07500029 0.00065215 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.0092174, 0.31739852, 0.92742186], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_36": {
+   "pos": "-0.07500029 0.00065215 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.0092174, 0.31739852, 0.92742186], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_37": {
+   "pos": "-0.07500029 0.00065215 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.0092174, 0.31739852, 0.92742186], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_38": {
+   "pos": "-0.07500029 0.00065215 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.0092174, 0.31739852, 0.92742186], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_39": {
+   "pos": "-0.07500029 0.00065215 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.0092174, 0.31739852, 0.92742186], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_40": {
+   "pos": "-0.07500029 0.00065215 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.0092174, 0.31739852, 0.92742186], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_41": {
+   "pos": "-0.07500029 0.00065215 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.0092174, 0.31739852, 0.92742186], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_42": {
+   "pos": "-0.07500029 0.00065215 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.0092174, 0.31739852, 0.92742186], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_43": {
+   "pos": "-0.07500029 0.00065215 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.0092174, 0.31739852, 0.92742186], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_44": {
+   "pos": "-0.07500029 0.00065215 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.0092174, 0.31739852, 0.92742186], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_45": {
+   "pos": "-0.07500029 0.00065215 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.0092174, 0.31739852, 0.92742186], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_46": {
+   "pos": "-0.07500029 0.00065215 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.0092174, 0.31739852, 0.92742186], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_47": {
+   "pos": "-0.07500029 0.00065215 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.0092174, 0.31739852, 0.92742186], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_48": {
+   "pos": "-0.07500029 0.00065215 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.0092174, 0.31739852, 0.92742186], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_49": {
+   "pos": "-0.07500029 0.00065215 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.0092174, 0.31739852, 0.92742186], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  }
+ },
+ "3": {
+  "demo_0": {
+   "pos": "0.08515500 0.02008341 0.94491965",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02255593, -0.28234671, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_1": {
+   "pos": "0.08515500 0.02008341 0.94491965",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02255593, -0.28234671, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_2": {
+   "pos": "0.08515500 0.02008341 0.94491965",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02255593, -0.28234671, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_3": {
+   "pos": "0.08515500 0.02008341 0.94491965",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02255593, -0.28234671, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_4": {
+   "pos": "0.08515500 0.02008341 0.94491965",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02255593, -0.28234671, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_5": {
+   "pos": "0.08515500 0.02008341 0.94491965",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02255593, -0.28234671, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_6": {
+   "pos": "0.08515500 0.02008341 0.94491965",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02255593, -0.28234671, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_7": {
+   "pos": "0.08515500 0.02008341 0.94491965",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02255593, -0.28234671, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_8": {
+   "pos": "0.08515500 0.02008341 0.94491965",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02255593, -0.28234671, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_9": {
+   "pos": "0.08515500 0.02008341 0.94491965",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02255593, -0.28234671, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_10": {
+   "pos": "0.08515500 0.02008341 0.94491965",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02255593, -0.28234671, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_11": {
+   "pos": "0.08515500 0.02008341 0.94491965",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02255593, -0.28234671, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_12": {
+   "pos": "0.08515500 0.02008341 0.94491965",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02255593, -0.28234671, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_13": {
+   "pos": "0.08515500 0.02008341 0.94491965",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02255593, -0.28234671, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_14": {
+   "pos": "0.08515500 0.02008341 0.94491965",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02255593, -0.28234671, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_15": {
+   "pos": "0.08515500 0.02008341 0.94491965",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02255593, -0.28234671, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_16": {
+   "pos": "0.08515500 0.02008341 0.94491965",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02255593, -0.28234671, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_17": {
+   "pos": "0.08515500 0.02008341 0.94491965",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02255593, -0.28234671, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_18": {
+   "pos": "0.08515500 0.02008341 0.94491965",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02255593, -0.28234671, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_19": {
+   "pos": "0.08515500 0.02008341 0.94491965",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02255593, -0.28234671, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_20": {
+   "pos": "0.08515500 0.02008341 0.94491965",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02255593, -0.28234671, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_21": {
+   "pos": "0.08515500 0.02008341 0.94491965",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02255593, -0.28234671, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_22": {
+   "pos": "0.08515500 0.02008341 0.94491965",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02255593, -0.28234671, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_23": {
+   "pos": "0.08515500 0.02008341 0.94491965",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02255593, -0.28234671, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_24": {
+   "pos": "0.08515500 0.02008341 0.94491965",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02255593, -0.28234671, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_25": {
+   "pos": "0.08515500 0.02008341 0.94491965",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02255593, -0.28234671, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_26": {
+   "pos": "0.08515500 0.02008341 0.94491965",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02255593, -0.28234671, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_27": {
+   "pos": "0.08515500 0.02008341 0.94491965",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02255593, -0.28234671, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_28": {
+   "pos": "0.08515500 0.02008341 0.94491965",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02255593, -0.28234671, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_29": {
+   "pos": "0.08515500 0.02008341 0.94491965",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02255593, -0.28234671, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_30": {
+   "pos": "0.08515500 0.02008341 0.94491965",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02255593, -0.28234671, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_31": {
+   "pos": "0.08515500 0.02008341 0.94491965",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02255593, -0.28234671, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_32": {
+   "pos": "0.08515500 0.02008341 0.94491965",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02255593, -0.28234671, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_33": {
+   "pos": "0.08515500 0.02008341 0.94491965",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02255593, -0.28234671, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_34": {
+   "pos": "0.08515500 0.02008341 0.94491965",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02255593, -0.28234671, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_35": {
+   "pos": "0.08515500 0.02008341 0.94491965",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02255593, -0.28234671, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_36": {
+   "pos": "0.08515500 0.02008341 0.94491965",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02255593, -0.28234671, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_37": {
+   "pos": "0.08515500 0.02008341 0.94491965",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02255593, -0.28234671, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_38": {
+   "pos": "0.08515500 0.02008341 0.94491965",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02255593, -0.28234671, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_39": {
+   "pos": "0.08515500 0.02008341 0.94491965",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02255593, -0.28234671, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_40": {
+   "pos": "0.08515500 0.02008341 0.94491965",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02255593, -0.28234671, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_41": {
+   "pos": "0.08515500 0.02008341 0.94491965",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02255593, -0.28234671, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_42": {
+   "pos": "0.08515500 0.02008341 0.94491965",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02255593, -0.28234671, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_43": {
+   "pos": "0.08515500 0.02008341 0.94491965",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02255593, -0.28234671, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_44": {
+   "pos": "0.08515500 0.02008341 0.94491965",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02255593, -0.28234671, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_45": {
+   "pos": "0.08515500 0.02008341 0.94491965",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02255593, -0.28234671, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_46": {
+   "pos": "0.08515500 0.02008341 0.94491965",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02255593, -0.28234671, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_47": {
+   "pos": "0.08515500 0.02008341 0.94491965",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02255593, -0.28234671, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_48": {
+   "pos": "0.08515500 0.02008341 0.94491965",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02255593, -0.28234671, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_49": {
+   "pos": "0.08515500 0.02008341 0.94491965",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02255593, -0.28234671, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  }
+ },
+ "4": {
+  "demo_0": {
+   "pos": "0.11894169 -0.06369676 1.09673425",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02286197, -0.2837862, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_1": {
+   "pos": "0.11894169 -0.06369676 1.09673425",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02286197, -0.2837862, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_2": {
+   "pos": "0.11894169 -0.06369676 1.09673425",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02286197, -0.2837862, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_3": {
+   "pos": "0.11894169 -0.06369676 1.09673425",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02286197, -0.2837862, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_4": {
+   "pos": "0.11894169 -0.06369676 1.09673425",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02286197, -0.2837862, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_5": {
+   "pos": "0.11894169 -0.06369676 1.09673425",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02286197, -0.2837862, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_6": {
+   "pos": "0.11894169 -0.06369676 1.09673425",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02286197, -0.2837862, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_7": {
+   "pos": "0.11894169 -0.06369676 1.09673425",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02286197, -0.2837862, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_8": {
+   "pos": "0.11894169 -0.06369676 1.09673425",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02286197, -0.2837862, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_9": {
+   "pos": "0.11894169 -0.06369676 1.09673425",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02286197, -0.2837862, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_10": {
+   "pos": "0.11894169 -0.06369676 1.09673425",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02286197, -0.2837862, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_11": {
+   "pos": "0.11894169 -0.06369676 1.09673425",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02286197, -0.2837862, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_12": {
+   "pos": "0.11894169 -0.06369676 1.09673425",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02286197, -0.2837862, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_13": {
+   "pos": "0.11894169 -0.06369676 1.09673425",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02286197, -0.2837862, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_14": {
+   "pos": "0.11894169 -0.06369676 1.09673425",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02286197, -0.2837862, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_15": {
+   "pos": "0.11894169 -0.06369676 1.09673425",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02286197, -0.2837862, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_16": {
+   "pos": "0.11894169 -0.06369676 1.09673425",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02286197, -0.2837862, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_17": {
+   "pos": "0.11894169 -0.06369676 1.09673425",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02286197, -0.2837862, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_18": {
+   "pos": "0.11894169 -0.06369676 1.09673425",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02286197, -0.2837862, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_19": {
+   "pos": "0.11894169 -0.06369676 1.09673425",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02286197, -0.2837862, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_20": {
+   "pos": "0.11894169 -0.06369676 1.09673425",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02286197, -0.2837862, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_21": {
+   "pos": "0.11894169 -0.06369676 1.09673425",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02286197, -0.2837862, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_22": {
+   "pos": "0.11894169 -0.06369676 1.09673425",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02286197, -0.2837862, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_23": {
+   "pos": "0.11894169 -0.06369676 1.09673425",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02286197, -0.2837862, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_24": {
+   "pos": "0.11894169 -0.06369676 1.09673425",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02286197, -0.2837862, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_25": {
+   "pos": "0.11894169 -0.06369676 1.09673425",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02286197, -0.2837862, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_26": {
+   "pos": "0.11894169 -0.06369676 1.09673425",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02286197, -0.2837862, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_27": {
+   "pos": "0.11894169 -0.06369676 1.09673425",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02286197, -0.2837862, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_28": {
+   "pos": "0.11894169 -0.06369676 1.09673425",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02286197, -0.2837862, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_29": {
+   "pos": "0.11894169 -0.06369676 1.09673425",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02286197, -0.2837862, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_30": {
+   "pos": "0.11894169 -0.06369676 1.09673425",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02286197, -0.2837862, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_31": {
+   "pos": "0.11894169 -0.06369676 1.09673425",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02286197, -0.2837862, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_32": {
+   "pos": "0.11894169 -0.06369676 1.09673425",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02286197, -0.2837862, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_33": {
+   "pos": "0.11894169 -0.06369676 1.09673425",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02286197, -0.2837862, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_34": {
+   "pos": "0.11894169 -0.06369676 1.09673425",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02286197, -0.2837862, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_35": {
+   "pos": "0.11894169 -0.06369676 1.09673425",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02286197, -0.2837862, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_36": {
+   "pos": "0.11894169 -0.06369676 1.09673425",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02286197, -0.2837862, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_37": {
+   "pos": "0.11894169 -0.06369676 1.09673425",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02286197, -0.2837862, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_38": {
+   "pos": "0.11894169 -0.06369676 1.09673425",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02286197, -0.2837862, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_39": {
+   "pos": "0.11894169 -0.06369676 1.09673425",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02286197, -0.2837862, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_40": {
+   "pos": "0.11894169 -0.06369676 1.09673425",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02286197, -0.2837862, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_41": {
+   "pos": "0.11894169 -0.06369676 1.09673425",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02286197, -0.2837862, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_42": {
+   "pos": "0.11894169 -0.06369676 1.09673425",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02286197, -0.2837862, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_43": {
+   "pos": "0.11894169 -0.06369676 1.09673425",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02286197, -0.2837862, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_44": {
+   "pos": "0.11894169 -0.06369676 1.09673425",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02286197, -0.2837862, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_45": {
+   "pos": "0.11894169 -0.06369676 1.09673425",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02286197, -0.2837862, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_46": {
+   "pos": "0.11894169 -0.06369676 1.09673425",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02286197, -0.2837862, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_47": {
+   "pos": "0.11894169 -0.06369676 1.09673425",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02286197, -0.2837862, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_48": {
+   "pos": "0.11894169 -0.06369676 1.09673425",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02286197, -0.2837862, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_49": {
+   "pos": "0.11894169 -0.06369676 1.09673425",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02286197, -0.2837862, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  }
+ },
+ "5": {
+  "demo_0": {
+   "pos": "-0.21127695 0.19905311 0.98800000",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.07080847, 0.03020245, 0.94491965], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_1": {
+   "pos": "-0.21127695 0.19905311 0.98800000",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.07080847, 0.03020245, 0.94491965], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_2": {
+   "pos": "-0.21127695 0.19905311 0.98800000",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.07080847, 0.03020245, 0.94491965], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_3": {
+   "pos": "-0.21127695 0.19905311 0.98800000",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.07080847, 0.03020245, 0.94491965], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_4": {
+   "pos": "-0.21127695 0.19905311 0.98800000",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.07080847, 0.03020245, 0.94491965], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_5": {
+   "pos": "-0.21127695 0.19905311 0.98800000",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.07080847, 0.03020245, 0.94491965], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_6": {
+   "pos": "-0.21127695 0.19905311 0.98800000",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.07080847, 0.03020245, 0.94491965], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_7": {
+   "pos": "-0.21127695 0.19905311 0.98800000",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.07080847, 0.03020245, 0.94491965], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_8": {
+   "pos": "-0.21127695 0.19905311 0.98800000",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.07080847, 0.03020245, 0.94491965], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_9": {
+   "pos": "-0.21127695 0.19905311 0.98800000",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.07080847, 0.03020245, 0.94491965], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_10": {
+   "pos": "-0.21127695 0.19905311 0.98800000",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.07080847, 0.03020245, 0.94491965], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_11": {
+   "pos": "-0.21127695 0.19905311 0.98800000",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.07080847, 0.03020245, 0.94491965], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_12": {
+   "pos": "-0.21127695 0.19905311 0.98800000",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.07080847, 0.03020245, 0.94491965], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_13": {
+   "pos": "-0.21127695 0.19905311 0.98800000",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.07080847, 0.03020245, 0.94491965], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_14": {
+   "pos": "-0.21127695 0.19905311 0.98800000",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.07080847, 0.03020245, 0.94491965], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_15": {
+   "pos": "-0.21127695 0.19905311 0.98800000",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.07080847, 0.03020245, 0.94491965], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_16": {
+   "pos": "-0.21127695 0.19905311 0.98800000",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.07080847, 0.03020245, 0.94491965], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_17": {
+   "pos": "-0.21127695 0.19905311 0.98800000",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.07080847, 0.03020245, 0.94491965], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_18": {
+   "pos": "-0.21127695 0.19905311 0.98800000",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.07080847, 0.03020245, 0.94491965], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_19": {
+   "pos": "-0.21127695 0.19905311 0.98800000",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.07080847, 0.03020245, 0.94491965], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_20": {
+   "pos": "-0.21127695 0.19905311 0.98800000",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.07080847, 0.03020245, 0.94491965], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_21": {
+   "pos": "-0.21127695 0.19905311 0.98800000",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.07080847, 0.03020245, 0.94491965], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_22": {
+   "pos": "-0.21127695 0.19905311 0.98800000",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.07080847, 0.03020245, 0.94491965], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_23": {
+   "pos": "-0.21127695 0.19905311 0.98800000",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.07080847, 0.03020245, 0.94491965], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_24": {
+   "pos": "-0.21127695 0.19905311 0.98800000",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.07080847, 0.03020245, 0.94491965], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_25": {
+   "pos": "-0.21127695 0.19905311 0.98800000",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.07080847, 0.03020245, 0.94491965], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_26": {
+   "pos": "-0.21127695 0.19905311 0.98800000",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.07080847, 0.03020245, 0.94491965], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_27": {
+   "pos": "-0.21127695 0.19905311 0.98800000",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.07080847, 0.03020245, 0.94491965], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_28": {
+   "pos": "-0.21127695 0.19905311 0.98800000",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.07080847, 0.03020245, 0.94491965], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_29": {
+   "pos": "-0.21127695 0.19905311 0.98800000",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.07080847, 0.03020245, 0.94491965], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_30": {
+   "pos": "-0.21127695 0.19905311 0.98800000",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.07080847, 0.03020245, 0.94491965], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_31": {
+   "pos": "-0.21127695 0.19905311 0.98800000",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.07080847, 0.03020245, 0.94491965], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_32": {
+   "pos": "-0.21127695 0.19905311 0.98800000",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.07080847, 0.03020245, 0.94491965], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_33": {
+   "pos": "-0.21127695 0.19905311 0.98800000",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.07080847, 0.03020245, 0.94491965], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_34": {
+   "pos": "-0.21127695 0.19905311 0.98800000",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.07080847, 0.03020245, 0.94491965], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_35": {
+   "pos": "-0.21127695 0.19905311 0.98800000",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.07080847, 0.03020245, 0.94491965], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_36": {
+   "pos": "-0.21127695 0.19905311 0.98800000",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.07080847, 0.03020245, 0.94491965], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_37": {
+   "pos": "-0.21127695 0.19905311 0.98800000",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.07080847, 0.03020245, 0.94491965], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_38": {
+   "pos": "-0.21127695 0.19905311 0.98800000",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.07080847, 0.03020245, 0.94491965], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_39": {
+   "pos": "-0.21127695 0.19905311 0.98800000",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.07080847, 0.03020245, 0.94491965], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_40": {
+   "pos": "-0.21127695 0.19905311 0.98800000",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.07080847, 0.03020245, 0.94491965], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_41": {
+   "pos": "-0.21127695 0.19905311 0.98800000",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.07080847, 0.03020245, 0.94491965], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_42": {
+   "pos": "-0.21127695 0.19905311 0.98800000",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.07080847, 0.03020245, 0.94491965], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_43": {
+   "pos": "-0.21127695 0.19905311 0.98800000",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.07080847, 0.03020245, 0.94491965], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_44": {
+   "pos": "-0.21127695 0.19905311 0.98800000",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.07080847, 0.03020245, 0.94491965], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_45": {
+   "pos": "-0.21127695 0.19905311 0.98800000",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.07080847, 0.03020245, 0.94491965], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_46": {
+   "pos": "-0.21127695 0.19905311 0.98800000",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.07080847, 0.03020245, 0.94491965], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_47": {
+   "pos": "-0.21127695 0.19905311 0.98800000",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.07080847, 0.03020245, 0.94491965], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_48": {
+   "pos": "-0.21127695 0.19905311 0.98800000",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.07080847, 0.03020245, 0.94491965], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_49": {
+   "pos": "-0.21127695 0.19905311 0.98800000",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.07080847, 0.03020245, 0.94491965], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  }
+ },
+ "6": {
+  "demo_0": {
+   "pos": "0.12525755 -0.06133315 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.26027318, -0.14031993, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_1": {
+   "pos": "0.12525755 -0.06133315 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.26027318, -0.14031993, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_2": {
+   "pos": "0.12525755 -0.06133315 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.26027318, -0.14031993, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_3": {
+   "pos": "0.12525755 -0.06133315 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.26027318, -0.14031993, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_4": {
+   "pos": "0.12525755 -0.06133315 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.26027318, -0.14031993, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_5": {
+   "pos": "0.12525755 -0.06133315 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.26027318, -0.14031993, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_6": {
+   "pos": "0.12525755 -0.06133315 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.26027318, -0.14031993, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_7": {
+   "pos": "0.12525755 -0.06133315 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.26027318, -0.14031993, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_8": {
+   "pos": "0.12525755 -0.06133315 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.26027318, -0.14031993, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_9": {
+   "pos": "0.12525755 -0.06133315 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.26027318, -0.14031993, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_10": {
+   "pos": "0.12525755 -0.06133315 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.26027318, -0.14031993, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_11": {
+   "pos": "0.12525755 -0.06133315 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.26027318, -0.14031993, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_12": {
+   "pos": "0.12525755 -0.06133315 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.26027318, -0.14031993, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_13": {
+   "pos": "0.12525755 -0.06133315 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.26027318, -0.14031993, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_14": {
+   "pos": "0.12525755 -0.06133315 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.26027318, -0.14031993, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_15": {
+   "pos": "0.12525755 -0.06133315 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.26027318, -0.14031993, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_16": {
+   "pos": "0.12525755 -0.06133315 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.26027318, -0.14031993, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_17": {
+   "pos": "0.12525755 -0.06133315 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.26027318, -0.14031993, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_18": {
+   "pos": "0.12525755 -0.06133315 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.26027318, -0.14031993, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_19": {
+   "pos": "0.12525755 -0.06133315 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.26027318, -0.14031993, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_20": {
+   "pos": "0.12525755 -0.06133315 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.26027318, -0.14031993, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_21": {
+   "pos": "0.12525755 -0.06133315 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.26027318, -0.14031993, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_22": {
+   "pos": "0.12525755 -0.06133315 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.26027318, -0.14031993, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_23": {
+   "pos": "0.12525755 -0.06133315 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.26027318, -0.14031993, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_24": {
+   "pos": "0.12525755 -0.06133315 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.26027318, -0.14031993, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_25": {
+   "pos": "0.12525755 -0.06133315 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.26027318, -0.14031993, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_26": {
+   "pos": "0.12525755 -0.06133315 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.26027318, -0.14031993, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_27": {
+   "pos": "0.12525755 -0.06133315 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.26027318, -0.14031993, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_28": {
+   "pos": "0.12525755 -0.06133315 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.26027318, -0.14031993, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_29": {
+   "pos": "0.12525755 -0.06133315 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.26027318, -0.14031993, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_30": {
+   "pos": "0.12525755 -0.06133315 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.26027318, -0.14031993, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_31": {
+   "pos": "0.12525755 -0.06133315 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.26027318, -0.14031993, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_32": {
+   "pos": "0.12525755 -0.06133315 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.26027318, -0.14031993, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_33": {
+   "pos": "0.12525755 -0.06133315 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.26027318, -0.14031993, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_34": {
+   "pos": "0.12525755 -0.06133315 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.26027318, -0.14031993, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_35": {
+   "pos": "0.12525755 -0.06133315 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.26027318, -0.14031993, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_36": {
+   "pos": "0.12525755 -0.06133315 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.26027318, -0.14031993, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_37": {
+   "pos": "0.12525755 -0.06133315 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.26027318, -0.14031993, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_38": {
+   "pos": "0.12525755 -0.06133315 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.26027318, -0.14031993, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_39": {
+   "pos": "0.12525755 -0.06133315 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.26027318, -0.14031993, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_40": {
+   "pos": "0.12525755 -0.06133315 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.26027318, -0.14031993, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_41": {
+   "pos": "0.12525755 -0.06133315 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.26027318, -0.14031993, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_42": {
+   "pos": "0.12525755 -0.06133315 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.26027318, -0.14031993, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_43": {
+   "pos": "0.12525755 -0.06133315 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.26027318, -0.14031993, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_44": {
+   "pos": "0.12525755 -0.06133315 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.26027318, -0.14031993, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_45": {
+   "pos": "0.12525755 -0.06133315 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.26027318, -0.14031993, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_46": {
+   "pos": "0.12525755 -0.06133315 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.26027318, -0.14031993, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_47": {
+   "pos": "0.12525755 -0.06133315 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.26027318, -0.14031993, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_48": {
+   "pos": "0.12525755 -0.06133315 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.26027318, -0.14031993, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_49": {
+   "pos": "0.12525755 -0.06133315 0.92615849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.26027318, -0.14031993, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  }
+ },
+ "7": {
+  "demo_0": {
+   "pos": "-0.26108032 -0.13980343 0.95345849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02170857, -0.2815886, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_1": {
+   "pos": "-0.26108032 -0.13980343 0.95345849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02170857, -0.2815886, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_2": {
+   "pos": "-0.26108032 -0.13980343 0.95345849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02170857, -0.2815886, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_3": {
+   "pos": "-0.26108032 -0.13980343 0.95345849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02170857, -0.2815886, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_4": {
+   "pos": "-0.26108032 -0.13980343 0.95345849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02170857, -0.2815886, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_5": {
+   "pos": "-0.26108032 -0.13980343 0.95345849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02170857, -0.2815886, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_6": {
+   "pos": "-0.26108032 -0.13980343 0.95345849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02170857, -0.2815886, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_7": {
+   "pos": "-0.26108032 -0.13980343 0.95345849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02170857, -0.2815886, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_8": {
+   "pos": "-0.26108032 -0.13980343 0.95345849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02170857, -0.2815886, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_9": {
+   "pos": "-0.26108032 -0.13980343 0.95345849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02170857, -0.2815886, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_10": {
+   "pos": "-0.26108032 -0.13980343 0.95345849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02170857, -0.2815886, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_11": {
+   "pos": "-0.26108032 -0.13980343 0.95345849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02170857, -0.2815886, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_12": {
+   "pos": "-0.26108032 -0.13980343 0.95345849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02170857, -0.2815886, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_13": {
+   "pos": "-0.26108032 -0.13980343 0.95345849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02170857, -0.2815886, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_14": {
+   "pos": "-0.26108032 -0.13980343 0.95345849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02170857, -0.2815886, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_15": {
+   "pos": "-0.26108032 -0.13980343 0.95345849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02170857, -0.2815886, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_16": {
+   "pos": "-0.26108032 -0.13980343 0.95345849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02170857, -0.2815886, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_17": {
+   "pos": "-0.26108032 -0.13980343 0.95345849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02170857, -0.2815886, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_18": {
+   "pos": "-0.26108032 -0.13980343 0.95345849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02170857, -0.2815886, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_19": {
+   "pos": "-0.26108032 -0.13980343 0.95345849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02170857, -0.2815886, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_20": {
+   "pos": "-0.26108032 -0.13980343 0.95345849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02170857, -0.2815886, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_21": {
+   "pos": "-0.26108032 -0.13980343 0.95345849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02170857, -0.2815886, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_22": {
+   "pos": "-0.26108032 -0.13980343 0.95345849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02170857, -0.2815886, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_23": {
+   "pos": "-0.26108032 -0.13980343 0.95345849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02170857, -0.2815886, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_24": {
+   "pos": "-0.26108032 -0.13980343 0.95345849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02170857, -0.2815886, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_25": {
+   "pos": "-0.26108032 -0.13980343 0.95345849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02170857, -0.2815886, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_26": {
+   "pos": "-0.26108032 -0.13980343 0.95345849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02170857, -0.2815886, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_27": {
+   "pos": "-0.26108032 -0.13980343 0.95345849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02170857, -0.2815886, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_28": {
+   "pos": "-0.26108032 -0.13980343 0.95345849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02170857, -0.2815886, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_29": {
+   "pos": "-0.26108032 -0.13980343 0.95345849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02170857, -0.2815886, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_30": {
+   "pos": "-0.26108032 -0.13980343 0.95345849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02170857, -0.2815886, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_31": {
+   "pos": "-0.26108032 -0.13980343 0.95345849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02170857, -0.2815886, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_32": {
+   "pos": "-0.26108032 -0.13980343 0.95345849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02170857, -0.2815886, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_33": {
+   "pos": "-0.26108032 -0.13980343 0.95345849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02170857, -0.2815886, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_34": {
+   "pos": "-0.26108032 -0.13980343 0.95345849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02170857, -0.2815886, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_35": {
+   "pos": "-0.26108032 -0.13980343 0.95345849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02170857, -0.2815886, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_36": {
+   "pos": "-0.26108032 -0.13980343 0.95345849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02170857, -0.2815886, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_37": {
+   "pos": "-0.26108032 -0.13980343 0.95345849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02170857, -0.2815886, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_38": {
+   "pos": "-0.26108032 -0.13980343 0.95345849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02170857, -0.2815886, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_39": {
+   "pos": "-0.26108032 -0.13980343 0.95345849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02170857, -0.2815886, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_40": {
+   "pos": "-0.26108032 -0.13980343 0.95345849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02170857, -0.2815886, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_41": {
+   "pos": "-0.26108032 -0.13980343 0.95345849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02170857, -0.2815886, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_42": {
+   "pos": "-0.26108032 -0.13980343 0.95345849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02170857, -0.2815886, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_43": {
+   "pos": "-0.26108032 -0.13980343 0.95345849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02170857, -0.2815886, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_44": {
+   "pos": "-0.26108032 -0.13980343 0.95345849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02170857, -0.2815886, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_45": {
+   "pos": "-0.26108032 -0.13980343 0.95345849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02170857, -0.2815886, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_46": {
+   "pos": "-0.26108032 -0.13980343 0.95345849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02170857, -0.2815886, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_47": {
+   "pos": "-0.26108032 -0.13980343 0.95345849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02170857, -0.2815886, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_48": {
+   "pos": "-0.26108032 -0.13980343 0.95345849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02170857, -0.2815886, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_49": {
+   "pos": "-0.26108032 -0.13980343 0.95345849",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [0.02170857, -0.2815886, 1.15439976], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  }
+ },
+ "8": {
+  "demo_0": {
+   "pos": "-0.01240106 0.33699055 0.92737283",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.18001064, 0.32082851, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_1": {
+   "pos": "-0.01240106 0.33699055 0.92737283",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.18001064, 0.32082851, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_2": {
+   "pos": "-0.01240106 0.33699055 0.92737283",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.18001064, 0.32082851, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_3": {
+   "pos": "-0.01240106 0.33699055 0.92737283",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.18001064, 0.32082851, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_4": {
+   "pos": "-0.01240106 0.33699055 0.92737283",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.18001064, 0.32082851, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_5": {
+   "pos": "-0.01240106 0.33699055 0.92737283",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.18001064, 0.32082851, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_6": {
+   "pos": "-0.01240106 0.33699055 0.92737283",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.18001064, 0.32082851, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_7": {
+   "pos": "-0.01240106 0.33699055 0.92737283",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.18001064, 0.32082851, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_8": {
+   "pos": "-0.01240106 0.33699055 0.92737283",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.18001064, 0.32082851, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_9": {
+   "pos": "-0.01240106 0.33699055 0.92737283",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.18001064, 0.32082851, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_10": {
+   "pos": "-0.01240106 0.33699055 0.92737283",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.18001064, 0.32082851, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_11": {
+   "pos": "-0.01240106 0.33699055 0.92737283",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.18001064, 0.32082851, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_12": {
+   "pos": "-0.01240106 0.33699055 0.92737283",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.18001064, 0.32082851, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_13": {
+   "pos": "-0.01240106 0.33699055 0.92737283",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.18001064, 0.32082851, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_14": {
+   "pos": "-0.01240106 0.33699055 0.92737283",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.18001064, 0.32082851, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_15": {
+   "pos": "-0.01240106 0.33699055 0.92737283",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.18001064, 0.32082851, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_16": {
+   "pos": "-0.01240106 0.33699055 0.92737283",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.18001064, 0.32082851, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_17": {
+   "pos": "-0.01240106 0.33699055 0.92737283",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.18001064, 0.32082851, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_18": {
+   "pos": "-0.01240106 0.33699055 0.92737283",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.18001064, 0.32082851, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_19": {
+   "pos": "-0.01240106 0.33699055 0.92737283",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.18001064, 0.32082851, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_20": {
+   "pos": "-0.01240106 0.33699055 0.92737283",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.18001064, 0.32082851, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_21": {
+   "pos": "-0.01240106 0.33699055 0.92737283",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.18001064, 0.32082851, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_22": {
+   "pos": "-0.01240106 0.33699055 0.92737283",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.18001064, 0.32082851, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_23": {
+   "pos": "-0.01240106 0.33699055 0.92737283",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.18001064, 0.32082851, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_24": {
+   "pos": "-0.01240106 0.33699055 0.92737283",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.18001064, 0.32082851, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_25": {
+   "pos": "-0.01240106 0.33699055 0.92737283",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.18001064, 0.32082851, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_26": {
+   "pos": "-0.01240106 0.33699055 0.92737283",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.18001064, 0.32082851, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_27": {
+   "pos": "-0.01240106 0.33699055 0.92737283",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.18001064, 0.32082851, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_28": {
+   "pos": "-0.01240106 0.33699055 0.92737283",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.18001064, 0.32082851, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_29": {
+   "pos": "-0.01240106 0.33699055 0.92737283",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.18001064, 0.32082851, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_30": {
+   "pos": "-0.01240106 0.33699055 0.92737283",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.18001064, 0.32082851, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_31": {
+   "pos": "-0.01240106 0.33699055 0.92737283",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.18001064, 0.32082851, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_32": {
+   "pos": "-0.01240106 0.33699055 0.92737283",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.18001064, 0.32082851, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_33": {
+   "pos": "-0.01240106 0.33699055 0.92737283",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.18001064, 0.32082851, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_34": {
+   "pos": "-0.01240106 0.33699055 0.92737283",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.18001064, 0.32082851, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_35": {
+   "pos": "-0.01240106 0.33699055 0.92737283",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.18001064, 0.32082851, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_36": {
+   "pos": "-0.01240106 0.33699055 0.92737283",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.18001064, 0.32082851, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_37": {
+   "pos": "-0.01240106 0.33699055 0.92737283",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.18001064, 0.32082851, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_38": {
+   "pos": "-0.01240106 0.33699055 0.92737283",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.18001064, 0.32082851, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_39": {
+   "pos": "-0.01240106 0.33699055 0.92737283",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.18001064, 0.32082851, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_40": {
+   "pos": "-0.01240106 0.33699055 0.92737283",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.18001064, 0.32082851, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_41": {
+   "pos": "-0.01240106 0.33699055 0.92737283",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.18001064, 0.32082851, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_42": {
+   "pos": "-0.01240106 0.33699055 0.92737283",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.18001064, 0.32082851, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_43": {
+   "pos": "-0.01240106 0.33699055 0.92737283",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.18001064, 0.32082851, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_44": {
+   "pos": "-0.01240106 0.33699055 0.92737283",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.18001064, 0.32082851, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_45": {
+   "pos": "-0.01240106 0.33699055 0.92737283",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.18001064, 0.32082851, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_46": {
+   "pos": "-0.01240106 0.33699055 0.92737283",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.18001064, 0.32082851, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_47": {
+   "pos": "-0.01240106 0.33699055 0.92737283",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.18001064, 0.32082851, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_48": {
+   "pos": "-0.01240106 0.33699055 0.92737283",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.18001064, 0.32082851, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_49": {
+   "pos": "-0.01240106 0.33699055 0.92737283",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.18001064, 0.32082851, 0.92615849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  }
+ },
+ "9": {
+  "demo_0": {
+   "pos": "0.02214610 -0.25757260 1.15439976",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.25885913, -0.14382485, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_1": {
+   "pos": "0.02214610 -0.25757260 1.15439976",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.25885913, -0.14382485, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_2": {
+   "pos": "0.02214610 -0.25757260 1.15439976",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.25885913, -0.14382485, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_3": {
+   "pos": "0.02214610 -0.25757260 1.15439976",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.25885913, -0.14382485, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_4": {
+   "pos": "0.02214610 -0.25757260 1.15439976",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.25885913, -0.14382485, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_5": {
+   "pos": "0.02214610 -0.25757260 1.15439976",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.25885913, -0.14382485, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_6": {
+   "pos": "0.02214610 -0.25757260 1.15439976",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.25885913, -0.14382485, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_7": {
+   "pos": "0.02214610 -0.25757260 1.15439976",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.25885913, -0.14382485, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_8": {
+   "pos": "0.02214610 -0.25757260 1.15439976",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.25885913, -0.14382485, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_9": {
+   "pos": "0.02214610 -0.25757260 1.15439976",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.25885913, -0.14382485, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_10": {
+   "pos": "0.02214610 -0.25757260 1.15439976",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.25885913, -0.14382485, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_11": {
+   "pos": "0.02214610 -0.25757260 1.15439976",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.25885913, -0.14382485, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_12": {
+   "pos": "0.02214610 -0.25757260 1.15439976",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.25885913, -0.14382485, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_13": {
+   "pos": "0.02214610 -0.25757260 1.15439976",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.25885913, -0.14382485, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_14": {
+   "pos": "0.02214610 -0.25757260 1.15439976",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.25885913, -0.14382485, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_15": {
+   "pos": "0.02214610 -0.25757260 1.15439976",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.25885913, -0.14382485, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_16": {
+   "pos": "0.02214610 -0.25757260 1.15439976",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.25885913, -0.14382485, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_17": {
+   "pos": "0.02214610 -0.25757260 1.15439976",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.25885913, -0.14382485, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_18": {
+   "pos": "0.02214610 -0.25757260 1.15439976",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.25885913, -0.14382485, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_19": {
+   "pos": "0.02214610 -0.25757260 1.15439976",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.25885913, -0.14382485, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_20": {
+   "pos": "0.02214610 -0.25757260 1.15439976",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.25885913, -0.14382485, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_21": {
+   "pos": "0.02214610 -0.25757260 1.15439976",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.25885913, -0.14382485, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_22": {
+   "pos": "0.02214610 -0.25757260 1.15439976",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.25885913, -0.14382485, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_23": {
+   "pos": "0.02214610 -0.25757260 1.15439976",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.25885913, -0.14382485, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_24": {
+   "pos": "0.02214610 -0.25757260 1.15439976",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.25885913, -0.14382485, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_25": {
+   "pos": "0.02214610 -0.25757260 1.15439976",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.25885913, -0.14382485, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_26": {
+   "pos": "0.02214610 -0.25757260 1.15439976",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.25885913, -0.14382485, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_27": {
+   "pos": "0.02214610 -0.25757260 1.15439976",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.25885913, -0.14382485, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_28": {
+   "pos": "0.02214610 -0.25757260 1.15439976",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.25885913, -0.14382485, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_29": {
+   "pos": "0.02214610 -0.25757260 1.15439976",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.25885913, -0.14382485, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_30": {
+   "pos": "0.02214610 -0.25757260 1.15439976",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.25885913, -0.14382485, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_31": {
+   "pos": "0.02214610 -0.25757260 1.15439976",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.25885913, -0.14382485, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_32": {
+   "pos": "0.02214610 -0.25757260 1.15439976",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.25885913, -0.14382485, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_33": {
+   "pos": "0.02214610 -0.25757260 1.15439976",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.25885913, -0.14382485, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_34": {
+   "pos": "0.02214610 -0.25757260 1.15439976",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.25885913, -0.14382485, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_35": {
+   "pos": "0.02214610 -0.25757260 1.15439976",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.25885913, -0.14382485, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_36": {
+   "pos": "0.02214610 -0.25757260 1.15439976",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.25885913, -0.14382485, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_37": {
+   "pos": "0.02214610 -0.25757260 1.15439976",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.25885913, -0.14382485, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_38": {
+   "pos": "0.02214610 -0.25757260 1.15439976",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.25885913, -0.14382485, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_39": {
+   "pos": "0.02214610 -0.25757260 1.15439976",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.25885913, -0.14382485, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_40": {
+   "pos": "0.02214610 -0.25757260 1.15439976",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.25885913, -0.14382485, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_41": {
+   "pos": "0.02214610 -0.25757260 1.15439976",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.25885913, -0.14382485, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_42": {
+   "pos": "0.02214610 -0.25757260 1.15439976",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.25885913, -0.14382485, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_43": {
+   "pos": "0.02214610 -0.25757260 1.15439976",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.25885913, -0.14382485, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_44": {
+   "pos": "0.02214610 -0.25757260 1.15439976",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.25885913, -0.14382485, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_45": {
+   "pos": "0.02214610 -0.25757260 1.15439976",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.25885913, -0.14382485, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_46": {
+   "pos": "0.02214610 -0.25757260 1.15439976",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.25885913, -0.14382485, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_47": {
+   "pos": "0.02214610 -0.25757260 1.15439976",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.25885913, -0.14382485, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_48": {
+   "pos": "0.02214610 -0.25757260 1.15439976",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.25885913, -0.14382485, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  },
+  "demo_49": {
+   "pos": "0.02214610 -0.25757260 1.15439976",
+   "extra_assets_json": "[{\"name\": \"pastry005_1\", \"usd_path\": \"@USD@/pastry005_visual_distractor/pastry005_visual_distractor.usd\", \"rigid\": false, \"deformable\": false, \"pos\": [-0.25885913, -0.14382485, 0.95345849], \"rot\": [-0.00226022, 0.00227542, 0.7076953, 0.7065105], \"scale\": [1.0, 1.0, 1.0]}]"
+  }
+ }
+}

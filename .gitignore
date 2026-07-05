@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Runtime outputs
+_archive/
+logs/
+debug/
+debug_outputs/
+outputs/
+evaluation_results/
+formal_collections/
+wandb/
+*.log
+*.pid
+
+# Large data/model artifacts
+*.hdf5
+*.h5
+*.mp4
+*.avi
+*.mov
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.pdf
+*.npy
+*.npz
+*.usd
+*.usda
+*.dae
+*.obj
+*.mtl
+*.orbax-checkpoint-tmp-*
+checkpoints/**
+results/**
+
+# Externally hosted SoftVTBench data and runtime assets
+/SoftVTBench_data/
+/eval-assets/
+/soft-assets/
+/soft_assets/
+/SoftVTBench/source/tac_manip/tac_manip/assets/data/
+/openpi/.cache/
+/openpi/assets/
+/openpi/logs/
+/openpi/data_softvtbench/
+
+# Local environment
+.env
+.env.*
+.venv/
+venv/
+node_modules/
+
+# OS/editor
+.DS_Store
+.vscode/
+
+# Manual snapshots (git history is the source of truth)
+versions/
+*.bak
+*.bak_*

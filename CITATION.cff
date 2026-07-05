@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use SoftVTBench, please cite the paper below."
+title: "SoftVTBench: A Safety-Aware Visuo-Tactile Benchmark for Physically Constrained Robotic Manipulation of Deformable Objects"
+abstract: >-
+  A safety-aware visuo-tactile benchmark for physically constrained deformable
+  object manipulation. Built in Isaac Sim with FEM-simulated deformable objects,
+  it provides multi-view RGB, RGB tactile sensing with marker motion,
+  proprioception, and language instructions across four matched task suites
+  (object/spatial x deformable/rigid), and reports Goal Success and Safety
+  Success separately.
+type: software
+repository-code: "https://github.com/TuojingAI/SoftVTBench"
+url: "https://softvtbench.github.io/"
+license: Apache-2.0
+preferred-citation:
+  type: article
+  title: "SoftVTBench: A Safety-Aware Visuo-Tactile Benchmark for Physically Constrained Robotic Manipulation of Deformable Objects"
+  year: 2026
+  journal: "arXiv preprint"
+  notes: "arXiv:2607.04234"
+  authors:
+    - {given-names: Bowen, family-names: Jing}
+    - {given-names: Mingxin, family-names: Wang}
+    - {given-names: Ruiyang, family-names: Hao}
+    - {given-names: Chenchen, family-names: Ge}
+    - {given-names: Hanwen, family-names: Shen}
+    - {given-names: Junjie, family-names: He}
+    - {given-names: Yang, family-names: Cui}
+    - {given-names: Yiming, family-names: Hou}
+    - {given-names: Weitao, family-names: Zhou}
+    - {given-names: Jiawei, family-names: Wang}
+    - {given-names: Minglei, family-names: Li}
+    - {given-names: Dandan, family-names: Zhang}
+    - {given-names: Ding, family-names: Zhao}
+    - {given-names: Houde, family-names: Liu}
+    - {given-names: Xiaofan, family-names: Li}
+    - {given-names: Si, family-names: Liu}
+    - {given-names: Ping, family-names: Luo}
+    - {given-names: Haibao, family-names: Yu}
+authors:
+  - {given-names: Bowen, family-names: Jing}
+  - name: "The SoftVTBench authors"

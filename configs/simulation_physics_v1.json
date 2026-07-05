@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "protocol_id": "softvtbench-v1",
+  "simulator": {
+    "isaac_sim": "4.5.0",
+    "isaac_lab": "2.1.1",
+    "physics_hz": 60,
+    "control_hz": 20
+  },
+  "deformable_body": {
+    "simulation_hexahedral_resolution": 6,
+    "solver_position_iteration_count": 64,
+    "vertex_velocity_damping": 2.5,
+    "contact_offset": 0.003,
+    "rest_offset": 0.001,
+    "max_depenetration_velocity": 0.02,
+    "note": "contact/rest offsets match the calibration bench and the data-collection environment defaults (0.003/0.001)"
+  },
+  "material": {
+    "source": "authored_in_eval_usd",
+    "note": "Young's modulus, Poisson ratio, density, friction, and material damping are read from the downloaded eval-assets USD files."
+  }
+}
