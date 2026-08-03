@@ -1,0 +1,11 @@
+{
+  "schema": "softvtbench_release_v1",
+  "version": "0.1.0",
+  "formal_evaluation_source_commit": "ed472c477df92ccc456cb6426621f3974221d6ac",
+  "formal_suites": ["object_soft", "spatial_soft"],
+  "formal_tasks_per_suite": 10,
+  "formal_demos_per_task": 50,
+  "formal_ood_conditions": 9,
+  "policy_registry_owner": "SoftVTBench-Models",
+  "notes": "Repository structure and paths were refactored; evaluation semantics remain characterized by tests and receipts."
+}

@@ -1,0 +1,6 @@
+# Benchmark-owned paths. Values come from environment variables; source edits are
+# never required when moving the release to another machine.
+data_root: ${SOFTVT_DATA_ROOT}
+eval_usd_dir: ${SOFTVT_ASSET_ROOT}
+libero_assets_data_dir: ${SOFTVT_ASSET_ROOT}
+scene_visuals_module: ${SOFTVTBENCH_ROOT}/src/softvtbench/compat/scene_visuals.py

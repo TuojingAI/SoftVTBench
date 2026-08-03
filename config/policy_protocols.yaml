@@ -1,0 +1,36 @@
+schema: softvtbench_execution_profiles_v1
+profiles:
+  continuous_chunked:
+    evaluation_protocol: chunked_30x10
+    gripper_execution: &continuous_gripper
+      mode: continuous_fixed_position
+      open_finger: 0.04
+      fixed_close_finger: 0.0
+      close_threshold: 0.0398
+      open_threshold: 0.03995
+      min_hold_steps: 10
+  continuous_native:
+    evaluation_protocol: native_env_steps
+    gripper_execution: *continuous_gripper
+  fastwam_object_soft:
+    evaluation_protocol: chunked_30x10
+    gripper_execution:
+      mode: relative_fixed_position
+      open_finger: 0.04
+      fixed_close_finger: 0.0
+      close_delta: 0.003
+      open_delta: 0.003
+      aperture_noise_tolerance: 0.0005
+      one_shot: true
+      min_hold_steps: 75
+  fastwam_spatial_soft:
+    evaluation_protocol: chunked_30x10
+    gripper_execution:
+      mode: relative_fixed_position
+      open_finger: 0.04
+      fixed_close_finger: 0.0
+      close_delta: 0.003
+      open_delta: 0.003
+      aperture_noise_tolerance: 0.0005
+      one_shot: true
+      min_hold_steps: 68

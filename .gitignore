@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+.venv/
+build/
+dist/
+/results/
+queue.txt
+*.pid
+*.log
+/episode_receipts/
+/debug/
+.DS_Store

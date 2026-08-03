@@ -1,0 +1,41 @@
+# Soft-object card: soft_stw_cuboid_hq
+name: soft_stw_cuboid_hq
+family: primitive          # pastry | primitive
+geometry: cuboid
+usd_asset: stw_cuboid_hq          # subdirectory name under eval-assets/USD/
+deformable: true
+physics_ref: physics.yaml#deformable_body   # FEM solver params; material baked into the USD
+
+safety:
+  calibrated: true          # calibrated via compression_sweep (kappa=0.5)
+  tau: 1.849423                # Safe Success criterion: D_peak <= tau
+  d_ref: 3.698846
+  kappa: 0.5
+  n_stable_trials: 13
+
+used_by: []               # available in the library, unused by the current suites
+
+# The fields below are read from the authoritative source by gen_object_cards.py; do not hand-edit (edits will be overwritten)
+
+# Assertion baseline: receipt.py compares runtime readback values against these and refuses to continue evaluation on mismatch
+expected:
+  usd_file: ${SOFTVT_ASSET_ROOT}/stw_cuboid_hq/stw_cuboid_hq.usd
+  usd_sha256: 9d84775fdba052e0fb87e3c017c5b1094426ac92153ed8856d391f87ad7c9eae
+  youngsModulus: 130000.0
+  poissonsRatio: 0.38
+  density: 210.0
+  dynamicFriction: 1.5
+  elasticityDamping: 0.052
+  dampingScale: 0.85
+  fem_nodes: 175          # PhysX readback from collection logs (hex_res=6)
+
+# Collection-time operating bounds (CARDS_LOCKED v3.0-locked-20260718, immutable)
+# Note: D_safe is defined as **contact-patch uniaxial strain**, not the same quantity as safety.tau above (global RMS over bbox diagonal)
+collection_bounds:
+  observed_in_hdf5:      # measured during collection (the per-episode finger-clamp readout is exactly this quantity)
+    n_demos: 200
+    min_mm: 24.86
+    max_mm: 35.808
+    mean_mm: 29.938
+
+fem_nodes: 175   # = expected.fem_nodes; used by the receipt startup assertion

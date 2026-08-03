@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "softvtbench"
+version = "0.1.0"
+description = "Reproducible visuotactile manipulation benchmark for rigid and soft objects"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [{name = "SoftVTBench contributors"}]
+dependencies = [
+  "numpy>=1.26,<3",
+  "PyYAML>=6,<7",
+  "tomli>=2,<3; python_version < '3.11'",
+]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "License :: OSI Approved :: Apache Software License",
+  "Operating System :: POSIX :: Linux",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+
+[project.scripts]
+softvtbench-eval = "softvtbench.evaluation.runner:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

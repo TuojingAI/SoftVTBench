@@ -1,0 +1,18 @@
+{
+  "schema": "softvtbench_ood_v2",
+  "calibration_version": "softvtbench_formal_v2_mixed_20260727_v1",
+  "applicable_suites": ["object_soft", "spatial_soft"],
+  "ood": {
+    "enabled": true,
+    "category": "lighting",
+    "factor": "dome_light_intensity",
+    "split": "conditional_extrapolation",
+    "level": 1,
+    "seed": 0,
+    "levels": {
+      "1": {"intensity": 180.0},
+      "2": {"intensity": 225.0},
+      "3": {"intensity": 270.0}
+    }
+  }
+}

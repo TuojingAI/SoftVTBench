@@ -1,0 +1,9 @@
+lighting_bright_mild ${SOFTVTBENCH_ROOT}/config/ood/formal_n50/lighting_brighter_3level.json 1
+lighting_bright_strong ${SOFTVTBENCH_ROOT}/config/ood/formal_n50/lighting_brighter_3level.json 3
+lighting_dark_strong ${SOFTVTBENCH_ROOT}/config/ood/formal_n50/lighting_darker_3level.json 3
+mass_heavy_mild ${SOFTVTBENCH_ROOT}/config/ood/formal_n50/mass_heavy_3level.json 1
+mass_heavy_moderate ${SOFTVTBENCH_ROOT}/config/ood/formal_n50/mass_heavy_3level.json 2
+mass_heavy_strong ${SOFTVTBENCH_ROOT}/config/ood/formal_n50/mass_heavy_3level.json 3
+youngs_softer_mild ${SOFTVTBENCH_ROOT}/config/ood/formal_n50/youngs_softer_3level.json 1
+youngs_softer_strong ${SOFTVTBENCH_ROOT}/config/ood/formal_n50/youngs_softer_3level.json 3
+youngs_harder_strong ${SOFTVTBENCH_ROOT}/config/ood/formal_n50/youngs_harder_3level.json 3

@@ -1,0 +1,17 @@
+# Simulator assets are opaque binaries: never diff them, and store them in Git LFS
+# so a clone does not carry every historical revision of a multi-megabyte USD file.
+# Run `git lfs install` once before cloning or pushing.
+*.usd  filter=lfs diff=lfs merge=lfs -text
+*.usda filter=lfs diff=lfs merge=lfs -text
+*.usdc filter=lfs diff=lfs merge=lfs -text
+*.obj  filter=lfs diff=lfs merge=lfs -text
+*.stl  filter=lfs diff=lfs merge=lfs -text
+*.dae  filter=lfs diff=lfs merge=lfs -text
+*.png  filter=lfs diff=lfs merge=lfs -text
+*.npz  filter=lfs diff=lfs merge=lfs -text
+*.npy  filter=lfs diff=lfs merge=lfs -text
+
+*.sh text eol=lf
+*.py text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf

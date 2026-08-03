@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use SoftVTBench, cite the accompanying paper and this software release."
+title: "SoftVTBench"
+type: software
+version: 0.1.0
+license: Apache-2.0
+authors:
+  - name: "SoftVTBench contributors"
+date-released: 2026-08-03

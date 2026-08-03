@@ -1,0 +1,18 @@
+{
+  "schema": "softvtbench_ood_v2",
+  "calibration_version": "softvtbench_formal_v2_mixed_20260727_v1",
+  "applicable_suites": ["object_soft", "spatial_soft"],
+  "ood": {
+    "enabled": true,
+    "category": "mass",
+    "factor": "total_mass_heavy",
+    "split": "conditional_extrapolation",
+    "level": 1,
+    "seed": 0,
+    "levels": {
+      "1": {"ratio": 1.25},
+      "2": {"ratio": 1.75},
+      "3": {"ratio": 2.5}
+    }
+  }
+}

@@ -1,0 +1,21 @@
+# Rigid asset card · spatial_rigid task2
+name: rigid_spatial_pastry003
+family: pastry
+geometry: mesh
+rigid: true
+deformable: false
+asset_name: rigid_pastry003
+used_by: [{suite: spatial_rigid, task: 2}]
+
+# Generated from the exact staging JSON and referenced USD; do not hand edit.
+expected:
+  usd_file: ${SOFTVT_RIGID_STAGING_ROOT}/spatial_rigid/usd/pastry003/pastry003.usd
+  usd_sha256: 55a0bc826c5f08bc31891b8f3064a32f21358c8bccd1df839e7dedc3fef804e1
+  scale: [1.0, 1.0, 1.0]
+  density: 520.0
+  mass: 0.0
+  approximation: "convexHull"
+  collisionEnabled: true
+  contactOffset: 0.0001
+  restOffset: 0.0
+  solver_iters: 16

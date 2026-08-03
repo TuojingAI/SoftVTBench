@@ -1,0 +1,27 @@
+[package]
+
+# Semantic Versioning is used: https://semver.org/
+version = "0.1.0"
+
+# Description
+category = "isaaclab"
+readme  = "README.md"
+
+title = "SoftVTBench tactile manipulation environments"
+author = "SoftVTBench contributors"
+maintainer = "SoftVTBench contributors"
+description = "Isaac Lab environments and tactile sensors used by SoftVTBench"
+repository = ""
+keywords = ["benchmark", "tactile", "manipulation", "isaaclab"]
+
+[dependencies]
+"isaaclab" = {}
+"isaaclab_assets" = {}
+"isaaclab_mimic" = {}
+"isaaclab_rl" = {}
+"isaaclab_tasks" = {}
+
+[[python.module]]
+name = "tac_manip"
+
+[isaaclab_settings]

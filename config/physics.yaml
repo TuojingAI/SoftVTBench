@@ -1,0 +1,24 @@
+# Global simulation / deformable-body solver parameters -- shared by all soft-object cards, defined in a single place.
+# Source: release configs/simulation_physics_v1.json (softvtbench-v1)
+schema_version: 1
+protocol_id: softvtbench-v1
+
+simulator:
+  isaac_sim: "4.5.0"
+  isaac_lab: "0.41.3"
+  physics_hz: 60
+  control_hz: 20
+
+# FEM solver parameters (identical for every soft body); material parameters are not defined here but baked into each USD.
+deformable_body:
+  simulation_hexahedral_resolution: 6
+  solver_position_iteration_count: 64
+  vertex_velocity_damping: 2.5
+  contact_offset: 0.003
+  rest_offset: 0.001
+  max_depenetration_velocity: 0.05   # Isaac 4.5 warns this is unsupported for deformables; kept as the recorded collection-time contract value
+  enable_ccd: true
+
+material:
+  # Young's modulus / Poisson / density / friction / damping are all read from the eval-assets USD
+  source: authored_in_eval_usd

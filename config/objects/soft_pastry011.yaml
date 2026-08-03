@@ -1,0 +1,49 @@
+# Soft-object card: soft_pastry011
+name: soft_pastry011
+family: pastry          # pastry | primitive
+geometry: mesh
+usd_asset: pastry011          # subdirectory name under eval-assets/USD/
+deformable: true
+physics_ref: physics.yaml#deformable_body   # FEM solver params; material baked into the USD
+
+safety:
+  calibrated: true          # calibrated via compression_sweep (kappa=0.5)
+  tau: 0.846965                # Safe Success criterion: D_peak <= tau
+  d_ref: 1.693929
+  kappa: 0.5
+  n_stable_trials: 15
+
+used_by: []               # available in the library, unused by the current suites
+
+# The fields below are read from the authoritative source by gen_object_cards.py; do not hand-edit (edits will be overwritten)
+
+# Assertion baseline: receipt.py compares runtime readback values against these and refuses to continue evaluation on mismatch
+expected:
+  usd_file: ${SOFTVT_ASSET_ROOT}/pastry011/pastry011.usd
+  usd_sha256: 788b3b0d8bbdf265c230e6dc58231aa4703dd6b8f4d719a57f33ae3928e7ac27
+  youngsModulus: 180000.0
+  poissonsRatio: 0.37
+  density: 350.0
+  dynamicFriction: 1.5
+  elasticityDamping: 0.018
+  dampingScale: 0.25
+  fem_nodes: 166          # PhysX readback from collection logs (hex_res=6)
+
+# Collection-time operating bounds (CARDS_LOCKED v3.0-locked-20260718, immutable)
+# Note: D_safe is defined as **contact-patch uniaxial strain**, not the same quantity as safety.tau above (global RMS over bbox diagonal)
+collection_bounds:
+  lock_version: v3.0-locked-20260718
+  card_sha256: dc388253827f7008e3e4e2cb7ed49079
+  c_lower: 0.44      # loosest compression ratio that still avoids dropping the object
+  c_upper: 0.58      # tightest compression ratio that still stays within D_safe
+  width_lower_mm: 42.415
+  width_upper_mm: 31.788
+  D_safe_contact_strain: 5.887   # % uniaxial engineering strain
+  slip_tolerance_mm: 15.0
+  observed_in_hdf5:      # measured during collection (the per-episode finger-clamp readout is exactly this quantity)
+    n_demos: 200
+    min_mm: 31.829
+    max_mm: 42.341
+    mean_mm: 37.76
+
+fem_nodes: 166   # = expected.fem_nodes; used by the receipt startup assertion
