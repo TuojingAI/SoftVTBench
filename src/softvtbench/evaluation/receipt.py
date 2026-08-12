@@ -242,10 +242,22 @@ def _camera_frame_stats(env) -> dict:
 
 
 def _simulator_fact(env) -> dict:
+    import importlib.metadata
+    import sys
+
+    def installed_version(distribution: str) -> str | None:
+        try:
+            return importlib.metadata.version(distribution)
+        except importlib.metadata.PackageNotFoundError:
+            return None
+
     cfg = env.unwrapped.cfg
     sim = cfg.sim
     physx = getattr(sim, "physx", None)
     return {
+        "python": f"{sys.version_info.major}.{sys.version_info.minor}",
+        "isaac_sim": installed_version("isaacsim"),
+        "isaac_lab": installed_version("isaaclab"),
         "dt": float(sim.dt),
         "decimation": int(cfg.decimation),
         "physics_hz": round(1.0 / float(sim.dt), 8),
@@ -518,6 +530,7 @@ def episode_receipt(
     static_receipt: dict,
     ood=None,
     grip_width: float | None = None,
+    gripper_constraint_mode: str,
     scene_params_entry: dict | None = None,
 ) -> dict:
     """Read back one exact demo/condition after reset and before inference."""
@@ -570,6 +583,7 @@ def episode_receipt(
         "episode_seed": int(episode_seed),
         "language": task.get("language"),
         "grip_width_m": grip_width,
+        "gripper_constraint_mode": gripper_constraint_mode,
         "release": {
             "commit": os.environ.get("SOFTVT_RELEASE_COMMIT", ""),
             "dirty": os.environ.get("SOFTVT_RELEASE_DIRTY", ""),
@@ -669,6 +683,8 @@ def assert_episode_contract(rec: dict, *, suite: dict) -> None:
                     f"initial_state {name} max error {fact['max_abs_error']} > {tolerance}")
 
     simulator = rec.get("simulator") or {}
+    require(rec.get("gripper_constraint_mode") == "lower_limit_only",
+            "formal gripper constraint mode must be lower_limit_only")
     require(simulator.get("first_render_had_collection_visuals") is True,
             "episode first render did not have collection visuals")
     policy = rec.get("policy") or {}
@@ -846,11 +862,29 @@ def assert_contract(rec: dict, *, suite: dict, obj: dict | None) -> None:
                 f"camera frame evidence missing: {frames}")
 
     simulator = rec.get("simulator") or {}
-    require(abs(float(simulator.get("physics_hz", 0.0)) - 60.0) <= 1e-6,
-            f"physics_hz {simulator.get('physics_hz')} != 60")
-    require(abs(float(simulator.get("control_hz", 0.0)) - 20.0) <= 1e-6,
-            f"control_hz {simulator.get('control_hz')} != 20")
-    require(simulator.get("enable_ccd") is True, "global PhysX CCD is not enabled")
+    physics_config = rec.get("physics_config") or {}
+    expected_simulator = physics_config.get("simulator") or {}
+    for key in ("python", "isaac_sim", "isaac_lab"):
+        expected = expected_simulator.get(key)
+        actual = simulator.get(key)
+        require(expected is not None, f"physics config simulator.{key} missing")
+        require(actual is not None, f"runtime simulator.{key} missing")
+        if expected is not None and actual is not None:
+            require(str(actual) == str(expected),
+                    f"runtime simulator.{key} {actual} != configured {expected}")
+    for key in ("physics_hz", "control_hz"):
+        expected = expected_simulator.get(key)
+        actual = simulator.get(key)
+        require(expected is not None, f"physics config simulator.{key} missing")
+        require(actual is not None, f"runtime simulator.{key} missing")
+        if expected is not None and actual is not None:
+            require(abs(float(actual) - float(expected)) <= 1e-6,
+                    f"runtime simulator.{key} {actual} != configured {expected}")
+    expected_ccd = (physics_config.get("deformable_body") or {}).get("enable_ccd")
+    require(expected_ccd is not None, "physics config deformable_body.enable_ccd missing")
+    if expected_ccd is not None:
+        require(simulator.get("enable_ccd") is bool(expected_ccd),
+                f"runtime enable_ccd {simulator.get('enable_ccd')} != configured {expected_ccd}")
 
     exp = (obj or {}).get("expected") or {}
     if obj:

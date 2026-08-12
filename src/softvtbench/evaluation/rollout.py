@@ -110,13 +110,6 @@ class _VideoWriter:
             self._w.release()
 
 
-def _finger_pos(env) -> float:
-    """Current single-finger joint position (mean of both fingers); used for stall detection."""
-    robot = env.unwrapped.scene["robot"]
-    ids, _ = robot.find_joints("panda_finger_joint.*")
-    return float(robot.data.joint_pos[0, ids].mean())
-
-
 def prepare_episode(env, initial_state, *, suite: dict, idx: int = 0):
     """Restore one episode exactly as rollout does, without invoking a policy.
 
@@ -214,23 +207,6 @@ def run_episode(env, success_term, policy, gripper_exec, initial_state, *, suite
         video = _VideoWriter(os.path.join(debug_dir, "episode.mp4"))
     tactile_output_type = suite.get("tactile_output_type", "markers_rgb")
 
-    # Collection protocol: after the close action completes, hard-pin the fingers at the
-    # safe width (transcribed from _pin_fingers_to_width). Clamping only the lower limit
-    # lets soft-body elastic resistance stop the fingers above the limit; deformation only
-    # reaches 63% of collection.
-    # Triggering is by **finger stall**, not a fixed step count: collection pins only after
-    # the close action completes, and each demo contacts the object at a different time; a
-    # fixed step count squeezes before the object has settled (measured: ejects 2/3).
-    # Switch (off by default): stall-triggered pinning brings deformation close to
-    # collection (6.2 vs recorded 6.5), but replay success drops from 5/5 to 3/5 (some
-    # demos get squeezed out). Trigger condition needs tuning; default off, with a known
-    # ~37% deformation underestimate.
-    PIN_ENABLED = os.environ.get("SOFTVT_FINGER_PIN") == "1"
-    STALL_EPS, STALL_N = 2.0e-4, 3      # single-finger displacement < 0.2mm for 3 consecutive steps = stalled
-    close_run, pinned, stall_run, prev_fw = 0, False, 0, None
-    if PIN_ENABLED and grip_width is not None:   # clear any pin left over from the previous episode (a pinned upper limit keeps the gripper from opening)
-        from softvtbench.evaluation.envs.build import unpin_fingers
-        unpin_fingers(env, grip_width, float(gripper_exec.open_finger))
     success_streak, success, steps = 0, False, 0
     inference_count = 0
     while (
@@ -290,27 +266,10 @@ def run_episode(env, success_term, policy, gripper_exec, initial_state, *, suite
                         {"step": steps, **gripper_exec.last_diag},
                         sort_keys=True,
                     ) + "\n")
-            if PIN_ENABLED and grip_width is not None:  # replicate collection's hard finger pin
-                closing = float(grip.reshape(-1)[0]) < 0.0
-                if not closing and pinned:
-                    from softvtbench.evaluation.envs.build import unpin_fingers
-                    unpin_fingers(env, grip_width, float(gripper_exec.open_finger))
-                    pinned, stall_run, prev_fw = False, 0, None
             action = np.concatenate([chunk[i, :3], quats[i], grip])[None]
             action_t = torch.from_numpy(action).float().to(env.unwrapped.device)
             obs, _, terminated, truncated, _ = env.step(action_t)
             steps += 1
-            if PIN_ENABLED and grip_width is not None and closing and not pinned:
-                fw = _finger_pos(env)
-                if prev_fw is not None and abs(fw - prev_fw) < STALL_EPS:
-                    stall_run += 1
-                    if stall_run >= STALL_N:            # stalled -> replicate collection's hard pin
-                        from softvtbench.evaluation.envs.build import pin_fingers_to_width
-                        pin_fingers_to_width(env, grip_width)
-                        pinned = True
-                else:
-                    stall_run = 0
-                prev_fw = fw
             if fem_ref is not None:
                 d = metrics.fem_deformation_pct(fem_ref, metrics.get_nodal_pos(env, fem_asset))
                 if d is not None:

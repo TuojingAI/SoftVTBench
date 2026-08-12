@@ -136,6 +136,31 @@ def audit_benchmark(audit: Audit) -> None:
     errors = syntax_errors(ROOT)
     audit.require(not errors, "benchmark syntax/config errors:\n" + "\n".join(errors))
 
+    physics = load_yaml(ROOT / "config/physics.yaml")
+    simulator = physics.get("simulator") or {}
+    audit.require(
+        set(simulator) == {"python", "isaac_sim", "isaac_lab", "physics_hz", "control_hz"},
+        "formal simulator contract must define only its runtime versions and rates",
+    )
+    audit.require(
+        (physics.get("gripper") or {}).get("soft_constraint_mode") == "lower_limit_only",
+        "formal soft-gripper constraint must be lower_limit_only",
+    )
+    readme = (ROOT / "README.md").read_text(encoding="utf-8")
+    for name in ("python", "isaac_sim", "isaac_lab"):
+        audit.require(
+            str(simulator.get(name)) in readme,
+            f"README does not report config/physics.yaml simulator.{name}",
+        )
+    rollout_source = (ROOT / "src/softvtbench/evaluation/rollout.py").read_text(
+        encoding="utf-8"
+    )
+    legacy_pin_override = "SOFTVT_" + "FINGER_PIN"
+    audit.require(
+        legacy_pin_override not in rollout_source,
+        "formal rollout still accepts the legacy finger-pin environment override",
+    )
+
     scan_roots = [ROOT / name for name in ("src", "config", "scripts", "source/tac_manip")]
     hits = private_path_hits(path for base in scan_roots for path in files_under(base))
     audit.require(not hits, "benchmark contains private absolute paths:\n" + "\n".join(hits))

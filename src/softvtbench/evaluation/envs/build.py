@@ -210,33 +210,6 @@ def snapshot_dome_light() -> list:
     return [(attr, attr.Get())]
 
 
-def pin_fingers_to_width(env, width_m: float, idx: int = 0) -> None:
-    """Set both finger joint limits to width/2, forcing the fingers to that position (transcribed from the collection-side _pin_fingers_to_width).
-
-    Clamping only the lower limit is not enough: soft-body elastic resistance stops the
-    fingers above the limit (measured stop at 0.0175 instead of 0.01227), deformation only
-    reaches 3.9% while the collection recording was 6.19%. Collection hard-pins the
-    fingers after the close action and keeps them pinned through lift/transport.
-    """
-    robot = env.unwrapped.scene["robot"]
-    ids, _ = robot.find_joints("panda_finger_joint.*")
-    limits = robot.data.joint_pos_limits.clone()
-    per_finger = float(width_m) / 2.0
-    limits[idx, ids, 0] = per_finger
-    limits[idx, ids, 1] = per_finger
-    robot.write_joint_limits_to_sim(limits)
-
-
-def unpin_fingers(env, width_m: float, open_finger: float = 0.04, idx: int = 0) -> None:
-    """Release the hard pin: upper limit back to the open value, lower limit kept at width/2 (collection-time safe-width constraint)."""
-    robot = env.unwrapped.scene["robot"]
-    ids, _ = robot.find_joints("panda_finger_joint.*")
-    limits = robot.data.joint_pos_limits.clone()
-    limits[idx, ids, 0] = float(width_m) / 2.0
-    limits[idx, ids, 1] = float(open_finger)
-    robot.write_joint_limits_to_sim(limits)
-
-
 def calibrated_finger_lower_limit(
     width_m: float, total_width_tighten_m: float = 0.0
 ) -> float:

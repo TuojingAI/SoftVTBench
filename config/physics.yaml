@@ -4,10 +4,16 @@ schema_version: 1
 protocol_id: softvtbench-v1
 
 simulator:
-  isaac_sim: "4.5.0"
+  python: "3.10"
+  isaac_sim: "4.5.0.0"
   isaac_lab: "0.41.3"
   physics_hz: 60
   control_hz: 20
+
+gripper:
+  # Formal clean evaluation constrains only the per-demo lower joint limit.
+  # Post-close hard pinning is not part of the released protocol.
+  soft_constraint_mode: lower_limit_only
 
 # FEM solver parameters (identical for every soft body); material parameters are not defined here but baked into each USD.
 deformable_body:

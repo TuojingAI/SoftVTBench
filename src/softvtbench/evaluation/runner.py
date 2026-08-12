@@ -112,6 +112,12 @@ def main() -> None:
 
     paths = load_yaml("paths.yaml")
     physics = load_yaml("physics.yaml")
+    gripper_constraint_mode = (physics.get("gripper") or {}).get("soft_constraint_mode")
+    if gripper_constraint_mode != "lower_limit_only":
+        raise SystemExit(
+            "formal evaluation requires physics.gripper.soft_constraint_mode="
+            f"'lower_limit_only', got {gripper_constraint_mode!r}"
+        )
     suite = load_yaml(f"suites/{args.suite}.yaml")
     pol_all = load_policy_manifest()["policies"]
     pol = next((p for p in pol_all if p["id"] == args.policy), None)
@@ -499,6 +505,7 @@ def main() -> None:
                     static_receipt=rec,
                     ood=ood,
                     grip_width=grip_width,
+                    gripper_constraint_mode=gripper_constraint_mode,
                     scene_params_entry=scene_entry,
                 )
                 safe_condition = "".join(
@@ -539,6 +546,7 @@ def main() -> None:
                           "evaluation_protocol": evaluation_protocol,
                           "grip_width_m": grip_width,
                           "finger_lower_limit_m": finger_lower_limit,
+                          "gripper_constraint_mode": gripper_constraint_mode,
                           "total_width_tighten_m": total_width_tighten_m,
                           "condition": cond_label,
                           "episode_receipt": str(ep_receipt_rel),

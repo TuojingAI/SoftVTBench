@@ -34,9 +34,22 @@ def good_receipt():
         "hdf5_language": "pick up pastry",
         "robot_friction_configured": None,
         "simulator": {
+            "python": "3.10",
+            "isaac_sim": "4.5.0.0",
+            "isaac_lab": "0.41.3",
             "physics_hz": 60.0,
             "control_hz": 20.0,
             "enable_ccd": True,
+        },
+        "physics_config": {
+            "simulator": {
+                "python": "3.10",
+                "isaac_sim": "4.5.0.0",
+                "isaac_lab": "0.41.3",
+                "physics_hz": 60,
+                "control_hz": 20,
+            },
+            "deformable_body": {"enable_ccd": True},
         },
         "release": {"commit": "deadbeef", "dirty": "0"},
     }
@@ -82,6 +95,12 @@ class FailClosedReceiptTest(unittest.TestCase):
         with self.assertRaisesRegex(RuntimeError, "runtime target physics"):
             receipt.assert_contract(rec, suite=SUITE, obj=obj)
 
+    def test_runtime_package_version_mismatch_is_failure(self):
+        rec = good_receipt()
+        rec["simulator"]["isaac_sim"] = "5.1.0.0"
+        with self.assertRaisesRegex(RuntimeError, "isaac_sim"):
+            receipt.assert_contract(rec, suite=SUITE, obj=None)
+
     def test_hdf5_language_is_authoritative(self):
         rec = good_receipt()
         rec["scene_config_language"] = "harmless BDDL paraphrase"
@@ -103,6 +122,7 @@ def good_episode_receipt():
         "episode_seed": 123,
         "language": "pick up pastry",
         "release": {"commit": "deadbeef", "dirty": "1"},
+        "gripper_constraint_mode": "lower_limit_only",
         "static_contract_passed": True,
         "hdf5": {
             "exists": True,
@@ -156,6 +176,12 @@ class EpisodeReceiptTest(unittest.TestCase):
         rec = good_episode_receipt()
         rec["hdf5"]["episode_group"]["initial_state"]["dataset_count"] = 0
         with self.assertRaisesRegex(RuntimeError, "initial_state"):
+            receipt.assert_episode_contract(rec, suite=SUITE)
+
+    def test_nonformal_gripper_constraint_fails(self):
+        rec = good_episode_receipt()
+        rec["gripper_constraint_mode"] = "hard_pin"
+        with self.assertRaisesRegex(RuntimeError, "constraint mode"):
             receipt.assert_episode_contract(rec, suite=SUITE)
 
     def test_scene_seed_mismatch_fails(self):

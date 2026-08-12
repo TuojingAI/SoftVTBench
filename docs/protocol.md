@@ -23,6 +23,14 @@ executed control steps per inference. Diffusion Policy uses its native eight
 action steps. Continuous-gripper thresholds and FastWAM relative-aperture
 calibration are centralized in `config/policy_protocols.yaml`.
 
+For soft-object episodes, the formal clean protocol is `lower_limit_only`:
+the recorded per-demo safe width sets each finger's lower joint limit, while
+the upper limit remains open. Post-close hard pinning is not part of the
+released evaluation and no environment-variable override can enable it. This
+is the behavior used by the formal clean release; deformation values describe
+this evaluation protocol and are not a calibration against collection-time
+gripper compression.
+
 The goal success criterion requires eight consecutive successful simulation
 steps. Deformation is reported as a distribution (`d_peak` minimum, median,
 p95 and maximum); no unfinalized safety threshold is converted into a success
@@ -50,4 +58,3 @@ denoising inference of each episode.
 Every result row references a content-hashed episode receipt. Aggregation fails
 when a receipt is missing, its hash differs, a contract check failed, or a
 `(condition, task, episode)` identity is duplicated.
-
