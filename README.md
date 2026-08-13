@@ -10,6 +10,8 @@
 
 <sup>\*</sup> Equal contribution &nbsp;&nbsp; <sup>‡</sup> Corresponding author
 
+<strong>ECCV 2026 Workshop Oral</strong>
+
 [![arXiv](https://img.shields.io/badge/arXiv-2607.04234-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.04234)&nbsp;
 [![Project Page](https://img.shields.io/badge/Project-Website-00b3b3?logo=githubpages&logoColor=white)](https://softvtbench.github.io/)&nbsp;
 [![Hugging Face](https://img.shields.io/badge/Dataset-Hugging%20Face-ffd21e?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/Arthur12137/SoftVTBench)&nbsp;
@@ -22,6 +24,7 @@
 
 ## News
 
+- **`Aug. 2026`:** SoftVTBench is accepted to an **ECCV 2026 Workshop** and will be presented as an **oral**.
 - **`Aug. 2026`:** Dataset expanded to **4,000 demonstrations** over 40 tasks and 50+ assets, and the evaluation stack is re-released with deterministic replay and fail-closed episode receipts.
 - **`Jul. 5th, 2026`:** We released our paper on [arXiv](https://arxiv.org/abs/2607.04234).
 - **`Jul. 2026`:** The [project website](https://softvtbench.github.io/) and the dataset mirrors on [Hugging Face](https://huggingface.co/datasets/Arthur12137/SoftVTBench) and [ModelScope](https://modelscope.cn/datasets/Arthur12137/SoftVTBench) went online.
@@ -31,13 +34,10 @@
 
 - [Introduction](#introduction)
 - [Task Suites](#task-suites)
-- [Getting Started](#getting-started)
-  - [1. Prerequisites](#1-prerequisites)
-  - [2. Set up the repository](#2-set-up-the-repository)
-  - [3. Download the dataset](#3-download-the-dataset)
-  - [4. Configure the paths](#4-configure-the-paths)
-  - [5. Verify the installation](#5-verify-the-installation)
-  - [6. Run an evaluation](#6-run-an-evaluation)
+- [Installation](#installation)
+- [Dataset Download](#dataset-download)
+- [Running the Benchmark](#running-the-benchmark)
+- [Repository Structure](#repository-structure)
 - [Benchmark Results](#benchmark-results)
 - [Contact](#contact)
 - [Acknowledgement](#acknowledgement)
@@ -70,21 +70,34 @@ We propose a matched 2×2 design over object type (deformable vs. rigid twin) an
 </div>
 <br>
 
-## Getting Started
+## Installation
 
-### 1. Prerequisites
+### Requirements
 
-The formal simulator stack is **Linux**, **Python 3.10**, `isaacsim==4.5.0.0` and `isaaclab==0.41.3`, on an NVIDIA GPU with PhysX 5 GPU FEM support. Formal runs fail closed if the installed simulator packages do not match `config/physics.yaml`.
+| | Version | Notes |
+|---|---|---|
+| OS | Linux | Isaac Sim is not supported on macOS or Windows WSL |
+| Python | 3.10 | pinned by the Isaac Sim 4.5 runtime |
+| Isaac Sim | `4.5.0.0` | must match `config/physics.yaml` |
+| Isaac Lab | `0.41.3` | must match `config/physics.yaml` |
+| GPU | NVIDIA, ≥ 16 GB VRAM | PhysX 5 GPU FEM is required for the soft suites |
+| Disk | ≥ 20 GB | 7.3 GB dataset + assets + rollout videos |
 
-Install Isaac Sim and Isaac Lab first, following the [Isaac Lab installation guide](https://isaac-sim.github.io/IsaacLab/main/source/setup/installation/index.html). Everything below runs inside that environment. GPU Taxim additionally needs a `torch-scatter` wheel built for the exact PyTorch/CUDA pair in that environment:
+> Formal runs **fail closed** when the installed simulator packages disagree with `config/physics.yaml`. This is intentional: a number produced on a different physics build is not comparable.
+
+### Step 1 — Install Isaac Sim and Isaac Lab
+
+Follow the [Isaac Lab installation guide](https://isaac-sim.github.io/IsaacLab/main/source/setup/installation/index.html) and pin the two versions above. Verify before continuing:
 
 ```bash
-pip install torch-scatter -f https://data.pyg.org/whl/torch-$(python -c "import torch;print(torch.__version__)").html
+python -c "import isaacsim, isaaclab; print(isaacsim.__version__, isaaclab.__version__)"
 ```
 
-### 2. Set up the repository
+All later steps run **inside this environment**.
 
-Simulator assets are stored in Git LFS, so install it once before cloning:
+### Step 2 — Clone the repository
+
+Simulator assets (USD meshes, GelSight calibration tables) are tracked with Git LFS, so install it before cloning — otherwise the assets arrive as text stubs and Isaac will fail to load the scene:
 
 ```bash
 git lfs install
@@ -92,39 +105,83 @@ git clone https://github.com/TuojingAI/SoftVTBench.git
 cd SoftVTBench
 ```
 
-Install the benchmark package and the `tac_manip` Isaac Lab extension in editable mode:
+Confirm the assets were materialised (the file should be ~52 MB, not ~130 bytes):
 
 ```bash
-python -m pip install -e .                  # softvtbench: rollout, metrics, receipts
-python -m pip install -e source/tac_manip   # Isaac Lab extension: envs, sensors, assets
+ls -lh source/tac_manip/tac_manip/assets/data/Sensors/GelSight_Mini/Gelpad_extremely_high_res.usd
 ```
 
-This exposes the `softvtbench-eval` entry point. Model backends are installed in their own environments — the evaluator talks to heavy backends through a local worker, so JAX and PyTorch stacks do not have to coexist with Isaac.
+### Step 3 — Install the two packages
 
-### 3. Download the dataset
-
-The four subsets total about 7.3 GB and are mirrored byte-identically on both hubs; use whichever is faster from your network.
+SoftVTBench ships two pip packages with different roles:
 
 ```bash
-# Hugging Face
+python -m pip install -e .                  # softvtbench — rollout engine, metrics, receipts
+python -m pip install -e source/tac_manip   # tac_manip  — Isaac Lab extension: envs, sensors, assets
+```
+
+`tac_manip` must live under `source/` because Isaac Lab discovers extensions by that layout; `softvtbench` uses a standard `src/` layout and never imports Isaac at module level, so metrics and receipts can be exercised without a GPU.
+
+### Step 4 — Install the tactile backend
+
+GPU Taxim needs a `torch-scatter` wheel built for the exact PyTorch/CUDA pair in the Isaac environment:
+
+```bash
+pip install torch-scatter -f "https://data.pyg.org/whl/torch-$(python -c 'import torch;print(torch.__version__)').html"
+```
+
+### Step 5 — Verify
+
+```bash
+python -c "import softvtbench, tac_manip; print('ok')"
+python tools/audit_repository.py
+```
+
+The audit checks configuration validity, asset manifests, and that no private absolute path leaked into the release. It prints `OK: ...; N checks` on success.
+
+<details>
+<summary><b>Troubleshooting</b></summary>
+
+| Symptom | Cause and fix |
+|---|---|
+| `USD file ... could not be opened` | Git LFS was not installed before cloning. Run `git lfs install && git lfs pull`. |
+| Formal run aborts with a version mismatch | The installed `isaacsim`/`isaaclab` differ from `config/physics.yaml`. Reinstall the pinned versions rather than editing the config. |
+| `PhysX CUDA error 700` | More than one Isaac shard per GPU. Run a single shard per device. |
+| `ModuleNotFoundError: torch_scatter` | The wheel does not match the environment's torch/CUDA build; reinstall with the index URL in Step 4. |
+| Deformable objects fall through the floor | The GPU does not support PhysX 5 GPU FEM, or the run was launched on CPU physics. |
+
+</details>
+
+## Dataset Download
+
+The four subsets total about 7.3 GB and are mirrored byte-identically on Hugging Face and ModelScope; use whichever is faster from your network.
+
+```bash
+export SOFTVT_DATA_ROOT=/path/to/softvtbench/data
+```
+
+```bash
+# Option A — Hugging Face
 pip install -U "huggingface_hub[cli]"
 huggingface-cli download Arthur12137/SoftVTBench \
   --repo-type dataset --local-dir "$SOFTVT_DATA_ROOT"
+```
 
-# ModelScope
+```bash
+# Option B — ModelScope
 pip install -U modelscope
 modelscope download --dataset Arthur12137/SoftVTBench \
   --local_dir "$SOFTVT_DATA_ROOT"
 ```
 
-To fetch a single suite instead of all four, add a filter:
+To pull a single suite instead of all four:
 
 ```bash
 huggingface-cli download Arthur12137/SoftVTBench \
   --repo-type dataset --include "object-soft/*" --local-dir "$SOFTVT_DATA_ROOT"
 ```
 
-Each subset is laid out as follows; `manifest.jsonl` carries one line per demo with its task id, language instruction, sample count and file paths.
+Each subset is laid out as follows. `manifest.jsonl` carries one line per demo with its task id, language instruction, sample count and file paths.
 
 ```text
 <subset>/
@@ -138,11 +195,11 @@ Each subset is laid out as follows; `manifest.jsonl` carries one line per demo w
             └── tactile_outputs/demo_<i>_gsmini_{left,right}_markers_rgb.mp4
 ```
 
-Evaluation USD assets are published separately as `Arthur12137/SoftVTBench-archive` on both hubs. See [Assets and data](docs/assets-and-data.md) for the bundle table and checksum verification, and [Data format](docs/data-format.md) for the HDF5 trajectory schema.
+Evaluation USD assets are published separately as `Arthur12137/SoftVTBench-archive` on both hubs. See [Assets and data](docs/assets-and-data.md) for the bundle table and checksum verification, and [Data format](docs/data-format.md) for the full HDF5 schema.
 
-### 4. Configure the paths
+### Configure the storage roots
 
-No source file needs a machine-specific edit — all storage roots come from the environment. Copy the template, point it at your checkout and data, then source it:
+No source file embeds a machine-specific path — every root comes from the environment:
 
 ```bash
 cp env.example .env.softvtbench
@@ -161,20 +218,11 @@ source .env.softvtbench
 
 The evaluator resolves each demo from the selected suite's `data_dir` and `data_subdir` fields in `config/suites/*.yaml`, so the directory names under `SOFTVT_DATA_ROOT` must match those fields.
 
-### 5. Verify the installation
+## Running the Benchmark
 
-These checks do not start Isaac and run in seconds:
+### In-distribution (500 episodes)
 
-```bash
-python -m unittest discover -s tests -v   # characterization tests
-python tools/audit_repository.py          # config, path and ownership audit
-```
-
-The audit rejects non-empty duplicate files, private absolute paths, generated artifacts, invalid configuration and missing formal policies.
-
-### 6. Run an evaluation
-
-In-distribution protocol — 10 tasks × 50 demos = 500 episodes:
+10 tasks × 50 demonstrations:
 
 ```bash
 bash scripts/eval_stage.sh \
@@ -187,9 +235,11 @@ bash scripts/eval_stage.sh \
   0
 ```
 
-The positional arguments are: suite · policy · demos per task · output directory · seed · task ids · GPU id.
+Positional arguments: suite · policy · demos per task · output directory · seed · task ids · GPU id.
 
-Add the condition file for the nine-condition OOD matrix (10 × 50 × 9 = 4,500 episodes), writing to a **separate** output directory:
+### Out-of-distribution (4,500 episodes)
+
+Append the condition file for the nine-condition matrix — three levels each of lighting, mass and Young's modulus, one factor at a time — and write to a **separate** output directory:
 
 ```bash
 bash scripts/eval_stage.sh \
@@ -199,7 +249,27 @@ bash scripts/eval_stage.sh \
   config/ood/formal_n50/conditions_9.txt
 ```
 
-Run at most one formal Isaac shard per GPU; concurrent shards trigger PhysX CUDA error 700. Every run records both Git commits, dirty state, a configuration fingerprint and a per-episode receipt. To score a policy of your own, see [Custom policies](docs/custom-policy.md); read the [Reproducibility checklist](docs/reproducibility.md) before reporting numbers.
+Each OOD episode reuses the task, initial state and seed of its in-distribution reference, so the two directories form a paired comparison.
+
+### Output
+
+Every run writes `results.jsonl` (one row per episode), `summary.json`, and a per-episode receipt recording the Git commit, dirty state, configuration fingerprint, resolved physics parameters and the applied OOD condition. A run whose receipt fails its contract aborts rather than producing a number.
+
+Run **at most one formal Isaac shard per GPU** — concurrent shards trigger `PhysX CUDA error 700`.
+
+To score a policy of your own, see [Custom policies](docs/custom-policy.md); read the [Reproducibility checklist](docs/reproducibility.md) before reporting numbers.
+
+## Repository Structure
+
+```text
+SoftVTBench/
+├── config/            suite definitions, object cards, physics pins, OOD protocol
+├── docs/              protocol, data format, reproducibility, custom policies
+├── scripts/           shell entry points for evaluation
+├── source/tac_manip/  Isaac Lab extension — environments, tactile sensors, USD assets
+├── src/softvtbench/   rollout engine, metrics, policy clients, receipts
+└── tools/             repository and release audits
+```
 
 ## Benchmark Results
 
